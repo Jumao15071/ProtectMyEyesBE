@@ -12,17 +12,16 @@
 5.不能将此资源包中的内容发布到网易中国版并以此牟利。
   Do not post the content of this resource pack to China Edition and make money from it.
 
-Created by hsds Jumao  bilibili@黑山大叔@橘猫sama
-
-@OEOTYAN  提供红石信号显示和区块显示功能
-
-@王2408  提供文件体积压缩支持和渲染龙着色器优化
-
-@孤独的作者 提供铁砧换行支持
-
-@Eletron ProCoress @邹陈云飞  提供刷子显示红石信号算法
-
-@小羊lonel  提供音符盒音高显示功能
+Created by:
+      @黑山大叔 //Java版项目原作者
+      @橘猫sama //基岩版移植和改进整合
+      @茶匙OEOTYAN //渲染龙和HAL着色器红石信号显示和区块显示功能
+      @Eletron ProCoress //刷子红石信号显示
+      @小羊lonel //音符盒音高显示
+      @Mintraspberry Cool //资源包banner图
+      @王2408 //渲染龙着色器优化及文件体积压缩
+      @孤独的作者Yuanbao //铁砧换行功能
+      @云飞羊Rainway //刷子红石信号显示和振动信号显示
 
 =======================================================================
 
