@@ -8,15 +8,16 @@
 **[简体中文](./README_zh.md) | English**
 
 <br>
----
 
-ProtectMyEyes is a Minecraft functional resource pack created by Bilibili uploader **@黑山大叔 (@hsds)** and ported to the Bedrock Edition by **@橘猫sama (@Jumao)**.
+
+ProtectMyEyes is a Minecraft functional resource pack created by **@黑山大叔 (@hsds)** and ported to the Bedrock Edition by **@橘猫sama (@Jumao)**.
 
 ## Main Features
 Adds block outlines for most blocks, helping builders and technical survival players count block distances more easily.
 
 ## Additional Features
-1. Redstone Information Display
+
+**1. Redstone Information Display**
 
 - Non-Render Dragon versions: Includes chunk borders and redstone signal strength display.
 
@@ -32,7 +33,7 @@ Adds block outlines for most blocks, helping builders and technical survival pla
 
 - Displays note block pitch and activation count.
 
-2. Effective Resource Display
+**2. Effective Resource Display**
 
 - Highlighted white borders on selected blocks in outline mode.
 
@@ -60,7 +61,7 @@ Adds block outlines for most blocks, helping builders and technical survival pla
 
 - Happy ghasts show bandages when injured (low HP indicator).
 
-3. Enhanced UI Features
+**3. Enhanced UI Features**
 
 - One-click crafting (supports inventory, crafting table, stonecutter, loom).
 
@@ -84,7 +85,7 @@ Adds block outlines for most blocks, helping builders and technical survival pla
 
 - Optimized NetEase magic command module – improved UI, right-side clicks no longer exit the panel.
 
-4. Detail Optimizations
+**4. Detail Optimizations**
 
 - Reduced sounds (end gateways, tridents, pistons, droppers/dispensers) for hearing protection.
 
