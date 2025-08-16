@@ -9,7 +9,7 @@
 
     "uuid": "3a790b10-68e6-44cb-8278-a940e299a0b1",
 
-    "version": [ 1, 7, 10 ],
+    "version": [ 1, 9, 0 ],
 
     "min_engine_version": [ 1, 13, 0 ]
 
@@ -23,7 +23,7 @@
 
       "uuid": "1224020e-7479-4264-b26d-0d7a88e25497",
 
-      "version": [ 1, 7, 10 ]
+      "version": [ 1, 9, 0 ]
 
     }
   ],
@@ -81,7 +81,7 @@
     {
       "folder_name": "Classic",
       "name": "经典模式 [包含所有基础功能] §6兼容性好",
-      "memory_tier": 5
+      "memory_tier": 2
     }
   ],
   "settings": [
