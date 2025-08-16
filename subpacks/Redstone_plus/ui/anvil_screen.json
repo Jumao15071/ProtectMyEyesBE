@@ -1,0 +1,230 @@
+{
+    // 适配快速搬运 B站@孤独的作者 //
+
+    "expand_icon": {
+        "type": "image",
+        "layer": 2,
+        "texture": "textures/ui/icon_expand",
+        "size": [ 11, 11 ]
+    },
+
+    "super_text_edit_control@common.multiline_text_edit_box": {
+        "size": ["100%", "100%"],
+        "anchor_from": "top_middle",
+        "anchor_to": "top_middle",
+        "property_bag": {
+            "#property_field": "#item_name"
+        },
+        "max_length": 313,
+        "$text_edit_binding_name": "#text_box_item_name"
+    },
+    
+    "text_edit_control@common.text_edit_box": {
+        "anchor_from": "top_left", 
+        "anchor_to": "top_left", 
+        "property_bag": {
+          "#property_field": "#item_name"
+        },
+        "max_length": 30,
+        "$text_edit_binding_name": "#text_box_item_name",
+        "$text_edit_box_label_size": [ "default", 10 ]
+      },
+
+    "touch_effect_button@common_buttons.light_glyph_button": {
+        "$button_content": "anvil.expand_icon",
+        "size": "$touch_effect_button_size",
+        "$touch_effect_button_size|default": [ "100% - 2px", "100% - 2px" ],
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "$pressed_button_name": "button.container_reset_held",
+        "layer": 2
+    },
+    
+    "default_tab_top@common_tabs.tab_top": {
+        "$unchecked_default_image": "textures/ui/Dabu_TabTopFront",
+        "$unchecked_hover_image": "textures/ui/Dabu_TabTopFrontHover",
+        "$radio_toggle_group": true,
+        "$toggle_name": "navigation_tab",
+        "$toggle_group_default_selected": "$default_tab",
+        "$default_tab|default": 0
+    },
+    
+    "text_edit_panel": {
+        "type": "stack_panel",
+        "orientation": "horizontal",
+        "controls": [
+            {
+                "text_edit_control@anvil.text_edit_control": {
+                    "size": ["fill", "100%"]
+                }
+            },
+            {
+                "expand_button": {
+                    "type": "panel",
+                    "size": ["100%y", "100%"],
+                    "layer": 2,
+                    "controls": [
+                        {
+                            "touch_effect_button@anvil.touch_effect_button": {
+                                "$touch_effect_button_size": ["100%", "100%"]
+                            }
+                        },
+                        {
+                            "default@anvil.default_tab_top": {
+                                "$toggle_group_forced_index": 6,
+                                "layer": 4,
+                                "$tab_view_binding_name": "edit_box_open"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "anvil_panel/root_panel":{
+        "ignored": true
+    },
+
+    "anvil_panel": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "insert_front",
+                "value": [
+                    {
+                        "super_text_with_root_stack_panel@anvil.super_text_with_root_stack_panel": {
+                            "ignored": "($rainbowpieui_bool or $is_Enhanced_effect)"//兼容彩虹派和效果增强
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    "super_text_edit_panel": {
+        "type": "panel",
+        "size": [ 160, 166 ],
+        "controls":[
+            {
+                "super_text_edit_control": {
+                    "type": "input_panel",
+                    "prevent_touch_input": true,
+                    "size": ["100%", "100%"],
+                    "layer": 30,
+                    "controls": [
+                        {
+                            "exit_panel": {
+                                "type": "panel",
+                                "size": ["20px", "20px"],
+                                "layer": 20,
+                                "offset": [-10, -10],
+                                "anchor_from": "bottom_right",
+                                "anchor_to": "bottom_right",
+                                "controls": [
+                                    {
+                                        "touch_effect_button@anvil.touch_effect_button": {
+                                            "$touch_effect_button_size": ["100%", "100%"],
+                                            "layer": 9
+                                        }
+                                    },
+                                    {
+                                        "default@anvil.default_tab_top": {
+                                            "$toggle_group_forced_index": 1,
+                                            "layer": 10,
+                                            "$tab_view_binding_name": "default"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "common_panel@common.common_panel": {
+                                "$show_close_button": false
+                            }
+                        },
+                        {
+                            "edit_box": {
+                                "type": "panel",
+                                "size": ["100% - 10px", "100% - 10px"],
+                                "anchor_from": "center",
+                                "anchor_to": "center",
+                                "controls": [
+                                    {
+                                        "super_text_edit_control@anvil.super_text_edit_control": {}
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "super_text_with_root_stack_panel":{
+        "type": "stack_panel",
+        "size": [ "100%c", 166 ],
+        "orientation": "horizontal",
+        "anchor_from": "center", 
+        "anchor_to": "center", 
+        "controls": [
+            {
+                "super_text_edit_panel@anvil.super_text_edit_panel": {
+                    "bindings": [
+                        {
+                            "binding_type": "view",
+                            "source_control_name": "edit_box_open",
+                            "source_property_name": "#toggle_state",
+                            "target_property_name": "#visible"
+                        }
+                    ]
+                }
+            },
+            {
+                "center_fold@common.root_panel": {
+                    "size": [ 4, 166 ],
+                    "controls": [
+                      {
+                        "center_bg": {
+                          "type": "image",
+                          "texture": "textures/ui/recipe_back_panel",
+                          "size": [ "100% + 8px", "100% - 6px" ]
+                        }
+                      }
+                    ],
+                    "bindings": [
+                        {
+                            "binding_type": "view",
+                            "source_control_name": "edit_box_open",
+                            "source_property_name": "#toggle_state",
+                            "target_property_name": "#visible"
+                        }
+                    ]
+                  }
+            },
+            {
+                "root_panel@common.root_panel": {
+                  "layer": 1,
+                  "controls": [
+                    { "common_panel@common.common_panel": {} },
+                    {
+                      "anvil_screen_inventory": {
+                        "type": "panel",
+                        "layer": 2,
+                        "controls": [
+                          { "top_half_panel@anvil.top_half_panel": {} },
+                          { "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {} },
+                          { "hotbar_grid@common.hotbar_grid_template": {} },
+                          { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
+                        ]
+                      }
+                    },
+                    { "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+                    { "gamepad_cursor@common.gamepad_cursor_button": {} }
+                  ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+  // Auto Craft //
+
+  "auto_crafting_arrow": {
+		"type": "image",
+		"layer": 5,
+		"texture": "textures/ui/arrow",
+		"anchor_from": "top_middle",
+		"anchor_to": "top_middle",
+		"size": [18, 12],
+		"offset": [0, 0]
+	},
+  "arrow_icon": {
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": [
+          {
+            "loom_auto_crafting_icon@loom.loom_auto_crafting": {
+						  "size": [22, 18],
+              "offset": [0, -3]
+            }
+          }
+				]
+			}
+		]
+	},
+  "loom_auto_crafting@common_buttons.light_content_button": {
+    "size": [26, 22],
+		"offset": [0, 0],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "$button_content": "loom.auto_crafting_arrow",
+    "property_bag": {
+      "#collection_name": "loom_result_items",
+      "#collection_index": 0
+    },
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.container_auto_place",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "button.container_auto_place",
+        "mapping_type": "pressed"
+      }
+    ]
+  },
+
+  // Remove Help Button //
+  
+  "help_button": {
+    "ignored": true
+  }
+}

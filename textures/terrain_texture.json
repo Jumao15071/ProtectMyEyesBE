@@ -1,0 +1,515 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    // sensor 感测体显示 //
+    "calibrated_sculk_sensor_side": {
+      "textures": "textures/blocks/calibrated_sculk_sensor_side"
+    },
+    // Chest 箱子显示 //
+    "chest_inventory_top": {
+      "textures": "textures/blocks/chest/chest_inventory_top"  
+    },
+    "chest_inventory_side": {
+      "textures": "textures/blocks/chest/chest_inventory_side"
+    },
+    "chest_inventory_front": {
+      "textures": "textures/blocks/chest/chest_inventory_front"
+    },
+    "trapped_chest_inventory_top": {
+      "textures": "textures/blocks/chest/trapped_chest_inventory_top"
+    },
+    "trapped_chest_inventory_side": {
+      "textures": "textures/blocks/chest/trapped_chest_inventory_side"
+    },
+    "trapped_chest_inventory_front": {
+      "textures": "textures/blocks/chest/trapped_chest_inventory_front"
+    },
+    // infested blocks 虫蚀方块 //
+    "infested_deepslate_top": {
+      "textures": "textures/blocks/infested_deepslate_top"
+    },
+    "infested_deepslate": {
+      "textures": "textures/blocks/infested_deepslate"
+    },
+    "monster_egg": {
+      "textures": [
+        "textures/blocks/infested_cobblestone",
+        "textures/blocks/infested_stone_bricks",
+        "textures/blocks/infested_mossy_stone_bricks",
+        "textures/blocks/infested_cracked_stone_bricks",
+        "textures/blocks/infested_chiseled_stone_bricks",
+        "textures/blocks/infested_stone"
+      ]
+    },
+    // Show pressure plate 压力板显示 //
+    "acacia_pressure_plate": {
+      "textures": "textures/blocks/plate/acacia_planks_plate"
+    },
+    "bamboo_pressure_plate": {
+      "textures": "textures/blocks/plate/bamboo_planks_plate"
+    },
+    "birch_pressure_plate": {
+      "textures": "textures/blocks/plate/birch_planks_plate"
+    },
+    "cherry_pressure_plate": {
+      "textures": "textures/blocks/plate/cherry_planks_plate"
+    },
+    "crimson_pressure_plate": {
+      "textures": "textures/blocks/plate/crimson_planks_plate"
+    },
+    "dark_oak_pressure_plate": {
+      "textures": "textures/blocks/plate/dark_oak_planks_plate"
+    },
+    "jungle_pressure_plate": {
+      "textures": "textures/blocks/plate/jungle_planks_plate"
+    },
+    "mangrove_pressure_plate": {
+      "textures": "textures/blocks/plate/mangrove_planks_plate"
+    },
+    "pale_oak_pressure_plate": {
+      "textures": "textures/blocks/plate/pale_oak_planks_plate"
+    },
+    "spruce_pressure_plate": {
+      "textures": "textures/blocks/plate/spruce_planks_plate"
+    },
+    "warped_pressure_plate": {
+      "textures": "textures/blocks/plate/warped_planks_plate"
+    },
+    "wooden_pressure_plate": {
+      "textures": "textures/blocks/plate/oak_planks_plate"
+    },
+    "stone_pressure_plate": {
+      "textures": "textures/blocks/plate/stone_plate"
+    },
+    "polished_blackstone_pressure_plate": {
+      "textures": "textures/blocks/plate/polished_blackstone_plate"
+    },
+    "heavy_weighted_pressure_plate": {
+      "textures": "textures/blocks/plate/iron_block_plate"
+    },
+    "light_weighted_pressure_plate": {
+      "textures": "textures/blocks/plate/gold_block_plate"
+    },
+    // Redstone element 红石显示 //
+    "observer_north": {
+      "textures": [
+        "textures/blocks/observer/observer_front",
+        "textures/blocks/observer/observer_front_lit"
+      ]
+    },
+    "observer_south": {
+      "textures": [
+        "textures/blocks/observer/observer_back",
+        "textures/blocks/observer/observer_back_lit"
+      ]
+    },
+    "observer_east": {
+      "textures": [
+        "textures/blocks/observer/observer_side",
+        "textures/blocks/observer/observer_side_lit"
+      ]
+    },
+    "observer_west": {
+      "textures": [
+        "textures/blocks/observer/observer_side",
+        "textures/blocks/observer/observer_side_lit"
+      ]
+    },
+    "observer_top": {
+      "textures": [
+        "textures/blocks/observer/observer_top",
+        "textures/blocks/observer/observer_top_lit"
+      ]
+    },
+    "observer_bottom": {
+      "textures": [
+        "textures/blocks/observer/observer_top",
+        "textures/blocks/observer/observer_top_lit"
+      ]
+    },
+    "piston_top": {
+      "textures": "textures/blocks/piston/piston_inner"
+    },
+    "piston_inner_sticky": {
+      "textures": "textures/blocks/piston/piston_inner_sticky"
+    },
+    "piston_top_normal": {
+      "textures": "textures/blocks/piston/piston_top_normal"
+    },
+    "piston_top_sticky": {
+      "textures": "textures/blocks/piston/piston_top_sticky"
+    },
+    "piston_side": {
+      "textures": "textures/blocks/piston/piston_side"
+    },
+    "piston_side_sticky": {
+      "textures": "textures/blocks/piston/piston_side_sticky"
+    },
+    "piston_bottom": {
+      "textures": "textures/blocks/piston/piston_bottom"
+    },
+    "piston_bottom_sticky": {
+      "textures": "textures/blocks/piston/piston_bottom_sticky"
+    },
+    "hopper_top": {
+      "textures": [
+        "textures/blocks/hopper/hopper_top_center",
+        "textures/blocks/hopper/hopper_top",
+        "textures/blocks/hopper/hopper_top_north",
+        "textures/blocks/hopper/hopper_top_south",
+        "textures/blocks/hopper/hopper_top_west",
+        "textures/blocks/hopper/hopper_top_east",
+        "textures/blocks/hopper/hopper_top",
+        "textures/blocks/hopper/hopper_top",
+        "textures/blocks/hopper/hopper_top_center_powered",
+        "textures/blocks/hopper/hopper_top",
+        "textures/blocks/hopper/hopper_top_north_powered",
+        "textures/blocks/hopper/hopper_top_south_powered",
+        "textures/blocks/hopper/hopper_top_west_powered",
+        "textures/blocks/hopper/hopper_top_east_powered",
+        "textures/blocks/hopper/hopper_top",
+        "textures/blocks/hopper/hopper_top"
+      ]
+    },
+    "hopper_inside": {
+      "textures": "textures/blocks/hopper/hopper_inside"
+    },
+    "hopper_outside_north": {
+      "textures": [
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside_front",
+        "textures/blocks/hopper/hopper_outside_back",
+        "textures/blocks/hopper/hopper_outside_right",
+        "textures/blocks/hopper/hopper_outside_left",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside_center_powered",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside_front_powered",
+        "textures/blocks/hopper/hopper_outside_back_powered",
+        "textures/blocks/hopper/hopper_outside_right_powered",
+        "textures/blocks/hopper/hopper_outside_left_powered"
+      ]
+    },
+    "hopper_outside_south": {
+      "textures": [
+        "textures/blocks/hopper/hopper_outside_center",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside_back",
+        "textures/blocks/hopper/hopper_outside_front",
+        "textures/blocks/hopper/hopper_outside_left",
+        "textures/blocks/hopper/hopper_outside_right",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside_center_powered",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside_back_powered",
+        "textures/blocks/hopper/hopper_outside_front_powered",
+        "textures/blocks/hopper/hopper_outside_left_powered",
+        "textures/blocks/hopper/hopper_outside_right_powered"
+      ]
+    },
+    "hopper_outside_west": {
+      "textures": [
+        "textures/blocks/hopper/hopper_outside_center",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside_left",
+        "textures/blocks/hopper/hopper_outside_right",
+        "textures/blocks/hopper/hopper_outside_front",
+        "textures/blocks/hopper/hopper_outside_back",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside_center_powered",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside_left_powered",
+        "textures/blocks/hopper/hopper_outside_right_powered",
+        "textures/blocks/hopper/hopper_outside_front_powered",
+        "textures/blocks/hopper/hopper_outside_back_powered"
+      ]
+    },
+    "hopper_outside_east": {
+      "textures": [
+        "textures/blocks/hopper/hopper_outside_center",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside_right",
+        "textures/blocks/hopper/hopper_outside_left",
+        "textures/blocks/hopper/hopper_outside_back",
+        "textures/blocks/hopper/hopper_outside_front",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside_center_powered",
+        "textures/blocks/hopper/hopper_outside",
+        "textures/blocks/hopper/hopper_outside_right_powered",
+        "textures/blocks/hopper/hopper_outside_left_powered",
+        "textures/blocks/hopper/hopper_outside_back_powered",
+        "textures/blocks/hopper/hopper_outside_front_powered"
+      ]
+    },
+    "dispenser_front_horizontal": {
+      "textures": "textures/blocks/specialredstone/dispenser_front_horizontal"
+    },
+    "dispenser_front_vertical": {
+      "textures": "textures/blocks/specialredstone/dispenser_front_vertical"
+    },
+    "dispenser_top": {
+      "textures": "textures/blocks/specialredstone/dispenser_top"
+    },
+    "dispenser_side": {
+      "textures": "textures/blocks/specialredstone/dispenser_side"
+    },
+    "dropper_front_horizontal": {
+      "textures": "textures/blocks/specialredstone/dropper_front_horizontal"
+    },
+    "dropper_front_vertical": {
+      "textures": "textures/blocks/specialredstone/dropper_front_vertical"
+    },
+    "dropper_top": {
+      "textures": "textures/blocks/specialredstone/dropper_top"
+    },
+    "dropper_side": {
+      "textures": "textures/blocks/specialredstone/dropper_side"
+    },
+    // Waxed copper 打蜡铜块 //
+    "waxed_copper_block": {
+      "textures": "textures/blocks/copper/waxed_copper_block"
+    },
+    "waxed_exposed_copper": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper"
+    },
+    "waxed_weathered_copper": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper"
+    },
+    "waxed_oxidized_copper": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper"
+    },
+    "waxed_cut_copper": {
+      "textures": "textures/blocks/copper/waxed_cut_copper"
+    },
+    "waxed_exposed_cut_copper": {
+      "textures": "textures/blocks/copper/waxed_exposed_cut_copper"
+    },
+    "waxed_weathered_cut_copper": {
+      "textures": "textures/blocks/copper/waxed_weathered_cut_copper"
+    },
+    "waxed_oxidized_cut_copper": {
+      "textures": "textures/blocks/copper/waxed_oxidized_cut_copper"
+    },
+    "waxed_chiseled_copper": {
+      "textures": "textures/blocks/copper/waxed_chiseled_copper"
+    },
+    "waxed_exposed_chiseled_copper": {
+      "textures": "textures/blocks/copper/waxed_exposed_chiseled_copper"
+    },
+    "waxed_oxidized_chiseled_copper": {
+      "textures": "textures/blocks/copper/waxed_oxidized_chiseled_copper"
+    },
+    "waxed_weathered_chiseled_copper": {
+      "textures": "textures/blocks/copper/waxed_weathered_chiseled_copper"
+    },
+    "waxed_copper_grate": {
+      "textures": "textures/blocks/copper/waxed_copper_grate"
+    },
+    "waxed_exposed_copper_grate": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_grate"
+    },
+    "waxed_weathered_copper_grate": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_grate"
+    },
+    "waxed_oxidized_copper_grate": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_grate"
+    },
+    "waxed_copper_bulb": {
+      "textures": [
+        "textures/blocks/copper/waxed_copper_bulb",
+        "textures/blocks/copper/waxed_copper_bulb_lit",
+        "textures/blocks/copper/waxed_copper_bulb_powered",
+        "textures/blocks/copper/waxed_copper_bulb_lit_powered"
+      ]
+    },
+    "waxed_exposed_copper_bulb": {
+      "textures": [
+        "textures/blocks/copper/waxed_exposed_copper_bulb",
+        "textures/blocks/copper/waxed_exposed_copper_bulb_lit",
+        "textures/blocks/copper/waxed_exposed_copper_bulb_powered",
+        "textures/blocks/copper/waxed_exposed_copper_bulb_lit_powered"
+      ]
+    },
+    "waxed_oxidized_copper_bulb": {
+      "textures": [
+        "textures/blocks/copper/waxed_oxidized_copper_bulb",
+        "textures/blocks/copper/waxed_oxidized_copper_bulb_lit",
+        "textures/blocks/copper/waxed_oxidized_copper_bulb_powered",
+        "textures/blocks/copper/waxed_oxidized_copper_bulb_lit_powered"
+      ]
+    },
+    "waxed_weathered_copper_bulb": {
+      "textures": [
+        "textures/blocks/copper/waxed_weathered_copper_bulb",
+        "textures/blocks/copper/waxed_weathered_copper_bulb_lit",
+        "textures/blocks/copper/waxed_weathered_copper_bulb_powered",
+        "textures/blocks/copper/waxed_weathered_copper_bulb_lit_powered"
+      ]
+    },
+    "waxed_copper_door_top": {
+      "textures": "textures/blocks/copper/waxed_copper_door_top"
+    },
+    "waxed_copper_door_bottom": {
+      "textures": "textures/blocks/copper/waxed_copper_door_bottom"
+    },
+    "waxed_exposed_copper_door_top": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_door_top"
+    },
+    "waxed_exposed_copper_door_bottom": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_door_bottom"
+    },
+    "waxed_weathered_copper_door_top": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_door_top"
+    },
+    "waxed_weathered_copper_door_bottom": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_door_bottom"
+    },
+    "waxed_oxidized_copper_door_top": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_door_top"
+    },
+    "waxed_oxidized_copper_door_bottom": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_door_bottom"
+    },
+    "waxed_copper_trapdoor": {
+      "textures": "textures/blocks/copper/waxed_copper_trapdoor"
+    },
+    "waxed_exposed_copper_trapdoor": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_trapdoor"
+    },
+    "waxed_weathered_copper_trapdoor": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_trapdoor"
+    },
+    "waxed_oxidized_copper_trapdoor": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_trapdoor"
+    },
+    "waxed_copper_chest_inventory_top": {
+      "textures": [
+        "textures/blocks/copper/waxed_copper_chest_inventory_top"
+      ]
+    },
+    "waxed_copper_chest_inventory_side": {
+      "textures": [
+        "textures/blocks/copper/waxed_copper_chest_inventory_side"
+      ]
+    },
+    "waxed_copper_chest_inventory_front": {
+      "textures": [
+        "textures/blocks/copper/waxed_copper_chest_inventory_front"
+      ]
+    },
+    "waxed_exposed_copper_chest_inventory_top": {
+      "textures": [
+        "textures/blocks/copper/waxed_exposed_copper_chest_inventory_top"
+      ]
+    },
+    "waxed_exposed_copper_chest_inventory_side": {
+      "textures": [
+        "textures/blocks/copper/waxed_exposed_copper_chest_inventory_side"
+      ]
+    },
+    "waxed_exposed_copper_chest_inventory_front": {
+      "textures": [
+        "textures/blocks/copper/waxed_exposed_copper_chest_inventory_front"
+      ]
+    },
+    "waxed_weathered_copper_chest_inventory_top": {
+      "textures": [
+        "textures/blocks/copper/waxed_weathered_copper_chest_inventory_top"
+      ]
+    },
+    "waxed_weathered_copper_chest_inventory_side": {
+      "textures": [
+        "textures/blocks/copper/waxed_weathered_copper_chest_inventory_side"
+      ]
+    },
+    "waxed_weathered_copper_chest_inventory_front": {
+      "textures": [
+        "textures/blocks/copper/waxed_weathered_copper_chest_inventory_front"
+      ]
+    },
+    "waxed_oxidized_copper_chest_inventory_top": {
+      "textures": [
+        "textures/blocks/copper/waxed_oxidized_copper_chest_inventory_top"
+      ]
+    },
+    "waxed_oxidized_copper_chest_inventory_side": {
+      "textures": [
+        "textures/blocks/copper/waxed_oxidized_copper_chest_inventory_side"
+      ]
+    },
+    "waxed_oxidized_copper_chest_inventory_front": {
+      "textures": [
+        "textures/blocks/copper/waxed_oxidized_copper_chest_inventory_front"
+      ]
+    },
+    // Crops 作物年龄 //
+    "kelp_top": {
+      "textures": [
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top",
+        "textures/blocks/kelp_top_age25"
+      ]
+    },
+    "kelp_top_bulb": {
+      "textures": [
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_bulb",
+        "textures/blocks/kelp_top_age25"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+﻿dabu.ui.trade2.tradeall=Alles handeln	#
+dabu.ui.export_template_warning=Es wird empfohlen, beim Exportieren von Welten Vorlagen zu verwenden; Vorlagen können die Kartenversion sperren (mit Vorsicht verwenden)	#
+dabu.ui.vsync_option_warning=Das Deaktivieren der V-Sync hebt die FPS-Begrenzung auf.	#
+dabu.chestpickin=Gegenstände einlagern	#
+dabu.chestpickup=Gegenstände abheben	#
+dabu.chestdropall=Doppelklick, um alle Gegenstände fallen zu lassen	#
+dabu.createWorldScreen.commands=Befehle erlauben	#
+dabu.createWorldScreen.perfectweather=Perfektes Wetter	#

@@ -1,0 +1,8 @@
+﻿dabu.ui.trade2.tradeall=Обменять всё	#
+dabu.ui.export_template_warning=Рекомендуется использовать шаблоны при экспорте миров; шаблоны могут зафиксировать версию карты (используйте с осторожностью)	#
+dabu.ui.vsync_option_warning=Отключение V-Sync снимает ограничение FPS.	#
+dabu.chestpickin=Положить предметы	#
+dabu.chestpickup=Забрать предметы	#
+dabu.chestdropall=Двойной клик, чтобы выбросить все предметы	#
+dabu.createWorldScreen.commands=Разрешить команды	#
+dabu.createWorldScreen.perfectweather=Идеальная погода	#

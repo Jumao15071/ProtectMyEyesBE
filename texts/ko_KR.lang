@@ -1,0 +1,8 @@
+﻿dabu.ui.trade2.tradeall=모두 거래	#
+dabu.ui.export_template_warning=세계 내보낼 때 템플릿 사용을 권장합니다 (템플릿은 맵 버전을 고정합니다, 주의해서 사용하세요)	#
+dabu.ui.vsync_option_warning=V-Sync 해제 시 FPS 제한이 풀립니다.	#
+dabu.chestpickin=아이템 넣기	#
+dabu.chestpickup=아이템 꺼내기	#
+dabu.chestdropall=더블 클릭으로 모든 아이템 버리기	#
+dabu.createWorldScreen.commands=명령어 허용	#
+dabu.createWorldScreen.perfectweather=완벽한 날씨	#

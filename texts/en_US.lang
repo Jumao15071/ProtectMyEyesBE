@@ -1,0 +1,8 @@
+dabu.ui.trade2.tradeall=Trade All	#
+dabu.ui.export_template_warning=Recommended to use templates when exporting worlds; templates can lock the map version (use with caution)	#
+dabu.ui.vsync_option_warning=Disabling V-Sync unlocks the FPS cap.	#
+dabu.chestpickin=Deposit Items	#
+dabu.chestpickup=Withdraw Items	#
+dabu.chestdropall=Double-click to drop all items	#
+dabu.createWorldScreen.commands=Allow Commands	#
+dabu.createWorldScreen.perfectweather=Perfect Weather	#

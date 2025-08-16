@@ -1,0 +1,182 @@
+{
+  "item_dropper_label": {
+    "type": "label",
+    "offset": [ 0, 5 ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "text": "$container_title",
+    "color": [ 0.9, 0.9, 0.9 ],
+    "layer": 4
+  },
+
+  "crafter_label": {
+    "type": "label",
+    "offset": [ 0, 5 ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "text": "$container_title",
+    "color": "$title_text_color",
+    "layer": 4
+  },
+
+  "panel/root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": {
+          "bg@chest.bg_image":{
+            "texture": "$bg_texture",
+            "$bg_texture|default": "textures/ui/container_furnace",
+            "fill": true,
+            "layer": 3
+          }
+        }
+      },
+      {
+        "control_name": "common_panel",
+        "operation": "remove"
+      },
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": {
+          "close_button_panel": {
+            "type": "panel",
+            "size": [ "100%c", "100%" ],
+            "anchor_from": "top_right",
+            "anchor_to": "top_right",
+            "bindings": [],
+            "controls": [
+              {
+                "close_button@common.light_close_button": {
+                  "size": [ 22, 22 ],
+                  "offset": [ 0, 1 ],
+                  "anchor_from": "top_right",
+                  "anchor_to": "top_right"  
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+
+
+  "dropper_panel@redstone.panel": {
+    "$bg_texture": "textures/ui/container_dropper"
+  },
+
+  "dropper_screen@common.inventory_screen_common": {
+    "$close_on_player_hurt|default": true,
+    "$use_custom_pocket_toast|default": false,
+    "close_on_player_hurt": "$close_on_player_hurt",
+    "use_custom_pocket_toast": "$use_custom_pocket_toast",
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_label": "redstone.dropper_label",
+        "$screen_dimensions": [ 176, 166 ],
+        "$grid_dimensions": [ 3, 3 ],
+        "$grid_offset": [ 0, 0 ],
+        "$screen_content": "redstone.dropper_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
+      },
+      {
+        "requires": "$pocket_screen",
+        "$use_custom_pocket_toast": true,
+        "$screen_content": "pocket_containers.dropper_panel"
+      }
+    ]
+  },
+
+  "dispenser_panel@redstone.panel": {
+    "$bg_texture": "textures/ui/container_dispenser"
+  },
+
+  "dispenser_screen@common.inventory_screen_common": {
+    "$close_on_player_hurt|default": true,
+    "$use_custom_pocket_toast|default": false,
+    "close_on_player_hurt": "$close_on_player_hurt",
+    "use_custom_pocket_toast": "$use_custom_pocket_toast",
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_label": "redstone.dispenser_label",
+        "$screen_dimensions": [ 176, 166 ],
+        "$grid_dimensions": [ 3, 3 ],
+        "$grid_offset": [ 0, 0 ],
+        "$screen_content": "redstone.dispenser_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
+      },
+      {
+        "requires": "$pocket_screen",
+        "$use_custom_pocket_toast": true,
+        "$screen_content": "pocket_containers.dispenser_panel"
+      }
+    ]
+  },
+
+  "hopper_panel@redstone.panel": {
+    "$bg_texture": "textures/ui/container_hopper"
+  },
+
+  "hopper_screen@common.inventory_screen_common": {
+    "$close_on_player_hurt|default": true,
+    "$use_custom_pocket_toast|default": false,
+    "close_on_player_hurt": "$close_on_player_hurt",
+    "use_custom_pocket_toast": "$use_custom_pocket_toast",
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_label": "redstone.hopper_label",
+        "$screen_dimensions": [ 176, 133 ],
+        "$grid_dimensions": [ 5, 1 ],
+        "$grid_offset": [ 0, -7 ],
+        "$screen_content": "redstone.hopper_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
+      },
+      {
+        "requires": "$pocket_screen",
+        "$use_custom_pocket_toast": true,
+        "$screen_content": "pocket_containers.hopper_panel"
+      }
+    ]
+  },
+
+  "panel/root_panel/redstone_screen_inventory": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "container_quickmove@quickmove.quickmove": {
+              "ignored": "($is_quick_handling or $use_quick_craft_button or $rainbowpieui_bool)",//兼容快速搬运
+              "$is_large_chest": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "hopper_screen": {
+    "$is_container_nine": false,
+    "$is_container_five": true
+  },
+
+  "dropper_screen": {
+    "$is_container_nine": true,
+    "$is_container_five": false
+  },
+
+  "dispenser_screen": {
+    "$is_container_nine": true,
+    "$is_container_five": false
+  }
+
+}

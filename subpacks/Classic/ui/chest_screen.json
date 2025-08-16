@@ -1,0 +1,35 @@
+{
+  // Quick pick //
+
+  "large_chest_panel/root_panel/chest_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "chest_quickmove@quickmove.quickmove": {
+              "ignored": "($is_quick_handling or $use_quick_craft_button or $rainbowpieui_bool)",//兼容快速搬运
+              "$is_large_chest": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "small_chest_panel/root_panel/chest_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "chest_quickmove@quickmove.quickmove": {
+              "ignored": "($is_quick_handling or $use_quick_craft_button or $rainbowpieui_bool)"//兼容快速搬运
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

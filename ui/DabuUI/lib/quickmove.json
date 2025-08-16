@@ -1,0 +1,1885 @@
+{
+  "namespace": "quickmove",
+
+  "pickin_icon": {
+    "type": "image",
+    "size": ["100%", "100%"],
+    "texture": "textures/ui/dabu_chestpickin"
+  },
+
+  "pickup_icon": {
+    "type": "image",
+    "size": ["100%", "100%"],
+    "texture": "textures/ui/dabu_chestpickup"
+  },
+
+  "dropall_icon": {
+    "type": "image",
+    "size": ["100%", "100%"],
+    "texture": "textures/ui/dabu_chestdropall"
+  },
+
+  "hover_text_button_panel": {
+		"type": "button",
+    "size": ["100%", "100%"],
+		"layer": 4,
+    "hover_control": "hover",
+		"controls": [
+			{
+				"hover": {
+					"type": "panel",
+					"layer": 3,
+					"controls": [
+						{
+							"text_label": {
+								"type": "label",
+								"size": ["default", "default"],
+                "anchor_from": "left_middle",
+								"anchor_to": "left_middle",
+                "offset": [25, 0],
+                "layer": 2,
+								"text": "$hover_label_text"
+							}
+						},
+						{
+							"text_background": {
+								"type": "image",
+								"size": ["100%sm + 5px","100%sm+ 10px"],
+                "anchor_from": "left_middle",
+								"anchor_to": "left_middle",
+                "offset": [23, 0],
+                "layer": 1,
+								"texture": "textures/ui/purpleBorder"
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+
+  "quickmove": {
+    "type": "panel",
+    "controls": [
+      {
+        "container_bindings_item_slot_panel@quickmove.container_bindings_item_slot_panel": {}
+      },
+      {
+        "inventory_bindings_item_slot_panel@quickmove.inventory_bindings_item_slot_panel": {}
+      },
+      {
+        "quick_pickin_hotbar_panel": {
+          "type": "panel",
+          "size": [20, 20],
+          "offset": [24, -2],
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "controls": [
+            {
+              "picktin_hotbar_stack_panel@quickmove.picktin_hotbar_stack_panel": {
+                "$dabu_to_button_id": "button.container_auto_place",
+                "$dabu_mapping_type": "pressed",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": 5
+              }
+            },
+            {
+              "hover_text_button_panel@quickmove.hover_text_button_panel": {
+                "$hover_label_text": "dabu.chestpickin",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": -1
+              }
+            },
+            {
+              "picktin_button@common_buttons.light_content_button": {
+                "$button_focus_precedence": -1,
+                "$button_image_size": [ "100%", "100%" ],
+                "$pressed_button_name": "quickmove.chestpickin",
+                "$button_content": "quickmove.pickin_icon",
+                "consume_hover_events": false,
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "quick_picktin_inventory_panel": {
+          "type": "panel",
+          "size": [20, 20],
+          "offset": [24, -62],
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "controls": [
+            {
+              "picktin_inventory_stack_panel@quickmove.picktin_inventory_stack_panel": {
+                "$dabu_to_button_id": "button.container_auto_place",
+                "$dabu_mapping_type": "pressed",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": 5
+              }
+            },
+            {
+              "hover_text_button_panel@quickmove.hover_text_button_panel": {
+                "$hover_label_text": "dabu.chestpickin",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": -1
+              }
+            },
+            {
+              "picktin_button@common_buttons.light_content_button": {
+                "$button_image_size": [ "100%", "100%" ],
+                "$pressed_button_name": "quickmove.chestpickin",
+                "$button_content": "quickmove.pickin_icon",
+                "consume_hover_events": false,
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "quick_dropall_container_panel": {
+          "type": "panel",
+          "size": [20, 20],
+          "offset": [24, -92],
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "controls": [
+            {
+              "pickup_container_stack_panel@quickmove.pickup_container_stack_panel": {
+                "$dabu_to_button_id": "button.drop_all",
+                "$dabu_mapping_type": "double_pressed",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": 5
+              }
+            },
+            {
+              "hover_text_button_panel@quickmove.hover_text_button_panel": {
+                "$hover_label_text": "dabu.chestdropall",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": -1
+              }
+            },
+            {
+              "pickup_button@common_buttons.light_content_button": {
+                "$button_image_size": [ "100%", "100%" ],
+                "$pressed_button_name": "quickmove.chestdropall",
+                "$button_content": "quickmove.dropall_icon",
+                "consume_hover_events": false,
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "quick_pickup_container_panel": {
+          "type": "panel",
+          "size": [20, 20],
+          "offset": [24, -121],
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "controls": [
+            {
+              "pickup_container_stack_panel@quickmove.pickup_container_stack_panel": {
+                "$dabu_to_button_id": "button.container_auto_place",
+                "$dabu_mapping_type": "pressed",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": 5
+              }
+            },
+            {
+              "hover_text_button_panel@quickmove.hover_text_button_panel": {
+                "$hover_label_text": "dabu.chestpickup",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": -1
+              }
+            },
+            {
+              "pickup_button@common_buttons.light_content_button": {
+                "$button_image_size": [ "100%", "100%" ],
+                "$pressed_button_name": "quickmove.chestpickup",
+                "$button_content": "quickmove.pickup_icon",
+                "consume_hover_events": false,
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": 1
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  // Mobile selected item id aux calculator //
+
+  "bindings_item_slot": {
+    "type": "panel",
+    "bindings": [
+      {
+        "binding_name": "#is_selected_slot",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name"
+      },
+      {
+        "binding_name": "#item_id_aux",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#item_id_aux * #is_selected_slot)",
+        "target_property_name": "#selected_item_id_aux"
+      }
+    ]
+  },
+
+  "container_bindings_item_slot_panel": {
+    "type": "stack_panel",
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "controls": [
+      {
+        "container_bindings_item_slot_53@quickmove.bindings_item_slot": {
+          "collection_index": 53
+        }
+      },
+      {
+        "container_bindings_item_slot_52@quickmove.bindings_item_slot": {
+          "collection_index": 52
+        }
+      },
+      {
+        "container_bindings_item_slot_51@quickmove.bindings_item_slot": {
+          "collection_index": 51
+        }
+      },
+      {
+        "container_bindings_item_slot_50@quickmove.bindings_item_slot": {
+          "collection_index": 50
+        }
+      },
+      {
+        "container_bindings_item_slot_49@quickmove.bindings_item_slot": {
+          "collection_index": 49
+        }
+      },
+      {
+        "container_bindings_item_slot_48@quickmove.bindings_item_slot": {
+          "collection_index": 48
+        }
+      },
+      {
+        "container_bindings_item_slot_47@quickmove.bindings_item_slot": {
+          "collection_index": 47
+        }
+      },
+      {
+        "container_bindings_item_slot_46@quickmove.bindings_item_slot": {
+          "collection_index": 46
+        }
+      },
+      {
+        "container_bindings_item_slot_45@quickmove.bindings_item_slot": {
+          "collection_index": 45
+        }
+      },
+      {
+        "container_bindings_item_slot_44@quickmove.bindings_item_slot": {
+          "collection_index": 44
+        }
+      },
+      {
+        "container_bindings_item_slot_43@quickmove.bindings_item_slot": {
+          "collection_index": 43
+        }
+      },
+      {
+        "container_bindings_item_slot_42@quickmove.bindings_item_slot": {
+          "collection_index": 42
+        }
+      },
+      {
+        "container_bindings_item_slot_41@quickmove.bindings_item_slot": {
+          "collection_index": 41
+        }
+      },
+      {
+        "container_bindings_item_slot_40@quickmove.bindings_item_slot": {
+          "collection_index": 40
+        }
+      },
+      {
+        "container_bindings_item_slot_39@quickmove.bindings_item_slot": {
+          "collection_index": 39
+        }
+      },
+      {
+        "container_bindings_item_slot_38@quickmove.bindings_item_slot": {
+          "collection_index": 38
+        }
+      },
+      {
+        "container_bindings_item_slot_37@quickmove.bindings_item_slot": {
+          "collection_index": 37
+        }
+      },
+      {
+        "container_bindings_item_slot_36@quickmove.bindings_item_slot": {
+          "collection_index": 36
+        }
+      },
+      {
+        "container_bindings_item_slot_35@quickmove.bindings_item_slot": {
+          "collection_index": 35
+        }
+      },
+      {
+        "container_bindings_item_slot_34@quickmove.bindings_item_slot": {
+          "collection_index": 34
+        }
+      },
+      {
+        "container_bindings_item_slot_33@quickmove.bindings_item_slot": {
+          "collection_index": 33
+        }
+      },
+      {
+        "container_bindings_item_slot_32@quickmove.bindings_item_slot": {
+          "collection_index": 32
+        }
+      },
+      {
+        "container_bindings_item_slot_31@quickmove.bindings_item_slot": {
+          "collection_index": 31
+        }
+      },
+      {
+        "container_bindings_item_slot_30@quickmove.bindings_item_slot": {
+          "collection_index": 30
+        }
+      },
+      {
+        "container_bindings_item_slot_29@quickmove.bindings_item_slot": {
+          "collection_index": 29
+        }
+      },
+      {
+        "container_bindings_item_slot_28@quickmove.bindings_item_slot": {
+          "collection_index": 28
+        }
+      },
+      {
+        "container_bindings_item_slot_27@quickmove.bindings_item_slot": {
+          "collection_index": 27
+        }
+      },
+      {
+        "container_bindings_item_slot_26@quickmove.bindings_item_slot": {
+          "collection_index": 26
+        }
+      },
+      {
+        "container_bindings_item_slot_25@quickmove.bindings_item_slot": {
+          "collection_index": 25
+        }
+      },
+      {
+        "container_bindings_item_slot_24@quickmove.bindings_item_slot": {
+          "collection_index": 24
+        }
+      },
+      {
+        "container_bindings_item_slot_23@quickmove.bindings_item_slot": {
+          "collection_index": 23
+        }
+      },
+      {
+        "container_bindings_item_slot_22@quickmove.bindings_item_slot": {
+          "collection_index": 22
+        }
+      },
+      {
+        "container_bindings_item_slot_21@quickmove.bindings_item_slot": {
+          "collection_index": 21
+        }
+      },
+      {
+        "container_bindings_item_slot_20@quickmove.bindings_item_slot": {
+          "collection_index": 20
+        }
+      },
+      {
+        "container_bindings_item_slot_19@quickmove.bindings_item_slot": {
+          "collection_index": 19
+        }
+      },
+      {
+        "container_bindings_item_slot_18@quickmove.bindings_item_slot": {
+          "collection_index": 18
+        }
+      },
+      {
+        "container_bindings_item_slot_17@quickmove.bindings_item_slot": {
+          "collection_index": 17
+        }
+      },
+      {
+        "container_bindings_item_slot_16@quickmove.bindings_item_slot": {
+          "collection_index": 16
+        }
+      },
+      {
+        "container_bindings_item_slot_15@quickmove.bindings_item_slot": {
+          "collection_index": 15
+        }
+      },
+      {
+        "container_bindings_item_slot_14@quickmove.bindings_item_slot": {
+          "collection_index": 14
+        }
+      },
+      {
+        "container_bindings_item_slot_13@quickmove.bindings_item_slot": {
+          "collection_index": 13
+        }
+      },
+      {
+        "container_bindings_item_slot_12@quickmove.bindings_item_slot": {
+          "collection_index": 12
+        }
+      },
+      {
+        "container_bindings_item_slot_11@quickmove.bindings_item_slot": {
+          "collection_index": 11
+        }
+      },
+      {
+        "container_bindings_item_slot_10@quickmove.bindings_item_slot": {
+          "collection_index": 10
+        }
+      },
+      {
+        "container_bindings_item_slot_9@quickmove.bindings_item_slot": {
+          "collection_index": 9
+        }
+      },
+      {
+        "container_bindings_item_slot_8@quickmove.bindings_item_slot": {
+          "collection_index": 8
+        }
+      },
+      {
+        "container_bindings_item_slot_7@quickmove.bindings_item_slot": {
+          "collection_index": 7
+        }
+      },
+      {
+        "container_bindings_item_slot_6@quickmove.bindings_item_slot": {
+          "collection_index": 6
+        }
+      },
+      {
+        "container_bindings_item_slot_5@quickmove.bindings_item_slot": {
+          "collection_index": 5
+        }
+      },
+      {
+        "container_bindings_item_slot_4@quickmove.bindings_item_slot": {
+          "collection_index": 4
+        }
+      },
+      {
+        "container_bindings_item_slot_3@quickmove.bindings_item_slot": {
+          "collection_index": 3
+        }
+      },
+      {
+        "container_bindings_item_slot_2@quickmove.bindings_item_slot": {
+          "collection_index": 2
+        }
+      },
+      {
+        "container_bindings_item_slot_1@quickmove.bindings_item_slot": {
+          "collection_index": 1
+        }
+      },
+      {
+        "container_bindings_item_slot_0@quickmove.bindings_item_slot": {
+          "collection_index": 0
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_53",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_53"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_52",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_52"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_51",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_51"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_50",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_50"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_49",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_49"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_48",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_48"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_47",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_47"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_46",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_46"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_45",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_45"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_44",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_44"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_43",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_43"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_42",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_42"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_41",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_41"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_40",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_40"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_39",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_39"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_38",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_38"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_37",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_37"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_36",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_36"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_35",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_35"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_34",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_34"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_33",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_33"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_32",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_32"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_31",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_31"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_30",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_30"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_29",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_29"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_28",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_28"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_27",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_27"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_26",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_26"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_25",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_25"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_24",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_24"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_23",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_23"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_22",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_22"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_21",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_21"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_20",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_20"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_19",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_19"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_18",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_18"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_17",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_17"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_16",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_16"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_15",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_15"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_14",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_14"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_13",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_13"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_12",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_12"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_11",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_11"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_10",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_10"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_9",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_9"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_8",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_8"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_7",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_7"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_6",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_6"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_5",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_5"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_4",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_4"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_3",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_3"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_2",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_2"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_1",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_1"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "container_bindings_item_slot_0",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_0"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#selected_item_id_aux_0 + #selected_item_id_aux_1 + #selected_item_id_aux_2 + #selected_item_id_aux_3 + #selected_item_id_aux_4 + #selected_item_id_aux_5 + #selected_item_id_aux_6 + #selected_item_id_aux_7 + #selected_item_id_aux_8 + #selected_item_id_aux_9 + #selected_item_id_aux_10 + #selected_item_id_aux_11 + #selected_item_id_aux_12 + #selected_item_id_aux_13 + #selected_item_id_aux_14 + #selected_item_id_aux_15 + #selected_item_id_aux_16 + #selected_item_id_aux_17 + #selected_item_id_aux_18 + #selected_item_id_aux_19 + #selected_item_id_aux_20 + #selected_item_id_aux_21 + #selected_item_id_aux_22 + #selected_item_id_aux_23 + #selected_item_id_aux_24 + #selected_item_id_aux_25 + #selected_item_id_aux_26 + #selected_item_id_aux_27 + #selected_item_id_aux_28 + #selected_item_id_aux_29 + #selected_item_id_aux_30 + #selected_item_id_aux_31 + #selected_item_id_aux_32 + #selected_item_id_aux_33 + #selected_item_id_aux_34 + #selected_item_id_aux_35 + #selected_item_id_aux_36 + #selected_item_id_aux_37 + #selected_item_id_aux_38 + #selected_item_id_aux_39 + #selected_item_id_aux_40 + #selected_item_id_aux_41 + #selected_item_id_aux_42 + #selected_item_id_aux_43 + #selected_item_id_aux_44 + #selected_item_id_aux_45 + #selected_item_id_aux_46 + #selected_item_id_aux_47 + #selected_item_id_aux_48 + #selected_item_id_aux_49 + #selected_item_id_aux_50 + #selected_item_id_aux_51 + #selected_item_id_aux_52 + #selected_item_id_aux_53)",
+        "target_property_name": "#container_selected_item_id_aux"
+      }
+    ]
+  },
+
+  "inventory_bindings_item_slot_panel": {
+    "type": "stack_panel",
+    "collection_name": "inventory_items",
+    "$item_collection_name": "inventory_items",
+    "controls": [
+      {
+        "inventory_bindings_item_slot_26@quickmove.bindings_item_slot": {
+          "collection_index": 26
+        }
+      },
+      {
+        "inventory_bindings_item_slot_25@quickmove.bindings_item_slot": {
+          "collection_index": 25
+        }
+      },
+      {
+        "inventory_bindings_item_slot_24@quickmove.bindings_item_slot": {
+          "collection_index": 24
+        }
+      },
+      {
+        "inventory_bindings_item_slot_23@quickmove.bindings_item_slot": {
+          "collection_index": 23
+        }
+      },
+      {
+        "inventory_bindings_item_slot_22@quickmove.bindings_item_slot": {
+          "collection_index": 22
+        }
+      },
+      {
+        "inventory_bindings_item_slot_21@quickmove.bindings_item_slot": {
+          "collection_index": 21
+        }
+      },
+      {
+        "inventory_bindings_item_slot_20@quickmove.bindings_item_slot": {
+          "collection_index": 20
+        }
+      },
+      {
+        "inventory_bindings_item_slot_19@quickmove.bindings_item_slot": {
+          "collection_index": 19
+        }
+      },
+      {
+        "inventory_bindings_item_slot_18@quickmove.bindings_item_slot": {
+          "collection_index": 18
+        }
+      },
+      {
+        "inventory_bindings_item_slot_17@quickmove.bindings_item_slot": {
+          "collection_index": 17
+        }
+      },
+      {
+        "inventory_bindings_item_slot_16@quickmove.bindings_item_slot": {
+          "collection_index": 16
+        }
+      },
+      {
+        "inventory_bindings_item_slot_15@quickmove.bindings_item_slot": {
+          "collection_index": 15
+        }
+      },
+      {
+        "inventory_bindings_item_slot_14@quickmove.bindings_item_slot": {
+          "collection_index": 14
+        }
+      },
+      {
+        "inventory_bindings_item_slot_13@quickmove.bindings_item_slot": {
+          "collection_index": 13
+        }
+      },
+      {
+        "inventory_bindings_item_slot_12@quickmove.bindings_item_slot": {
+          "collection_index": 12
+        }
+      },
+      {
+        "inventory_bindings_item_slot_11@quickmove.bindings_item_slot": {
+          "collection_index": 11
+        }
+      },
+      {
+        "inventory_bindings_item_slot_10@quickmove.bindings_item_slot": {
+          "collection_index": 10
+        }
+      },
+      {
+        "inventory_bindings_item_slot_9@quickmove.bindings_item_slot": {
+          "collection_index": 9
+        }
+      },
+      {
+        "inventory_bindings_item_slot_8@quickmove.bindings_item_slot": {
+          "collection_index": 8
+        }
+      },
+      {
+        "inventory_bindings_item_slot_7@quickmove.bindings_item_slot": {
+          "collection_index": 7
+        }
+      },
+      {
+        "inventory_bindings_item_slot_6@quickmove.bindings_item_slot": {
+          "collection_index": 6
+        }
+      },
+      {
+        "inventory_bindings_item_slot_5@quickmove.bindings_item_slot": {
+          "collection_index": 5
+        }
+      },
+      {
+        "inventory_bindings_item_slot_4@quickmove.bindings_item_slot": {
+          "collection_index": 4
+        }
+      },
+      {
+        "inventory_bindings_item_slot_3@quickmove.bindings_item_slot": {
+          "collection_index": 3
+        }
+      },
+      {
+        "inventory_bindings_item_slot_2@quickmove.bindings_item_slot": {
+          "collection_index": 2
+        }
+      },
+      {
+        "inventory_bindings_item_slot_1@quickmove.bindings_item_slot": {
+          "collection_index": 1
+        }
+      },
+      {
+        "inventory_bindings_item_slot_0@quickmove.bindings_item_slot": {
+          "collection_index": 0
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_26",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_26"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_25",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_25"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_24",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_24"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_23",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_23"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_22",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_22"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_21",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_21"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_20",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_20"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_19",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_19"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_18",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_18"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_17",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_17"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_16",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_16"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_15",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_15"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_14",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_14"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_13",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_13"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_12",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_12"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_11",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_11"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_10",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_10"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_9",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_9"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_8",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_8"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_7",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_7"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_6",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_6"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_5",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_5"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_4",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_4"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_3",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_3"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_2",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_2"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_1",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_1"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "inventory_bindings_item_slot_0",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_0"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#selected_item_id_aux_0 + #selected_item_id_aux_1 + #selected_item_id_aux_2 + #selected_item_id_aux_3 + #selected_item_id_aux_4 + #selected_item_id_aux_5 + #selected_item_id_aux_6 + #selected_item_id_aux_7 + #selected_item_id_aux_8 + #selected_item_id_aux_9 + #selected_item_id_aux_10 + #selected_item_id_aux_11 + #selected_item_id_aux_12 + #selected_item_id_aux_13 + #selected_item_id_aux_14 + #selected_item_id_aux_15 + #selected_item_id_aux_16 + #selected_item_id_aux_17 + #selected_item_id_aux_18 + #selected_item_id_aux_19 + #selected_item_id_aux_20 + #selected_item_id_aux_21 + #selected_item_id_aux_22 + #selected_item_id_aux_23 + #selected_item_id_aux_24 + #selected_item_id_aux_25 + #selected_item_id_aux_26)",
+        "target_property_name": "#inventory_selected_item_id_aux"
+      }
+    ]
+  },
+
+  "hotbar_bindings_item_slot_panel": {
+    "type": "stack_panel",
+    "collection_name": "hotbar_items",
+    "$item_collection_name": "hotbar_items",
+    "controls": [
+      {
+        "hotbar_bindings_item_slot_8@quickmove.bindings_item_slot": {
+          "collection_index": 8
+        }
+      },
+      {
+        "hotbar_bindings_item_slot_7@quickmove.bindings_item_slot": {
+          "collection_index": 7
+        }
+      },
+      {
+        "hotbar_bindings_item_slot_6@quickmove.bindings_item_slot": {
+          "collection_index": 6
+        }
+      },
+      {
+        "hotbar_bindings_item_slot_5@quickmove.bindings_item_slot": {
+          "collection_index": 5
+        }
+      },
+      {
+        "hotbar_bindings_item_slot_4@quickmove.bindings_item_slot": {
+          "collection_index": 4
+        }
+      },
+      {
+        "hotbar_bindings_item_slot_3@quickmove.bindings_item_slot": {
+          "collection_index": 3
+        }
+      },
+      {
+        "hotbar_bindings_item_slot_2@quickmove.bindings_item_slot": {
+          "collection_index": 2
+        }
+      },
+      {
+        "hotbar_bindings_item_slot_1@quickmove.bindings_item_slot": {
+          "collection_index": 1
+        }
+      },
+      {
+        "hotbar_bindings_item_slot_0@quickmove.bindings_item_slot": {
+          "collection_index": 0
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "hotbar_bindings_item_slot_8",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_8"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "hotbar_bindings_item_slot_7",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_7"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "hotbar_bindings_item_slot_6",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_6"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "hotbar_bindings_item_slot_5",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_5"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "hotbar_bindings_item_slot_4",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_4"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "hotbar_bindings_item_slot_3",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_3"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "hotbar_bindings_item_slot_2",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_2"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "hotbar_bindings_item_slot_1",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_1"
+      },
+      {
+        "binding_type": "view",
+        "source_control_name": "hotbar_bindings_item_slot_0",
+        "source_property_name": "#selected_item_id_aux",
+        "target_property_name": "#selected_item_id_aux_0"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#selected_item_id_aux_0 + #selected_item_id_aux_1 + #selected_item_id_aux_2 + #selected_item_id_aux_3 + #selected_item_id_aux_4 + #selected_item_id_aux_5 + #selected_item_id_aux_6 + #selected_item_id_aux_7 + #selected_item_id_aux_8)",
+        "target_property_name": "#hotbar_selected_item_id_aux"
+      }
+    ]
+  },
+
+  "quick_move_item_slot": {
+    "type": "panel",
+    "controls": [
+      {
+        "input_panel": {
+          "type": "input_panel",
+          "size": ["100%", "100%x"],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "consume_hover_events": false,
+          "button_mappings": [
+            {
+              "from_button_id": "button.menu_select",
+              "to_button_id": "$dabu_to_button_id",
+              "mapping_type": "$dabu_mapping_type",
+              "consume_event": false
+            },
+            {
+              "from_button_id": "button.menu_ok",
+              "to_button_id": "$dabu_to_button_id",
+              "mapping_type": "focused",
+              "consume_event": false
+            }
+          ],
+          "bindings": [
+            {
+              "binding_type": "collection_details",
+              "binding_collection_name": "$item_collection_name",
+              "binding_condition": "once"
+            },
+            {
+              "binding_type": "collection",
+              "binding_collection_name": "$item_collection_name",
+              "binding_name": "#item_id_aux"
+            },
+            {
+              "binding_name": "#inventory_selected_item",
+              "binding_name_override": "#fly_item_id_aux"
+            },
+            {
+              "binding_type": "view",
+              "source_control_name": "container_bindings_item_slot_panel",
+              "source_property_name": "#container_selected_item_id_aux",
+              "target_property_name": "#container_selected_item_id_aux"
+            },
+            {
+              "binding_type": "view",
+              "source_control_name": "inventory_bindings_item_slot_panel",
+              "source_property_name": "#inventory_selected_item_id_aux",
+              "target_property_name": "#inventory_selected_item_id_aux"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#container_selected_item_id_aux + #inventory_selected_item_id_aux + #hotbar_selected_item_id_aux)",
+              "target_property_name": "#selected_item_id_aux"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(((#selected_item_id_aux = 0) or (#selected_item_id_aux = #item_id_aux)) and ((#fly_item_id_aux = -1) or (#fly_item_id_aux = #item_id_aux)))",
+              "target_property_name": "#is_selected_item"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "((not (#item_id_aux = -1)) and #is_selected_item)",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "pickup_container_stack_panel": {
+    "type": "stack_panel",
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "$is_large_chest|default": false,
+    "$is_container_nine|default": false,
+    "$is_container_five|default": false,
+    "controls": [
+      {
+        "container_quick_move_item_slot_53@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 53
+        }
+      },
+      {
+        "container_quick_move_item_slot_52@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 52
+        }
+      },
+      {
+        "container_quick_move_item_slot_51@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 51
+        }
+      },
+      {
+        "container_quick_move_item_slot_50@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 50
+        }
+      },
+      {
+        "container_quick_move_item_slot_49@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 49
+        }
+      },
+      {
+        "container_quick_move_item_slot_48@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 48
+        }
+      },
+      {
+        "container_quick_move_item_slot_47@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 47
+        }
+      },
+      {
+        "container_quick_move_item_slot_46@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 46
+        }
+      },
+      {
+        "container_quick_move_item_slot_45@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 45
+        }
+      },
+      {
+        "container_quick_move_item_slot_44@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 44
+        }
+      },
+      {
+        "container_quick_move_item_slot_43@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 43
+        }
+      },
+      {
+        "container_quick_move_item_slot_42@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 42
+        }
+      },
+      {
+        "container_quick_move_item_slot_41@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 41
+        }
+      },
+      {
+        "container_quick_move_item_slot_40@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 40
+        }
+      },
+      {
+        "container_quick_move_item_slot_39@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 39
+        }
+      },
+      {
+        "container_quick_move_item_slot_38@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 38
+        }
+      },
+      {
+        "container_quick_move_item_slot_37@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 37
+        }
+      },
+      {
+        "container_quick_move_item_slot_36@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 36
+        }
+      },
+      {
+        "container_quick_move_item_slot_35@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 35
+        }
+      },
+      {
+        "container_quick_move_item_slot_34@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 34
+        }
+      },
+      {
+        "container_quick_move_item_slot_33@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 33
+        }
+      },
+      {
+        "container_quick_move_item_slot_32@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 32
+        }
+      },
+      {
+        "container_quick_move_item_slot_31@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 31
+        }
+      },
+      {
+        "container_quick_move_item_slot_30@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 30
+        }
+      },
+      {
+        "container_quick_move_item_slot_29@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 29
+        }
+      },
+      {
+        "container_quick_move_item_slot_28@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 28
+        }
+      },
+      {
+        "container_quick_move_item_slot_27@quickmove.quick_move_item_slot": {
+          "ignored": "(not $is_large_chest or $is_container_nine)",
+          "collection_index": 27
+        }
+      },
+      {
+        "container_quick_move_item_slot_26@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 26
+        }
+      },
+      {
+        "container_quick_move_item_slot_25@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 25
+        }
+      },
+      {
+        "container_quick_move_item_slot_24@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 24
+        }
+      },
+      {
+        "container_quick_move_item_slot_23@quickmove.quick_move_item_slot": {    
+          "ignored": "($is_container_nine)",     
+          "collection_index": 23
+        }
+      },
+      {
+        "container_quick_move_item_slot_22@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",         
+          "collection_index": 22
+        }
+      },
+      {
+        "container_quick_move_item_slot_21@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 21
+        }
+      },
+      {
+        "container_quick_move_item_slot_20@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 20
+        }
+      },
+      {
+        "container_quick_move_item_slot_19@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 19
+        }
+      },
+      {
+        "container_quick_move_item_slot_18@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 18
+        }
+      },
+      {
+        "container_quick_move_item_slot_17@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 17
+        }
+      },
+      {
+        "container_quick_move_item_slot_16@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 16
+        }
+      },
+      {
+        "container_quick_move_item_slot_15@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 15
+        }
+      },
+      {
+        "container_quick_move_item_slot_14@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 14
+        }
+      },
+      {
+        "container_quick_move_item_slot_13@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 13
+        }
+      },
+      {
+        "container_quick_move_item_slot_12@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 12
+        }
+      },
+      {
+        "container_quick_move_item_slot_11@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 11
+        }
+      },
+      {
+        "container_quick_move_item_slot_10@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 10
+        }
+      },
+      {
+        "container_quick_move_item_slot_9@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_nine)",
+          "collection_index": 9
+        }
+      },
+      {
+        "container_quick_move_item_slot_8@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_five)",
+          "collection_index": 8
+        }
+      },
+      {
+        "container_quick_move_item_slot_7@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_five)",
+          "collection_index": 7
+        }
+      },
+      {
+        "container_quick_move_item_slot_6@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_five)",
+          "collection_index": 6
+        }
+      },
+      {
+        "container_quick_move_item_slot_5@quickmove.quick_move_item_slot": {
+          "ignored": "($is_container_five)",
+          "collection_index": 5
+        }
+      },
+      {
+        "container_quick_move_item_slot_4@quickmove.quick_move_item_slot": {
+          "collection_index": 4
+        }
+      },
+      {
+        "container_quick_move_item_slot_3@quickmove.quick_move_item_slot": {
+          "collection_index": 3
+        }
+      },
+      {
+        "container_quick_move_item_slot_2@quickmove.quick_move_item_slot": {
+          "collection_index": 2
+        }
+      },
+      {
+        "container_quick_move_item_slot_1@quickmove.quick_move_item_slot": {
+          "collection_index": 1
+        }
+      },
+      {
+        "container_quick_move_item_slot_0@quickmove.quick_move_item_slot": {
+          "collection_index": 0
+        }
+      }
+    ]
+  },
+
+  "picktin_inventory_stack_panel": {
+    "type": "stack_panel",
+    "collection_name": "inventory_items",
+    "$item_collection_name": "inventory_items",
+    "controls": [
+      {
+        "inventory_quick_move_item_slot_26@quickmove.quick_move_item_slot": {
+          "collection_index": 26
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_25@quickmove.quick_move_item_slot": {
+          "collection_index": 25
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_24@quickmove.quick_move_item_slot": {
+          "collection_index": 24
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_23@quickmove.quick_move_item_slot": {
+          "collection_index": 23
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_22@quickmove.quick_move_item_slot": {
+          "collection_index": 22
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_21@quickmove.quick_move_item_slot": {
+          "collection_index": 21
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_20@quickmove.quick_move_item_slot": {
+          "collection_index": 20
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_19@quickmove.quick_move_item_slot": {
+          "collection_index": 19
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_18@quickmove.quick_move_item_slot": {
+          "collection_index": 18
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_17@quickmove.quick_move_item_slot": {
+          "collection_index": 17
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_16@quickmove.quick_move_item_slot": {
+          "collection_index": 16
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_15@quickmove.quick_move_item_slot": {
+          "collection_index": 15
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_14@quickmove.quick_move_item_slot": {
+          "collection_index": 14
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_13@quickmove.quick_move_item_slot": {
+          "collection_index": 13
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_12@quickmove.quick_move_item_slot": {
+          "collection_index": 12
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_11@quickmove.quick_move_item_slot": {
+          "collection_index": 11
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_10@quickmove.quick_move_item_slot": {
+          "collection_index": 10
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_9@quickmove.quick_move_item_slot": {
+          "collection_index": 9
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_8@quickmove.quick_move_item_slot": {
+          "collection_index": 8
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_7@quickmove.quick_move_item_slot": {
+          "collection_index": 7
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_6@quickmove.quick_move_item_slot": {
+          "collection_index": 6
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_5@quickmove.quick_move_item_slot": {
+          "collection_index": 5
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_4@quickmove.quick_move_item_slot": {
+          "collection_index": 4
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_3@quickmove.quick_move_item_slot": {
+          "collection_index": 3
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_2@quickmove.quick_move_item_slot": {
+          "collection_index": 2
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_1@quickmove.quick_move_item_slot": {
+          "collection_index": 1
+        }
+      },
+      {
+        "inventory_quick_move_item_slot_0@quickmove.quick_move_item_slot": {
+          "collection_index": 0
+        }
+      }
+    ]
+  },
+
+  "picktin_hotbar_stack_panel": {
+    "type": "stack_panel",
+    "collection_name": "hotbar_items",
+    "$item_collection_name": "hotbar_items",
+    "controls": [
+      {
+        "hotbar_quick_move_item_slot_8@quickmove.quick_move_item_slot": {
+          "collection_index": 8
+        }
+      },
+      {
+        "hotbar_quick_move_item_slot_7@quickmove.quick_move_item_slot": {
+          "collection_index": 7
+        }
+      },
+      {
+        "hotbar_quick_move_item_slot_6@quickmove.quick_move_item_slot": {
+          "collection_index": 6
+        }
+      },
+      {
+        "hotbar_quick_move_item_slot_5@quickmove.quick_move_item_slot": {
+          "collection_index": 5
+        }
+      },
+      {
+        "hotbar_quick_move_item_slot_4@quickmove.quick_move_item_slot": {
+          "collection_index": 4
+        }
+      },
+      {
+        "hotbar_quick_move_item_slot_3@quickmove.quick_move_item_slot": {
+          "collection_index": 3
+        }
+      },
+      {
+        "hotbar_quick_move_item_slot_2@quickmove.quick_move_item_slot": {
+          "collection_index": 2
+        }
+      },
+      {
+        "hotbar_quick_move_item_slot_1@quickmove.quick_move_item_slot": {
+          "collection_index": 1
+        }
+      },
+      {
+        "hotbar_quick_move_item_slot_0@quickmove.quick_move_item_slot": {
+          "collection_index": 0
+        }
+      }
+    ]
+  }
+}

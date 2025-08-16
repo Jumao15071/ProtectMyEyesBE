@@ -1,0 +1,63 @@
+{
+	// Auto Craft //
+	
+	"auto_crafting_arrow_down": {
+	  "type": "image",
+	  "layer": 5,
+	  "texture": "textures/ui/arrow_down",
+	  "anchor_from": "top_middle",
+	  "anchor_to": "top_middle",
+	  "size": [15, 22],
+	  "offset": [0, 1]
+	},
+	"survival_panel_pocket": {
+	  "modifications": [
+		{
+		  "array_name": "controls",
+		  "operation": "insert_front",
+		  "value": [
+			{
+			  "auto_crafting@common_buttons.light_content_button": {
+				"anchor_to": "top_middle",
+				"anchor_from": "top_middle",
+				"offset": [0, "55%"],
+				"size": [24, 30],
+				"layer": 10,
+				"$button_content": "crafting_pocket.auto_crafting_arrow_down",
+				"$pressed_button_name": "button.crafting_output_tertiary",
+				"property_bag": {
+				  "#collection_name": "crafting_output_items",
+				  "#collection_index": 0
+				}
+			  }
+			}
+		  ]
+		}
+	  ]
+	},
+	"survival_panel_crafting_pocket": {
+	  "modifications": [
+		{
+		  "array_name": "controls",
+		  "operation": "insert_front",
+		  "value": [
+			{
+			  "auto_crafting@common_buttons.light_content_button": {
+				"anchor_to": "top_middle",
+				"anchor_from": "top_middle",
+				"offset": [0, "65%-4px"],
+				"size": [24, 30],
+				"layer": 10,
+				"$button_content": "crafting_pocket.auto_crafting_arrow_down",
+				"$pressed_button_name": "button.crafting_output_tertiary",
+				"property_bag": {
+				  "#collection_name": "crafting_output_items",
+				  "#collection_index": 0
+				}
+			  }
+			}
+		  ]
+		}
+	  ]
+	}
+  }

@@ -1,0 +1,515 @@
+{
+  "format_version": [1, 1, 0],
+
+  "trapped_chest": {
+    "textures": {
+      "up": "trapped_chest_inventory_top",
+      "down": "trapped_chest_inventory_top",
+      "north": "trapped_chest_inventory_side",
+      "south": "trapped_chest_inventory_front",
+      "west": "trapped_chest_inventory_side",
+      "east": "trapped_chest_inventory_side"
+    },
+    "sound": "wood"
+  },
+
+  "obsidian": {
+    "isotropic": false,
+    "textures": "obsidian",
+    "brightness_gamma": 2.50,
+    "sound": "stone"
+  },
+  
+  "calibrated_sculk_sensor": {
+    "textures": {
+      "up": "calibrated_sculk_sensor_top",
+      "down": "sculk_sensor_bottom",
+      "north": "calibrated_sculk_sensor_side",
+      "east": "calibrated_sculk_sensor_side",
+      "west": "calibrated_sculk_sensor_side",
+      "south": "calibrated_sculk_sensor_input_side"
+    },
+    "carried_textures": {
+      "up": "sculk_sensor_tendril_inactive",
+      "down": "sculk_sensor_tendril_inactive",
+      "east": "sculk_sensor_tendril_active",
+      "west": "sculk_sensor_tendril_active",
+      "north": "sculk_sensor_tendril_active",
+      "south": "calibrated_sculk_sensor_amethyst"
+    },
+    "sound": "sculk_sensor"
+  },
+
+  // infested blocks 虫蚀方块 //
+
+  "infested_deepslate": {
+    "isotropic": {
+      "up": true,
+      "down": true
+    },
+    "textures": {
+      "up": "infested_deepslate_top",
+      "down": "infested_deepslate_top",
+      "side": "infested_deepslate"
+    },
+    "sound": "deepslate"
+  },
+  "monster_egg": {
+    "textures": "monster_egg",
+    "sound": "stone"
+  },
+
+  // Show pressure plate 压力板显示 //
+
+  "acacia_pressure_plate": {
+    "sound": "wood",
+    "textures": "acacia_pressure_plate"
+  },
+  "bamboo_pressure_plate": {
+    "sound": "bamboo_wood",
+    "textures": "bamboo_pressure_plate"
+  },
+  "birch_pressure_plate": {
+    "sound": "wood",
+    "textures": "birch_pressure_plate"
+  },
+  "cherry_pressure_plate": {
+    "sound": "cherry_wood",
+    "textures": "cherry_pressure_plate"
+  },
+  "crimson_pressure_plate": {
+    "sound": "nether_wood",
+    "textures": "crimson_pressure_plate"
+  },
+  "dark_oak_pressure_plate": {
+    "sound": "wood",
+    "textures": "dark_oak_pressure_plate"
+  },
+  "jungle_pressure_plate": {
+    "sound": "wood",
+    "textures": "jungle_pressure_plate"
+  },
+  "mangrove_pressure_plate": {
+    "sound": "wood",
+    "textures": "mangrove_pressure_plate"
+  },
+  "pale_oak_pressure_plate": {
+    "sound": "wood",
+    "textures": "pale_oak_pressure_plate"
+  },
+  "spruce_pressure_plate": {
+    "sound": "wood",
+    "textures": "spruce_pressure_plate"
+  },
+  "warped_pressure_plate": {
+    "sound": "nether_wood",
+    "textures": "warped_pressure_plate"
+  },
+  "wooden_pressure_plate": {
+    "sound": "wood",
+    "textures": "wooden_pressure_plate"
+  },
+  "stone_pressure_plate": {
+    "sound": "stone",
+    "textures": "stone_pressure_plate"
+  },
+  "polished_blackstone_pressure_plate": {
+    "sound": "stone",
+    "textures": "polished_blackstone_pressure_plate"
+  },
+  "heavy_weighted_pressure_plate": {
+    "textures": "heavy_weighted_pressure_plate"
+  },
+  "light_weighted_pressure_plate": {
+    "sound": "metal",
+    "textures": "light_weighted_pressure_plate"
+  },
+
+  // Redstone element 红石显示 //
+
+  "observer": {
+    "textures": {
+      "up": "observer_top",
+      "down": "observer_bottom",
+      "north": "observer_north",
+      "south": "observer_south",
+      "west": "observer_west",
+      "east": "observer_east"
+    },
+    "sound": "metal"
+  },
+  "sticky_piston": {
+    "textures": {
+      "up": "piston_inner_sticky",
+      "down": "piston_bottom_sticky",
+      "side": "piston_side_sticky"
+    },
+    "carried_textures": {
+      "up": "piston_top_sticky",
+      "down": "piston_bottom_sticky",
+      "side": "piston_side_sticky"
+    },
+    "sound": "stone"
+  },
+  "hopper": {
+    "textures": {
+      "up": "hopper_top",
+      "down": "hopper_inside",
+      "north": "hopper_outside_north",
+      "south": "hopper_outside_south",
+      "west": "hopper_outside_west",
+      "east": "hopper_outside_east"
+    },
+    "sound": "metal"
+  },
+
+  // Waxed copper 打蜡铜块 //
+
+  "waxed_copper": {
+    "isotropic": false,
+    "textures": "waxed_copper_block",
+    "sound": "copper"
+  },
+  "waxed_exposed_copper": {
+    "isotropic": false,
+    "textures": "waxed_exposed_copper",
+    "sound": "copper"
+  },
+  "waxed_weathered_copper": {
+    "isotropic": false,
+    "textures": "waxed_weathered_copper",
+    "sound": "copper"
+  },
+  "waxed_oxidized_copper": {
+    "isotropic": false,
+    "textures": "waxed_oxidized_copper",
+    "sound": "copper"
+  },
+  "waxed_cut_copper": {
+    "isotropic": false,
+    "textures": "waxed_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_exposed_cut_copper": {
+    "isotropic": false,
+    "textures": "waxed_exposed_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_weathered_cut_copper": {
+    "isotropic": false,
+    "textures": "waxed_weathered_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_oxidized_cut_copper": {
+    "isotropic": false,
+    "textures": "waxed_oxidized_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_cut_copper_stairs": {
+    "isotropic": false,
+    "textures": "waxed_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_exposed_cut_copper_stairs": {
+    "isotropic": false,
+    "textures": "waxed_exposed_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_weathered_cut_copper_stairs": {
+    "isotropic": false,
+    "textures": "waxed_weathered_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_oxidized_cut_copper_stairs": {
+    "isotropic": false,
+    "textures": "waxed_oxidized_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_cut_copper_slab": {
+    "isotropic": false,
+    "textures": "waxed_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_exposed_cut_copper_slab": {
+    "isotropic": false,
+    "textures": "waxed_exposed_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_weathered_cut_copper_slab": {
+    "isotropic": false,
+    "textures": "waxed_weathered_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_oxidized_cut_copper_slab": {
+    "isotropic": false,
+    "textures": "waxed_oxidized_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_double_cut_copper_slab": {
+    "isotropic": false,
+    "textures": "waxed_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_exposed_double_cut_copper_slab": {
+    "isotropic": false,
+    "textures": "waxed_exposed_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_weathered_double_cut_copper_slab": {
+    "isotropic": false,
+    "textures": "waxed_weathered_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_oxidized_double_cut_copper_slab": {
+    "isotropic": false,
+    "textures": "waxed_oxidized_cut_copper",
+    "sound": "copper"
+  },
+  "waxed_chiseled_copper": {
+    "textures": "waxed_chiseled_copper",
+    "sound": "copper"
+  },
+  "waxed_exposed_chiseled_copper": {
+    "textures": "waxed_exposed_chiseled_copper",
+    "sound": "copper"
+  },
+  "waxed_oxidized_chiseled_copper": {
+    "textures": "waxed_oxidized_chiseled_copper",
+    "sound": "copper"
+  },
+  "waxed_weathered_chiseled_copper": {
+    "textures": "waxed_weathered_chiseled_copper",
+    "sound": "copper"
+  },
+  "waxed_copper_grate": {
+    "textures": "waxed_copper_grate",
+    "sound": "copper_grate"
+  },
+  "waxed_exposed_copper_grate": {
+    "textures": "waxed_exposed_copper_grate",
+    "sound": "copper_grate"
+  },
+  "waxed_weathered_copper_grate": {
+    "textures": "waxed_weathered_copper_grate",
+    "sound": "copper_grate"
+  },
+  "waxed_oxidized_copper_grate": {
+    "textures": "waxed_oxidized_copper_grate",
+    "sound": "copper_grate"
+  },
+  "waxed_copper_bulb": {
+    "isotropic": false,
+    "textures": "waxed_copper_bulb",
+    "sound": "copper_bulb"
+  },
+  "waxed_exposed_copper_bulb": {
+    "isotropic": false,
+    "textures": "waxed_exposed_copper_bulb",
+    "sound": "copper_bulb"
+  },
+  "waxed_weathered_copper_bulb": {
+    "isotropic": false,
+    "textures": "waxed_weathered_copper_bulb",
+    "sound": "copper_bulb"
+  },
+  "waxed_oxidized_copper_bulb": {
+    "isotropic": false,
+    "textures": "waxed_oxidized_copper_bulb",
+    "sound": "copper_bulb"
+  },
+  "waxed_copper_door": {
+    "textures": {
+      "up": "waxed_copper_door_bottom",
+      "down": "waxed_copper_door_bottom",
+      "side": "waxed_copper_door_top"
+    },
+    "sound": "copper"
+  },
+  "waxed_exposed_copper_door": {
+    "textures": {
+      "up": "waxed_exposed_copper_door_bottom",
+      "down": "waxed_exposed_copper_door_bottom",
+      "side": "waxed_exposed_copper_door_top"
+    },
+    "sound": "copper"
+  },
+  "waxed_weathered_copper_door": {
+    "textures": {
+      "up": "waxed_weathered_copper_door_bottom",
+      "down": "waxed_weathered_copper_door_bottom",
+      "side": "waxed_weathered_copper_door_top"
+    },
+    "sound": "copper"
+  },
+  "waxed_oxidized_copper_door": {
+    "textures": {
+      "up": "waxed_oxidized_copper_door_bottom",
+      "down": "waxed_oxidized_copper_door_bottom",
+      "side": "waxed_oxidized_copper_door_top"
+    },
+    "sound": "copper"
+  },
+  "waxed_copper_trapdoor": {
+    "textures": "waxed_copper_trapdoor",
+    "sound": "copper"
+  },
+  "waxed_exposed_copper_trapdoor": {
+    "textures": "waxed_exposed_copper_trapdoor",
+    "sound": "copper"
+  },
+  "waxed_weathered_copper_trapdoor": {
+    "textures": "waxed_weathered_copper_trapdoor",
+    "sound": "copper"
+  },
+  "waxed_oxidized_copper_trapdoor": {
+    "textures": "waxed_oxidized_copper_trapdoor",
+    "sound": "copper"
+  },
+  /*
+  "waxed_copper_chest": {
+    "textures": {
+      "up": "waxed_copper_chest_inventory_top",
+      "down": "waxed_copper_chest_inventory_top",
+      "north": "waxed_copper_chest_inventory_side",
+      "south": "waxed_copper_chest_inventory_front",
+      "west": "waxed_copper_chest_inventory_side",
+      "east": "waxed_copper_chest_inventory_side"
+    },
+    "sound": "copper_chest"
+  },
+  "waxed_exposed_copper_chest": {
+    "textures": {
+      "up": "waxed_exposed_copper_chest_inventory_top",
+      "down": "waxed_exposed_copper_chest_inventory_top",
+      "north": "waxed_exposed_copper_chest_inventory_side",
+      "south": "waxed_exposed_copper_chest_inventory_front",
+      "west": "waxed_exposed_copper_chest_inventory_side",
+      "east": "waxed_exposed_copper_chest_inventory_side"
+    },
+    "sound": "copper_chest"
+  },
+  "waxed_weathered_copper_chest": {
+    "textures": {
+      "up": "waxed_weathered_copper_chest_inventory_top",
+      "down": "waxed_weathered_copper_chest_inventory_top",
+      "north": "waxed_weathered_copper_chest_inventory_side",
+      "south": "waxed_weathered_copper_chest_inventory_front",
+      "west": "waxed_weathered_copper_chest_inventory_side",
+      "east": "waxed_weathered_copper_chest_inventory_side"
+    },
+    "sound": "copper_chest_weathered"
+  },
+  "waxed_oxidized_copper_chest": {
+    "textures": {
+      "up": "waxed_oxidized_copper_chest_inventory_top",
+      "down": "waxed_oxidized_copper_chest_inventory_top",
+      "north": "waxed_oxidized_copper_chest_inventory_side",
+      "south": "waxed_oxidized_copper_chest_inventory_front",
+      "west": "waxed_oxidized_copper_chest_inventory_side",
+      "east": "waxed_oxidized_copper_chest_inventory_side"
+    },
+    "sound": "copper_chest_oxidized"
+  },
+  */
+  // Sound fix 声音修复 //
+
+  "bell": {
+    "sound": "anvil"
+  },
+  "chorus_plant": {
+    "sound": "wood"
+  },
+  "chorus_flower": {
+    "sound": "wood"
+  },
+  "fire": {
+    "sound": "cloth"
+  },
+  "soul_fire": {
+    "sound": "cloth"
+  },
+  "chiseled_nether_bricks": {
+    "sound": "nether_brick"
+  },
+  "cracked_nether_bricks": {
+    "sound": "nether_brick"
+  },
+  "red_nether_brick_double_slab": {
+    "sound": "nether_brick"
+  },
+  "red_nether_brick_slab": {
+    "sound": "nether_brick"
+  },
+  "red_nether_brick_wall": {
+    "sound": "nether_brick"
+  },
+  "gilded_blackstone": {
+    "sound": "nether_gold_ore"
+  },
+  "tube_coral": {
+    "sound": "coral"
+  },
+  "brain_coral": {
+    "sound": "coral"
+  },
+  "bubble_coral": {
+    "sound": "coral"
+  },
+  "fire_coral": {
+    "sound": "coral"
+  },
+  "horn_coral": {
+    "sound": "coral"
+  },
+  "tube_coral_fan": {
+    "sound": "coral"
+  },
+  "brain_coral_fan": {
+    "sound": "coral"
+  },
+  "bubble_coral_fan": {
+    "sound": "coral"
+  },
+  "fire_coral_fan": {
+    "sound": "coral"
+  },
+  "horn_coral_fan": {
+    "sound": "coral"
+  },
+  "tube_coral_block": {
+    "sound": "coral"
+  },
+  "brain_coral_block": {
+    "sound": "coral"
+  },
+  "bubble_coral_block": {
+    "sound": "coral"
+  },
+  "fire_coral_block": {
+    "sound": "coral"
+  },
+  "horn_coral_block": {
+    "sound": "coral"
+  },
+  "tube_coral_wall_fan": {
+    "sound": "coral"
+  },
+  "brain_coral_wall_fan": {
+    "sound": "coral"
+  },
+  "bubble_coral_wall_fan": {
+    "sound": "coral"
+  },
+  "fire_coral_wall_fan": {
+    "sound": "coral"
+  },
+  "horn_coral_wall_fan": {
+    "sound": "coral"
+  },
+  "bee_nest": {
+    "sound": "wood"
+  },
+  "beehive": {
+    "sound": "wood"
+  }
+}

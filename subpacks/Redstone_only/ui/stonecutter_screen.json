@@ -1,0 +1,55 @@
+{
+  //自动合成
+	"auto_crafting_arrow": {
+		"type": "image",
+		"layer": 5,
+		"texture": "textures/ui/arrow",
+		"anchor_from": "top_middle",
+		"anchor_to": "top_middle",
+		"size": [ 22, 15 ],
+		"offset": [ 0, 0 ]
+	},
+  "arrow_icon": {
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": [
+          {
+            "stonecutter_auto_crafting_icon@stonecutter.stonecutter_auto_crafting": {
+						  "size": [ 26, 22 ],
+              "offset": [ 0, -5 ]
+            }
+          }
+				]
+			}
+		]
+	},
+  "stonecutter_auto_crafting@common_buttons.light_content_button": {
+    "size": [ 26, 22 ],
+		"offset": [ 0, 0 ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "$button_content": "stonecutter.auto_crafting_arrow",
+    "property_bag": {
+      "#collection_name": "stonecutter_result_items",
+      "#collection_index": 0
+    },
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.container_auto_place",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "button.container_auto_place",
+        "mapping_type": "pressed"
+      }
+    ]
+  },
+  //去掉问号
+  "help_button": {
+    "ignored": true
+  }
+}

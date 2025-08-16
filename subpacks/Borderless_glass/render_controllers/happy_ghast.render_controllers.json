@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.happy_ghast_bandage": {
+      "arrays": {
+        "textures": {
+          "Array.bandage_states": [
+            "Texture.bandage_danger",  // 0-30%血量
+            "Texture.bandage",        // 30-75%血量
+            "Texture.default"         // 75-100%血量
+          ]
+        }
+      },
+      "geometry": "Geometry.bandage",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ 
+        "Array.bandage_states[query.health / query.max_health < 0.30 ? 0 : (query.health / query.max_health < 0.75 ? 1 : 2)]"
+      ]
+    }
+  }
+}

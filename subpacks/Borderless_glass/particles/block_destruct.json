@@ -1,0 +1,77 @@
+{
+    "format_version": "1.10.0",
+    "particle_effect": {
+        "description": {
+            "identifier": "minecraft:block_destruct",
+            "basic_render_parameters": {
+                "material": "particles_blend",
+                "texture": "atlas.terrain"
+            }
+        },
+        "components": {
+            // 感谢 @邹陈云飞 提供的算法和Eletron ProCoress提供的算法优化
+            "minecraft:emitter_initialization": {
+                "creation_expression": "v.bush = Math.round(10 * v.emitter_intensity) == 20; v.RSV = v.color.r >= 0.29 && v.color.g <= 0.21 && v.color.b == 0; v.signal = Math.floor(Math.max(0, v.color.r * 25 - 9.5));"
+            },
+            "minecraft:emitter_rate_instant": {
+                "num_particles": "v.RSV && v.bush ? 1 : (variable.emitter_intensity * variable.emitter_intensity * variable.emitter_intensity)"
+            },
+            "minecraft:emitter_lifetime_once": {
+                "active_time": 0
+            },
+            "minecraft:emitter_shape_point": {
+                "offset": [
+                    "(!(v.RSV && v.bush)) ? Math.random(-v.emitter_radius, v.emitter_radius)",
+                    "(v.RSV || v.bush) ? 0.2 : (v.bush ? 0.5) + Math.random(-v.emitter_radius, v.emitter_radius)",
+                    "(!(v.RSV && v.bush)) ? Math.random(-v.emitter_radius, v.emitter_radius)"
+                ],
+                "direction": [
+                    "(!(v.RSV && v.bush)) ? Math.random(-1, 1)",
+                    "(!(v.RSV && v.bush)) ? 1",
+                    "(!(v.RSV && v.bush)) ? Math.random(-1, 1)"
+                ]
+            },
+            "minecraft:particle_initial_speed": "Math.random(0, 4) * variable.velocity_scalar",
+            "minecraft:particle_lifetime_expression": {
+                "max_lifetime": "(v.RSV && v.bush) ? 10 : 0.2 / (Math.random(0.0, 1.0) * 0.875 + 0.15)"
+            },
+            "minecraft:particle_motion_dynamic": {
+                "linear_acceleration": [ 0, "(v.RSV && v.bush) ? 0.01 : -9.8", 0 ],
+                "linear_drag_coefficient": 0.5
+            },
+            "minecraft:particle_motion_collision": {
+                "coefficient_of_restitution": 0.1,
+                "collision_drag": 5,
+                "collision_radius": 0.1
+            },
+            "minecraft:particle_appearance_billboard": {
+                "size": [
+                    "(v.RSV && v.bush ? 0.25 : 0.0625) * (1 - Math.pow(v.particle_age / v.particle_lifetime, 32))",
+                    "(v.RSV && v.bush ? 0.25 : 0.0625) * (1 - Math.pow(v.particle_age / v.particle_lifetime, 32))"
+                ],
+                "facing_camera_mode": "lookat_xyz",
+                "uv": {
+                    "texture_width": 1,
+                    "texture_height": 1,
+                    "uv": [
+                        "v.emitter_texture_coordinate.u + (v.RSV ? (v.bush ? Math.mod(v.signal, 8) : (v.particle_random_1 > 0.5)) : Math.trunc(v.particle_random_1 * 3.9)) * (v.emitter_texture_size.u / 8)",
+                        "v.emitter_texture_coordinate.v + (v.RSV ? (v.bush ? (v.signal > 7) : (v.particle_random_2 > 0.5) + 6) : Math.trunc(v.particle_random_2 * 3.9)) * (v.emitter_texture_size.v / 8)"
+                    ],
+                    "uv_size": [
+                        "v.emitter_texture_size.u / (v.RSV && v.bush ? 8 : 4)",
+                        "v.emitter_texture_size.v / (v.RSV && v.bush ? 8 : 4)"
+                    ]
+                }
+            },
+            "minecraft:particle_appearance_tinting": {
+                "color": [
+                    "v.RSV && v.bush ? 1 : variable.color.r",
+                    "v.RSV && v.bush ? 1 : variable.color.g",
+                    "v.RSV && v.bush ? 1 : variable.color.b",
+                    "Math.min(1, -14 * ((v.particle_age / v.particle_lifetime) - 1.01))"
+                ]
+            },
+            "minecraft:particle_appearance_lighting": {}
+        }
+    }
+}

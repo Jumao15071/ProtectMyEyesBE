@@ -1,0 +1,22 @@
+{
+  "blast_furnace_panel@furnace.furnace_panel": {
+    "$bg_texture": "textures/ui/container_blast_furnace"
+  },
+
+  "blast_furnace_screen": {
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_content": "blast_furnace.blast_furnace_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
+      },
+      {
+        "requires": "$pocket_screen",
+        "$screen_content": "furnace_pocket.furnace_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
+      }
+    ]
+  }
+}

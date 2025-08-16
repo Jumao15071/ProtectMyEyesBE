@@ -1,0 +1,156 @@
+{
+  // highlight chest name //
+  "chest_label": {
+    "type": "label",
+    "offset": [7, -1],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "text": "$container_title",
+    "size": [ "90%", "default" ],
+    "color": [0.9, 0.9, 0.9],
+    "layer": 4
+  },
+
+  "bg_image": {
+    "type": "image"
+  },
+
+  // small chest background 小箱子背景//
+  "small_chest_panel/root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": {
+          "bg@chest.bg_image":{
+            "texture": "$bg_texture",
+            "$bg_texture|default": "textures/ui/container_small_chest",
+            "fill": true,
+            "layer": 3
+          }
+        }
+      },
+      {
+        "control_name": "common_panel",
+        "operation": "remove"
+      },
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": {
+          "close_button_panel": {
+            "type": "panel",
+            "size": [ "100%c", "100%" ],
+            "anchor_from": "top_right",
+            "anchor_to": "top_right",
+            "bindings": [],
+            "controls": [
+              {
+                "close_button@common.light_close_button": {
+                  "size": [22, 22],
+                  "offset": [0, 1],
+                  "anchor_from": "top_right",
+                  "anchor_to": "top_right"  
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+
+  // large chest background 大箱子背景//
+  "large_chest_panel/root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": {
+          "bg@chest.bg_image":{
+            "texture": "$bg_texture",
+            "$bg_texture|default": "textures/ui/container_large_chest",
+            "fill": true,
+            "layer": 3
+          }
+        }
+      },
+      {
+        "control_name": "common_panel",
+        "operation": "remove"
+      },
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": {
+          "close_button_panel": {
+            "type": "panel",
+            "size": ["100%c", "100%"],
+            "anchor_from": "top_right",
+            "anchor_to": "top_right",
+            "bindings": [],
+            "controls": [
+              {
+                "close_button@common.light_close_button": {
+                  "size": [22, 22],
+                  "offset": [0, 1],
+                  "anchor_from": "top_right",
+                  "anchor_to": "top_right"  
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+
+  // ender chest bg 末影箱背景 //
+  "ender_chest_panel@chest.small_chest_panel": {
+    "$bg_texture": "textures/ui/container_ender_chest"
+  },
+
+  // shulker_box bg 潜影盒背景 //
+  "shulker_box_panel@chest.small_chest_panel": {
+    "$bg_texture": "textures/ui/container_shulker_box"
+  },
+
+  // barrel bg 木桶背景 //
+  "barrel_panel@chest.small_chest_panel": {
+    "$bg_texture": "textures/ui/container_barrel"
+  },
+
+  // Quick pick //
+
+  "large_chest_panel/root_panel/chest_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "chest_quickmove@quickmove.quickmove": {
+              "ignored": "($is_quick_handling or $use_quick_craft_button or $rainbowpieui_bool)",//兼容快速搬运
+              "$is_large_chest": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "small_chest_panel/root_panel/chest_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "chest_quickmove@quickmove.quickmove": {
+              "ignored": "($is_quick_handling or $use_quick_craft_button or $rainbowpieui_bool)"//兼容快速搬运
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

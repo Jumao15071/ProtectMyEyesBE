@@ -1,0 +1,22 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers": {
+		"controller.animation.marker": {
+			"initial_state": "particle_off",
+			"states": {
+				"particle_off": {
+					"transitions": [
+						{
+							"particle_on": "query.life_time<0.1&&!query.is_moving"
+						}
+					]
+				},
+				"particle_on": {
+					"particle_effects": [
+						{ "effect": "position_marker" }
+					]
+				}
+			}
+		}
+	}
+}

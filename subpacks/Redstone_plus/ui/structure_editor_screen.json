@@ -1,0 +1,55 @@
+{
+  // Mobile Device Export & Load Panel Viewer //
+
+  "button_panel_wrapper/panel/save_panel": {
+    "modifications": [  
+      {      
+        "array_name": "ignored",
+        "where": {"ignored": "(not $file_picking_supported)"},
+        "operation": "remove"
+      }
+    ]
+  },
+  "button_panel_wrapper/panel/corner_panel": {
+    "modifications": [  
+      {      
+        "array_name": "ignored",
+        "where": {"ignored": "(not $file_picking_supported)"},
+        "operation": "remove"
+      }
+    ]
+  },
+  "button_panel_wrapper/panel/load_panel": {
+    "modifications": [  
+      {      
+        "array_name": "ignored",
+        "where": {"ignored": "(not $file_picking_supported)"},
+        "operation": "remove"
+      }
+    ]
+  },
+  "button_panel_wrapper/panel/3d_export_panel": {
+    "modifications": [  
+      {      
+        "array_name": "ignored",
+        "where": {"ignored": "(not $3DExport_support)"},
+        "operation": "remove"
+      }
+    ]
+  },
+  "button_panel_wrapper/panel/data_panel": {
+    "modifications": [  
+      {      
+        "array_name": "ignored",
+        "where": {"ignored": "(not $data_support)"},
+        "operation": "remove"
+      }
+    ]
+  },
+  "button_panel_wrapper/panel/save_panel_no_export": {
+    "ignored": true
+  },
+  "button_panel_wrapper/panel/load_panel_no_export": {
+    "ignored": true
+  }
+}

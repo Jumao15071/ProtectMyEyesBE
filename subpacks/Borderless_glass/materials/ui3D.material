@@ -1,0 +1,16 @@
+{
+    "selection_box": {
+      "+defines": [ "LINE_STRIP" ],
+      "primitiveMode": "Line",
+
+      "depthFunc": "LessEqual",
+      "vertexShader": "shaders/selection_box.vertex",
+      "vrGeometryShader": "shaders/position.geometry",
+      "fragmentShader": "shaders/selection_box.fragment",
+      "vertexFields": [
+        { "field": "Position" }
+      ],
+
+      "msaaSupport": "Both"
+    }
+}

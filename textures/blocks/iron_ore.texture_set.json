@@ -1,0 +1,7 @@
+﻿{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "iron_ore",
+        "metalness_emissive_roughness": "iron_ore_mers"
+    }
+}

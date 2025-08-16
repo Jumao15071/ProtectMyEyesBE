@@ -1,0 +1,23 @@
+{
+  // Close Button Placeholder //
+
+  "toolbar_panel/toolbar_background/toolbar_stack_panel": {
+    "modifications": [  
+      {
+        "control_name": "close_button_panel",
+        "operation": "insert_before",
+        "value": {        
+          "placeholder@common.empty_panel": {
+            "size": [ 15, "100%" ]
+          }
+        }
+      }
+    ]
+  },
+
+  // Remove Help Button //
+
+  "help_button": {
+    "ignored": true
+  }
+}

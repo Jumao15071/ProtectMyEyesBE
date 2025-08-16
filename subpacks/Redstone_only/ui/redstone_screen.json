@@ -1,0 +1,32 @@
+{
+  "panel/root_panel/redstone_screen_inventory": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "container_quickmove@quickmove.quickmove": {
+              "ignored": "($is_quick_handling or $use_quick_craft_button or $rainbowpieui_bool)",//兼容快速搬运
+              "$is_large_chest": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "hopper_screen": {
+    "$is_container_nine": false,
+    "$is_container_five": true
+  },
+
+  "dropper_screen": {
+    "$is_container_nine": true,
+    "$is_container_five": false
+  },
+
+  "dispenser_screen": {
+    "$is_container_nine": true,
+    "$is_container_five": false
+  }
+}

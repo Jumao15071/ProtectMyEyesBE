@@ -1,0 +1,34 @@
+{
+    //自动合成
+	"auto_crafting_arrow": {
+		"type": "image",
+		"layer": 5,
+		"texture": "textures/ui/arrow_down_large",
+		"anchor_from": "top_middle",
+		"anchor_to": "top_middle",
+		"size": [ 15, 22 ],
+		"offset": [ 0, 0 ]
+	},
+  "vertical_arrow_icon": {
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": [
+          {
+            "stonecutter_auto_crafting_icon@stonecutter_pocket.stonecutter_auto_crafting": {
+						  "size": [ 24, 28 ],
+              "offset": [ 0, -2 ]
+            }
+          }
+				]
+			}
+		]
+	},
+
+  "stonecutter_auto_crafting@stonecutter.stonecutter_auto_crafting": {
+    "size": [ 15, 22 ],
+		"offset": [ 0, 0 ],
+    "$button_content": "stonecutter_pocket.auto_crafting_arrow"
+  }
+}

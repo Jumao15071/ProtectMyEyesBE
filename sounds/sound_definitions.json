@@ -1,0 +1,103 @@
+{
+  "entity.player.attack.crit": {
+    "max_distance": 16.0,
+    "sounds": [
+      "sounds/critical_attack/Critical_attack1",
+      "sounds/critical_attack/Critical_attack2",
+      "sounds/critical_attack/Critical_attack3"
+    ]
+  },
+  "item.trident.hit_ground": {
+    "max_distance": 6.0,
+    "sounds": [
+      {
+        "name": "sounds/item/trident/ground_impact1",
+        "volume": 0.1,
+        "pitch": 1
+      },
+      {
+        "name": "sounds/item/trident/ground_impact2",
+        "volume": 0.1,
+        "pitch": 1
+      },
+      {
+        "name": "sounds/item/trident/ground_impact3",
+        "volume": 0.1,
+        "pitch": 1
+      },
+      {
+        "name": "sounds/item/trident/ground_impact4",
+        "volume": 0.1,
+        "pitch": 1
+      }
+    ]
+  },
+  "item.trident.hit": {
+    "max_distance": 6.0,
+    "sounds": [
+      {
+        "name": "sounds/item/trident/pierce1",
+        "volume": 0.1,
+        "pitch": 1
+      },
+      {
+        "name": "sounds/item/trident/pierce2",
+        "volume": 0.1,
+        "pitch": 1
+      },
+      {
+        "name": "sounds/item/trident/pierce3",
+        "volume": 0.1,
+        "pitch": 1
+      }
+    ]
+  },
+  // dropper and dispenser //
+  "block.click": {
+    "category": "block",
+    "max_distance": 8.0,
+    "sounds": [
+      {
+        "name": "sounds/random/click",
+        "volume": 0.3
+      }
+    ]
+  },
+  "tile.piston.in": {
+    "category": "block",
+    "max_distance": 8.0,
+    "sounds": [
+      {
+        "name": "sounds/tile/piston/in",
+        "volume": 0.3
+      }
+    ]
+  },
+  "tile.piston.out": {
+    "category": "block",
+    "max_distance": 8.0,
+    "sounds": [
+      {
+        "name": "sounds/tile/piston/out",
+        "volume": 0.3
+      }
+    ]
+  },
+  "portal.travel": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "sounds/portal/travel",
+        "volume": 0.2
+      }
+    ]
+  },
+  "random.chestclosed": {
+    "category": "block",
+    "sounds": [
+      "sounds/chest/chest_close1",
+      "sounds/chest/chest_close2",
+      "sounds/chest/chest_close3"
+    ]
+  }
+}

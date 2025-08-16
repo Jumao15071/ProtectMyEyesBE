@@ -1,0 +1,8 @@
+﻿dabu.ui.trade2.tradeall=Comerciar todo	#
+dabu.ui.export_template_warning=Se recomienda usar plantillas al exportar mundos; las plantillas pueden bloquear la versión del mapa (usar con precaución)	#
+dabu.ui.vsync_option_warning=Desactivar V-Sync elimina el límite de FPS.	#
+dabu.chestpickin=Guardar objetos	#
+dabu.chestpickup=Retirar objetos	#
+dabu.chestdropall=Doble clic para soltar todos los objetos	#
+dabu.createWorldScreen.commands=Permitir comandos	#
+dabu.createWorldScreen.perfectweather=Clima perfecto	#

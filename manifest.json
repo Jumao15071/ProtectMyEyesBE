@@ -1,0 +1,141 @@
+{
+  "format_version": 2,
+  
+  "header": {
+
+    "name": "§b护眼大补丸1.21 快乐恶魂v9",
+
+    "description": "Minecraft Utility Resource Pack\n§c§e§o§7B站作者@黑山大叔 @橘猫sama\n§6点击齿轮可选择不同预设的子包",
+
+    "uuid": "3a790b10-68e6-44cb-8278-a940e299a0b1",
+
+    "version": [ 1, 7, 10 ],
+
+    "min_engine_version": [ 1, 13, 0 ]
+
+  },
+  "modules": [
+    {
+
+      "type": "resources",
+
+      "description": "基岩版纹理与功能移植 @橘猫sama",
+
+      "uuid": "1224020e-7479-4264-b26d-0d7a88e25497",
+
+      "version": [ 1, 7, 10 ]
+
+    }
+  ],
+  "metadata": {
+    "authors": [
+
+      "黑山大叔", //Java版项目原作者
+
+      "橘猫sama", //基岩版移植和改进整合
+
+      "茶匙OEOTYAN", //渲染龙和HAL着色器红石信号显示和区块显示功能
+
+      "Eletron ProCoress", //刷子红石信号显示
+
+      "小羊lonel", //音符盒音高显示
+
+      "Mintraspberry Cool", //资源包banner图
+
+      "王2408", //渲染龙着色器优化及文件体积压缩
+
+      "孤独的作者Yuanbao", //铁砧换行功能
+
+      "邹陈云飞Zouchenyunfei" //刷子红石信号显示和振动信号显示
+
+    ],
+    "license": "Attribution-NonCommercial-ShareAlike 4.0 International",
+    "url": "https://space.bilibili.com/37691488"
+  },
+  "subpacks": [
+    {
+      "folder_name": "Borderless_glass",
+      "name": "无缝玻璃模式 [红石功能+无缝玻璃] §6兼容性较好",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "Redstone_only",
+      "name": "功能模式 [不含基础方块格子+红石显示+无缝玻璃] §6兼容性好",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "Redstone_plus",
+      "name": "红石模式 [经典功能+显示投掷器发射器朝向+铁砧换行+村民跨级交易] §6兼容性好",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "NoUI",
+      "name": "格子模式 [只包含基础的方块格子，适配低版本/多资源包] §a兼容性极好",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "JavaOriginal",
+      "name": "Java模式 [完全移植@黑山大叔的纹理] §a兼容性极好",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "Classic",
+      "name": "经典模式 [包含所有基础功能] §6兼容性好",
+      "memory_tier": 5
+    }
+  ],
+  "settings": [
+    {
+      "type": "label",
+      "text": "2025年秋季更新v1.7.10  2025.7.13"
+    },
+    {
+      "type": "label",
+      "text": "功能强大的免费基础资源包"
+    },
+    {
+      "type": "label",
+      "text": ""
+    },
+    {
+      "type": "label",
+      "text": "作者 Bilibili @黑山大叔 @橘猫sama"
+    },
+    {
+      "type": "label",
+      "text": "特别感谢 @OEOTYAN @王2408 @Eletron ProCoress @小羊lonel @孤独的作者 @邹陈云飞"
+    },
+    {
+      "type": "label",
+      "text": "方块描边，高亮选框，红石显示，音符显示，UI辅助，译名修复，纹理修补，护耳护眼"
+    },
+    {
+      "type": "label",
+      "text": "§a现已支持基于渲染龙启动器(MaterialBinLoader)的红石信号显示功能！"
+    },
+    {
+      "type": "label",
+      "text": ""
+    },
+    {
+      "type": "label",
+      "text": "feedbackPopup.title"
+    },
+    {
+      "type": "input",
+      "name": "pack_url1",
+      "text": "B站搜索 @橘猫sama",
+      "default": "https://space.bilibili.com/37691488/"
+    },
+    {
+      "type": "input",
+      "name": "pack_url2",
+      "text": "获取最新版本的资源包",
+      "default": "https://jumao15071.github.io/"
+    },
+    {
+      "type": "label",
+      "text": "QQ群资源及反馈 974425950/723965074"
+    }
+  ]
+}

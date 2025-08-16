@@ -1,0 +1,8 @@
+﻿dabu.ui.trade2.tradeall=すべて取引	#
+dabu.ui.export_template_warning=ワールドをエクスポートする際はテンプレートの使用を推奨します（テンプレートはマップのバージョンを固定します）	#
+dabu.ui.vsync_option_warning=垂直同期（V-Sync）を無効にするとFPS制限が解除されます。	#
+dabu.chestpickin=アイテムを入れる	#
+dabu.chestpickup=アイテムを取り出す	#
+dabu.chestdropall=ダブルクリックでアイテムをすべて捨てる	#
+dabu.createWorldScreen.commands=コマンドを許可	#
+dabu.createWorldScreen.perfectweather=完璧な天気	#
