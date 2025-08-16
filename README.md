@@ -10,7 +10,7 @@
 <br>
 
 
-ProtectMyEyes is a Minecraft functional resource pack created by **@黑山大叔 (@hsds)** and ported to the Bedrock Edition by **@橘猫sama (@Jumao)**.
+ProtectMyEyes is a Minecraft Technical Resource Pack created by **@黑山大叔 (@hsds)** and ported to the Bedrock Edition by **@橘猫sama (@Jumao)**.
 
 ## Main Features
 Adds block outlines for most blocks, helping builders and technical survival players count block distances more easily.
