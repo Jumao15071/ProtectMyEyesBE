@@ -103,10 +103,6 @@ Adds block outlines for most blocks, helping builders and technical survival pla
 
 - Redesigned UI backgrounds (based on OreUI & updated textures).
 
-- Improved NetEase-exclusive buttons/UI, fixed texture bugs.
-
-- Optimized performance:
-
 - Reduced lag from potion/beacon particles.
 
 - Fewer mob death & crop growth particles.
