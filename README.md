@@ -12,105 +12,116 @@
 
 ProtectMyEyes is a Minecraft Technical Resource Pack created by **@黑山大叔 (@hsds)** and ported to the Bedrock Edition by **@橘猫sama (@Jumao)**.
 
+# ProtectMyEyesBE
+
+<br>
+<p align="center">
+<img src="./images/PME_logo.png" alt="drawing" style="width:432px;"/>
+</p>
+
+**[简体中文](./README_zh.md) | English**
+
+<br>
+
+
+ProtectMyEyes is a Minecraft Technical Resource Pack created by **@黑山大叔 (@hsds)** and ported to the Bedrock Edition by **@橘猫sama (@Jumao)**.
+
 ## Main Features
-Adds block outlines for most blocks, helping builders and technical survival players count block distances more easily.
 
-## Additional Features
+**1. Visual Outlines**
+- Adds block outlines for most blocks, helping builders and technical survival players count block distances more easily.
+- Distinguish polished/smooth slab sides
+- Identify crafting table/bookshelf/lectern bottoms
+- Improved smooth stone textures
 
-**1. Redstone Information Display**
+**2. Redstone Information Display**
+- Identify dropper/dispenser/furnace, piston types
+- Distinguish pressure plates, repeater/comparator bottoms
+- Daylight sensor states, anvil damage
+- Crafter, observer facing and power
+- Dropper/dispenser facing (Redstone & Function modes)
+- Observer, hopper power states
+- Sculk vibration trails
+- Note block pitch and hits
+- Brush redstone to check signal strength
+- Chunk borders and redstone signals
+- Requires shader loader for chunk borders under RenderDragon
 
-- Non-Render Dragon versions: Includes chunk borders and redstone signal strength display.
+*Note: Use LeviLauncher or manual pack editing for renderer files*  
+*Note: Ore textures support emissive effects with some shaders*  
+*Note: Redstone display supports 1.21.120 only*
 
-- Render Dragon versions (with shader loaders like BetterRenderDragon or RD Loader): Enables chunk borders, redstone signal display, night vision, light level display, and more.
+**3. Visual Enhancements**
+- White outline on targeted blocks
+- Improved water/lava/Nether fog visibility
+- Highlighted ore borders
+- Glowing ores with Fancy Graphics/Ray Tracing
+- Copper waxed states
+- Amethyst budding blocks and clusters
+- Crops flower when mature
+- Melon/pumpkin stem differences
+- Infested block identification
+- Suspicious sand/gravel differences
+- Banner patterns and spawn eggs (older versions)
+- Clearer explorer maps
+- Ghast bandages at low health
+- Spawn markers for fortress mobs on nether bricks
+- Spawn markers for Pillagers on grass and planks
+- Spawn markers for Guardians in water and prismarine
+- Spawn markers for Witches on jungle planks
 
-- Distinguishes between droppers/dispensers, pistons/sticky pistons, pressure plates, and trapped chests.
+*Note: Particle markers last 20 minutes (Redstone & Function modes)*
 
-- Observers and hoppers display their activation state.
+**4. UI Improvements**
+- Bow charge color indicator
+- Short sword and clear shield (Redstone & Function modes)
+- Quick Crafting support
+- Quick Transfer for containers
+- Villager trade preview and Quick Trade
+- Anvil Multiline Text
+- Structure import/export on mobile
+- Quick Settings panel
+- Nether/End portal backgrounds
+- Updated UI textures
+- Tab completion for commands
+- Click commands in chat
+- Cycle commands with arrows
+- Coordinate copy and paste (NetEase)
+- Magic command support (NetEase)
+- Compact settings layout
+- In-game language switching
+- Fixed translations
+- Multiple language supports
 
-- Brushing redstone dust checks signal strength.
+*Note: Spectator mode doesn't disable commands*  
+*Note: Mobile structure import requires deletion before re-importing*
 
-- Shows sculk block vibration trails.
+**5. Optimizations**
+- Reduced gateway, trident, piston sounds
+- Fixed piston, chest, TNT sounds to match Java
+- Added Creeper footsteps; louder Zombie steps
+- Fixed coral, bell sounds
+- Added critical hit sounds like Java
+- Fixed light block, dragon fireball textures
+- Fixed bed, dye colors
+- Added TGA textures for better performance
+- Dark semi-transparent settings background
+- Improved NetEase UI textures
+- Reduced laggy particles for better performance
+- Java-style TNT explosion particles
+- Clearer health display with Wither effect
+- Transparent pumpkin and spyglass overlays
 
-- Displays note block pitch and activation count.
+*Note: Rewritten entity files compatible with Action&Stuff*
 
-**2. Effective Resource Display**
-
-- Highlighted white borders on selected blocks in outline mode.
-
-- Clear, bright borders around ores.
-
-- Glowing ores when using dynamic visuals or ray tracing.
-
-- Shows waxed copper blocks.
-
-- Highlights budding amethyst and mature amethyst clusters.
-
-- Crops bloom when mature; wheat appears greener before ripening.
-
-- Distinguishes melon/pumpkin stems; non-growing kelp tops bloom.
-
-- Shows infested blocks.
-
-- Highlights suspicious sand/gravel.
-
-- Older versions display banner patterns and spawn egg textures.
-
-- More visible explorer map textures.
-
-- Blazes and wither skeletons spawn locations marked for 10 minutes in nether brick areas.
-
-- Happy ghasts show bandages when injured (low HP indicator).
-
-**3. Enhanced UI Features**
-
-- One-click crafting (supports inventory, crafting table, stonecutter, loom).
-
-- Quick item transfer (dispensers, droppers, hoppers, chests) – select specific items for fast moving.
-
-- Villager trade preview & one-click trading.
-
-- Anvil text wrapping (click expand button before editing).
-
-- Structure block import/export on mobile.
-
-- World/template import/export & disable VSync in settings.
-
-- Enable/disable commands in game settings.
-
-- Tab command autocomplete (chat & command blocks).
-
-- Click-to-autofill commands in chat.
-
-- ↑/↓ to cycle through past commands.
-
-- Optimized NetEase magic command module – improved UI, right-side clicks no longer exit the panel.
-
-**4. Detail Optimizations**
-
-- Reduced sounds (end gateways, tridents, pistons, droppers/dispensers) for hearing protection.
-
-- Fixed piston/chest sounds to match Java Edition.
-
-- Corrected coral, bell, etc., block sound errors.
-
-- Added critical hit sounds (Java parity).
-
-- Fixed textures (beds, light blocks, ender dragon fireballs) to match Java Edition.
-
-- Added TGA textures for better performance & reduced distant blur.
-
-- Fixed Bedrock translation errors (using Wiki-based corrections).
-
-- Redesigned UI backgrounds (based on OreUI & updated textures).
-
-- Reduced lag from potion/beacon particles.
-
-- Fewer mob death & crop growth particles.
-
-- Removed nether portal particles.
-
-- Matched Java Edition’s TNT explosion particles.
-
-- More visible wither effect on player health.
-
-- Pumpkin head & spyglass edges now semi-transparent.
+## Credits
+- **@hsds** - Java Edition Original
+- **@Jumao** - Bedrock Edition Port
+- **@FanfanFufu** - Chinese(traditional) Translations
+- **@Wang2408** - Shader Optimization
+- **@OEOTYAN** - Redstone Display
+- **@Eletron** - Brush Signals
+- **@Lonel** - Note Block Display
+- **@Mintraspberry** - Banner Art
+- **@Yuanbao** - Anvil Multiline Text
+- **@Rainvay** - Vibration Display
