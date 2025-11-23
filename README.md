@@ -9,21 +9,6 @@
 
 <br>
 
-
-ProtectMyEyes is a Minecraft Technical Resource Pack created by **@黑山大叔 (@hsds)** and ported to the Bedrock Edition by **@橘猫sama (@Jumao)**.
-
-# ProtectMyEyesBE
-
-<br>
-<p align="center">
-<img src="./images/PME_logo.png" alt="drawing" style="width:432px;"/>
-</p>
-
-**[简体中文](./README_zh.md) | English**
-
-<br>
-
-
 ProtectMyEyes is a Minecraft Technical Resource Pack created by **@黑山大叔 (@hsds)** and ported to the Bedrock Edition by **@橘猫sama (@Jumao)**.
 
 ## Main Features
