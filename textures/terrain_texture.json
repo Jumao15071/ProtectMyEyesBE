@@ -4,13 +4,132 @@
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
-    // sensor 感测体显示 //
+    // 投掷器&发射器&合成器红石显示 //
+    "crafter_south": {
+      "textures": [
+        "textures/blocks/crafter/crafter_south",
+        "textures/blocks/crafter/crafter_south_triggered",
+        "textures/blocks/crafter/crafter_south_triggered"
+      ]
+    },
+    "crafter_bottom": {
+      "textures": [
+        "textures/blocks/crafter/crafter_bottom",
+        "textures/blocks/crafter/crafter_bottom_triggered",
+        "textures/blocks/crafter/crafter_bottom_triggered"
+      ]
+    },
+    "dispenser_front_horizontal": {
+      "textures": "textures/blocks/specialredstone/dispenser_front_horizontal"
+    },
+    "dispenser_front_vertical": {
+      "textures": "textures/blocks/specialredstone/dispenser_front_vertical"
+    },
+    "dispenser_top": {
+      "textures": "textures/blocks/specialredstone/dispenser_top"
+    },
+    "dispenser_side": {
+      "textures": "textures/blocks/specialredstone/dispenser_side"
+    },
+    "dropper_front_horizontal": {
+      "textures": "textures/blocks/specialredstone/dropper_front_horizontal"
+    },
+    "dropper_front_vertical": {
+      "textures": "textures/blocks/specialredstone/dropper_front_vertical"
+    },
+    "dropper_top": {
+      "textures": "textures/blocks/specialredstone/dropper_top"
+    },
+    "dropper_side": {
+      "textures": "textures/blocks/specialredstone/dropper_side"
+    },
+    // 铁砧显示 //
+    "flattened_anvil_top": {
+      "textures": "textures/blocks/anvil/anvil_top_damaged_0"
+    },
+    "chipped_anvil_top": {
+      "textures": "textures/blocks/anvil/anvil_top_damaged_1"
+    },
+    "damaged_anvil_top": {
+      "textures": "textures/blocks/anvil/anvil_top_damaged_2"
+    },
+    "flattened_anvil_base": {
+      "textures": "textures/blocks/anvil/anvil_base_damaged_0"
+    },
+    "chipped_anvil_base": {
+      "textures": "textures/blocks/anvil/anvil_base_damaged_1"
+    },
+    "damaged_anvil_base": {
+      "textures": "textures/blocks/anvil/anvil_base_damaged_2"
+    },
+    // 木板纹理区分 //
+    "bookshelf_top": {
+      "textures": "textures/blocks/bookshelf_top"
+    },
+    "crafting_table_bottom": {
+      "textures": "textures/blocks/crafting_table_bottom"
+    },
+    "lectern_bottom": {
+      "textures": "textures/blocks/lectern_bottom"
+    },
+    // 熔炉显示 //
+    "furnace_top_off": {
+      "textures": "textures/blocks/furnace_top_off"
+    },
+    "furnace_top_on": {
+      "textures": "textures/blocks/furnace_top_on"
+    },
+    "furnace_side_off": {
+      "textures": "textures/blocks/furnace_side_off"
+    },
+    "furnace_side_on": {
+      "textures": "textures/blocks/furnace_side_on"
+    },
+    // 感测体显示 //
     "calibrated_sculk_sensor_side": {
       "textures": "textures/blocks/calibrated_sculk_sensor_side"
     },
-    // Chest 箱子显示 //
+    // 阳光传感器显示 //
+    "daylight_detector_side": {
+      "textures": "textures/blocks/daylight_detector/daylight_detector_side"
+    },
+    "daylight_detector_top": {
+      "textures": "textures/blocks/daylight_detector/daylight_detector_top"
+    },
+    "daylight_detector_inverted_side": {
+      "textures": "textures/blocks/daylight_detector/daylight_detector_inverted_side"
+    },
+    "daylight_detector_inverted_top": {
+      "textures": "textures/blocks/daylight_detector/daylight_detector_inverted_top"
+    },
+    // 中继器比较器显示 //
+    "comparator_floor_off": {
+      "textures": "textures/blocks/redstone/comparator_floor_off"
+    },
+    "comparator_floor_on": {
+      "textures": "textures/blocks/redstone/comparator_floor_on"
+    },
+    "comparator_up_off": {
+      "textures": "textures/blocks/redstone/comparator_up_off"
+    },
+    "comparator_up_on": {
+      "textures": "textures/blocks/redstone/comparator_up_on"
+    },
+    "repeater_floor_off": {
+      "textures": "textures/blocks/redstone/repeater_floor_off"
+    },
+    "repeater_floor_on": {
+      "textures": "textures/blocks/redstone/repeater_floor_on"
+    },
+    "repeater_up_off": {
+      "textures": "textures/blocks/redstone/repeater_up_off"
+    },
+    "repeater_up_on": {
+      "textures": "textures/blocks/redstone/repeater_up_on"
+    },
+    // 箱子显示 //
     "chest_inventory_top": {
-      "textures": "textures/blocks/chest/chest_inventory_top"  
+      "textures": "textures/blocks/chest/chest_inventory_top"
     },
     "chest_inventory_side": {
       "textures": "textures/blocks/chest/chest_inventory_side"
@@ -27,7 +146,7 @@
     "trapped_chest_inventory_front": {
       "textures": "textures/blocks/chest/trapped_chest_inventory_front"
     },
-    // infested blocks 虫蚀方块 //
+    // 虫蚀方块 //
     "infested_deepslate_top": {
       "textures": "textures/blocks/infested_deepslate_top"
     },
@@ -44,7 +163,7 @@
         "textures/blocks/infested_stone"
       ]
     },
-    // Show pressure plate 压力板显示 //
+    // 压力板显示 //
     "acacia_pressure_plate": {
       "textures": "textures/blocks/plate/acacia_planks_plate"
     },
@@ -93,7 +212,7 @@
     "light_weighted_pressure_plate": {
       "textures": "textures/blocks/plate/gold_block_plate"
     },
-    // Redstone element 红石显示 //
+    // 侦测器显示 //
     "observer_north": {
       "textures": [
         "textures/blocks/observer/observer_front",
@@ -130,6 +249,7 @@
         "textures/blocks/observer/observer_top_lit"
       ]
     },
+    // 黏性活塞显示 //
     "piston_top": {
       "textures": "textures/blocks/piston/piston_inner"
     },
@@ -154,6 +274,7 @@
     "piston_bottom_sticky": {
       "textures": "textures/blocks/piston/piston_bottom_sticky"
     },
+    // 漏斗显示 //
     "hopper_top": {
       "textures": [
         "textures/blocks/hopper/hopper_top_center",
@@ -249,207 +370,6 @@
         "textures/blocks/hopper/hopper_outside_front_powered"
       ]
     },
-    "dispenser_front_horizontal": {
-      "textures": "textures/blocks/specialredstone/dispenser_front_horizontal"
-    },
-    "dispenser_front_vertical": {
-      "textures": "textures/blocks/specialredstone/dispenser_front_vertical"
-    },
-    "dispenser_top": {
-      "textures": "textures/blocks/specialredstone/dispenser_top"
-    },
-    "dispenser_side": {
-      "textures": "textures/blocks/specialredstone/dispenser_side"
-    },
-    "dropper_front_horizontal": {
-      "textures": "textures/blocks/specialredstone/dropper_front_horizontal"
-    },
-    "dropper_front_vertical": {
-      "textures": "textures/blocks/specialredstone/dropper_front_vertical"
-    },
-    "dropper_top": {
-      "textures": "textures/blocks/specialredstone/dropper_top"
-    },
-    "dropper_side": {
-      "textures": "textures/blocks/specialredstone/dropper_side"
-    },
-    // Waxed copper 打蜡铜块 //
-    "waxed_copper_block": {
-      "textures": "textures/blocks/copper/waxed_copper_block"
-    },
-    "waxed_exposed_copper": {
-      "textures": "textures/blocks/copper/waxed_exposed_copper"
-    },
-    "waxed_weathered_copper": {
-      "textures": "textures/blocks/copper/waxed_weathered_copper"
-    },
-    "waxed_oxidized_copper": {
-      "textures": "textures/blocks/copper/waxed_oxidized_copper"
-    },
-    "waxed_cut_copper": {
-      "textures": "textures/blocks/copper/waxed_cut_copper"
-    },
-    "waxed_exposed_cut_copper": {
-      "textures": "textures/blocks/copper/waxed_exposed_cut_copper"
-    },
-    "waxed_weathered_cut_copper": {
-      "textures": "textures/blocks/copper/waxed_weathered_cut_copper"
-    },
-    "waxed_oxidized_cut_copper": {
-      "textures": "textures/blocks/copper/waxed_oxidized_cut_copper"
-    },
-    "waxed_chiseled_copper": {
-      "textures": "textures/blocks/copper/waxed_chiseled_copper"
-    },
-    "waxed_exposed_chiseled_copper": {
-      "textures": "textures/blocks/copper/waxed_exposed_chiseled_copper"
-    },
-    "waxed_oxidized_chiseled_copper": {
-      "textures": "textures/blocks/copper/waxed_oxidized_chiseled_copper"
-    },
-    "waxed_weathered_chiseled_copper": {
-      "textures": "textures/blocks/copper/waxed_weathered_chiseled_copper"
-    },
-    "waxed_copper_grate": {
-      "textures": "textures/blocks/copper/waxed_copper_grate"
-    },
-    "waxed_exposed_copper_grate": {
-      "textures": "textures/blocks/copper/waxed_exposed_copper_grate"
-    },
-    "waxed_weathered_copper_grate": {
-      "textures": "textures/blocks/copper/waxed_weathered_copper_grate"
-    },
-    "waxed_oxidized_copper_grate": {
-      "textures": "textures/blocks/copper/waxed_oxidized_copper_grate"
-    },
-    "waxed_copper_bulb": {
-      "textures": [
-        "textures/blocks/copper/waxed_copper_bulb",
-        "textures/blocks/copper/waxed_copper_bulb_lit",
-        "textures/blocks/copper/waxed_copper_bulb_powered",
-        "textures/blocks/copper/waxed_copper_bulb_lit_powered"
-      ]
-    },
-    "waxed_exposed_copper_bulb": {
-      "textures": [
-        "textures/blocks/copper/waxed_exposed_copper_bulb",
-        "textures/blocks/copper/waxed_exposed_copper_bulb_lit",
-        "textures/blocks/copper/waxed_exposed_copper_bulb_powered",
-        "textures/blocks/copper/waxed_exposed_copper_bulb_lit_powered"
-      ]
-    },
-    "waxed_oxidized_copper_bulb": {
-      "textures": [
-        "textures/blocks/copper/waxed_oxidized_copper_bulb",
-        "textures/blocks/copper/waxed_oxidized_copper_bulb_lit",
-        "textures/blocks/copper/waxed_oxidized_copper_bulb_powered",
-        "textures/blocks/copper/waxed_oxidized_copper_bulb_lit_powered"
-      ]
-    },
-    "waxed_weathered_copper_bulb": {
-      "textures": [
-        "textures/blocks/copper/waxed_weathered_copper_bulb",
-        "textures/blocks/copper/waxed_weathered_copper_bulb_lit",
-        "textures/blocks/copper/waxed_weathered_copper_bulb_powered",
-        "textures/blocks/copper/waxed_weathered_copper_bulb_lit_powered"
-      ]
-    },
-    "waxed_copper_door_top": {
-      "textures": "textures/blocks/copper/waxed_copper_door_top"
-    },
-    "waxed_copper_door_bottom": {
-      "textures": "textures/blocks/copper/waxed_copper_door_bottom"
-    },
-    "waxed_exposed_copper_door_top": {
-      "textures": "textures/blocks/copper/waxed_exposed_copper_door_top"
-    },
-    "waxed_exposed_copper_door_bottom": {
-      "textures": "textures/blocks/copper/waxed_exposed_copper_door_bottom"
-    },
-    "waxed_weathered_copper_door_top": {
-      "textures": "textures/blocks/copper/waxed_weathered_copper_door_top"
-    },
-    "waxed_weathered_copper_door_bottom": {
-      "textures": "textures/blocks/copper/waxed_weathered_copper_door_bottom"
-    },
-    "waxed_oxidized_copper_door_top": {
-      "textures": "textures/blocks/copper/waxed_oxidized_copper_door_top"
-    },
-    "waxed_oxidized_copper_door_bottom": {
-      "textures": "textures/blocks/copper/waxed_oxidized_copper_door_bottom"
-    },
-    "waxed_copper_trapdoor": {
-      "textures": "textures/blocks/copper/waxed_copper_trapdoor"
-    },
-    "waxed_exposed_copper_trapdoor": {
-      "textures": "textures/blocks/copper/waxed_exposed_copper_trapdoor"
-    },
-    "waxed_weathered_copper_trapdoor": {
-      "textures": "textures/blocks/copper/waxed_weathered_copper_trapdoor"
-    },
-    "waxed_oxidized_copper_trapdoor": {
-      "textures": "textures/blocks/copper/waxed_oxidized_copper_trapdoor"
-    },
-    "waxed_copper_chest_inventory_top": {
-      "textures": [
-        "textures/blocks/copper/waxed_copper_chest_inventory_top"
-      ]
-    },
-    "waxed_copper_chest_inventory_side": {
-      "textures": [
-        "textures/blocks/copper/waxed_copper_chest_inventory_side"
-      ]
-    },
-    "waxed_copper_chest_inventory_front": {
-      "textures": [
-        "textures/blocks/copper/waxed_copper_chest_inventory_front"
-      ]
-    },
-    "waxed_exposed_copper_chest_inventory_top": {
-      "textures": [
-        "textures/blocks/copper/waxed_exposed_copper_chest_inventory_top"
-      ]
-    },
-    "waxed_exposed_copper_chest_inventory_side": {
-      "textures": [
-        "textures/blocks/copper/waxed_exposed_copper_chest_inventory_side"
-      ]
-    },
-    "waxed_exposed_copper_chest_inventory_front": {
-      "textures": [
-        "textures/blocks/copper/waxed_exposed_copper_chest_inventory_front"
-      ]
-    },
-    "waxed_weathered_copper_chest_inventory_top": {
-      "textures": [
-        "textures/blocks/copper/waxed_weathered_copper_chest_inventory_top"
-      ]
-    },
-    "waxed_weathered_copper_chest_inventory_side": {
-      "textures": [
-        "textures/blocks/copper/waxed_weathered_copper_chest_inventory_side"
-      ]
-    },
-    "waxed_weathered_copper_chest_inventory_front": {
-      "textures": [
-        "textures/blocks/copper/waxed_weathered_copper_chest_inventory_front"
-      ]
-    },
-    "waxed_oxidized_copper_chest_inventory_top": {
-      "textures": [
-        "textures/blocks/copper/waxed_oxidized_copper_chest_inventory_top"
-      ]
-    },
-    "waxed_oxidized_copper_chest_inventory_side": {
-      "textures": [
-        "textures/blocks/copper/waxed_oxidized_copper_chest_inventory_side"
-      ]
-    },
-    "waxed_oxidized_copper_chest_inventory_front": {
-      "textures": [
-        "textures/blocks/copper/waxed_oxidized_copper_chest_inventory_front"
-      ]
-    },
     // Crops 作物年龄 //
     "kelp_top": {
       "textures": [
@@ -510,6 +430,473 @@
         "textures/blocks/kelp_top_bulb",
         "textures/blocks/kelp_top_age25"
       ]
+    },
+    // 打蜡铜块 //
+    "waxed_copper_block": {
+      "textures": "textures/blocks/copper/waxed_copper_block"
+    },
+    "waxed_exposed_copper": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper"
+    },
+    "waxed_weathered_copper": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper"
+    },
+    "waxed_oxidized_copper": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper"
+    },
+    "waxed_copper_block_carried": {
+      "textures": "textures/blocks/copper/waxed_copper_block_carried"
+    },
+    "waxed_exposed_copper_carried": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_carried"
+    },
+    "waxed_weathered_copper_carried": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_carried"
+    },
+    "waxed_oxidized_copper_carried": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_carried"
+    },
+    "waxed_cut_copper": {
+      "textures": "textures/blocks/copper/waxed_cut_copper"
+    },
+    "waxed_exposed_cut_copper": {
+      "textures": "textures/blocks/copper/waxed_exposed_cut_copper"
+    },
+    "waxed_weathered_cut_copper": {
+      "textures": "textures/blocks/copper/waxed_weathered_cut_copper"
+    },
+    "waxed_oxidized_cut_copper": {
+      "textures": "textures/blocks/copper/waxed_oxidized_cut_copper"
+    },
+    "waxed_cut_copper_carried": {
+      "textures": "textures/blocks/copper/waxed_cut_copper_carried"
+    },
+    "waxed_exposed_cut_copper_carried": {
+      "textures": "textures/blocks/copper/waxed_exposed_cut_copper_carried"
+    },
+    "waxed_weathered_cut_copper_carried": {
+      "textures": "textures/blocks/copper/waxed_weathered_cut_copper_carried"
+    },
+    "waxed_oxidized_cut_copper_carried": {
+      "textures": "textures/blocks/copper/waxed_oxidized_cut_copper_carried"
+    },
+    "waxed_chiseled_copper": {
+      "textures": "textures/blocks/copper/waxed_chiseled_copper"
+    },
+    "waxed_exposed_chiseled_copper": {
+      "textures": "textures/blocks/copper/waxed_exposed_chiseled_copper"
+    },
+    "waxed_oxidized_chiseled_copper": {
+      "textures": "textures/blocks/copper/waxed_oxidized_chiseled_copper"
+    },
+    "waxed_weathered_chiseled_copper": {
+      "textures": "textures/blocks/copper/waxed_weathered_chiseled_copper"
+    },
+    "waxed_chiseled_copper_carried": {
+      "textures": "textures/blocks/copper/waxed_chiseled_copper_carried"
+    },
+    "waxed_exposed_chiseled_copper_carried": {
+      "textures": "textures/blocks/copper/waxed_exposed_chiseled_copper_carried"
+    },
+    "waxed_oxidized_chiseled_copper_carried": {
+      "textures": "textures/blocks/copper/waxed_oxidized_chiseled_copper_carried"
+    },
+    "waxed_weathered_chiseled_copper_carried": {
+      "textures": "textures/blocks/copper/waxed_weathered_chiseled_copper_carried"
+    },
+    "waxed_copper_grate": {
+      "textures": "textures/blocks/copper/waxed_copper_grate"
+    },
+    "waxed_exposed_copper_grate": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_grate"
+    },
+    "waxed_weathered_copper_grate": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_grate"
+    },
+    "waxed_oxidized_copper_grate": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_grate"
+    },
+    "waxed_copper_grate_carried": {
+      "textures": "textures/blocks/copper/waxed_copper_grate_carried"
+    },
+    "waxed_exposed_copper_grate_carried": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_grate_carried"
+    },
+    "waxed_weathered_copper_grate_carried": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_grate_carried"
+    },
+    "waxed_oxidized_copper_grate_carried": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_grate_carried"
+    },
+    "waxed_copper_bulb": {
+      "textures": [
+        "textures/blocks/copper/waxed_copper_bulb",
+        "textures/blocks/copper/waxed_copper_bulb_lit",
+        "textures/blocks/copper/waxed_copper_bulb_powered",
+        "textures/blocks/copper/waxed_copper_bulb_lit_powered"
+      ]
+    },
+    "waxed_exposed_copper_bulb": {
+      "textures": [
+        "textures/blocks/copper/waxed_exposed_copper_bulb",
+        "textures/blocks/copper/waxed_exposed_copper_bulb_lit",
+        "textures/blocks/copper/waxed_exposed_copper_bulb_powered",
+        "textures/blocks/copper/waxed_exposed_copper_bulb_lit_powered"
+      ]
+    },
+    "waxed_oxidized_copper_bulb": {
+      "textures": [
+        "textures/blocks/copper/waxed_oxidized_copper_bulb",
+        "textures/blocks/copper/waxed_oxidized_copper_bulb_lit",
+        "textures/blocks/copper/waxed_oxidized_copper_bulb_powered",
+        "textures/blocks/copper/waxed_oxidized_copper_bulb_lit_powered"
+      ]
+    },
+    "waxed_weathered_copper_bulb": {
+      "textures": [
+        "textures/blocks/copper/waxed_weathered_copper_bulb",
+        "textures/blocks/copper/waxed_weathered_copper_bulb_lit",
+        "textures/blocks/copper/waxed_weathered_copper_bulb_powered",
+        "textures/blocks/copper/waxed_weathered_copper_bulb_lit_powered"
+      ]
+    },
+    "waxed_copper_bulb_carried": {
+      "textures": "textures/blocks/copper/waxed_copper_bulb_carried"
+    },
+    "waxed_exposed_copper_bulb_carried": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_bulb_carried"
+    },
+    "waxed_weathered_copper_bulb_carried": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_bulb_carried"
+    },
+    "waxed_oxidized_copper_bulb_carried": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_bulb_carried"
+    },
+    "waxed_copper_door_top": {
+      "textures": "textures/blocks/copper/waxed_copper_door_top"
+    },
+    "waxed_copper_door_bottom": {
+      "textures": "textures/blocks/copper/waxed_copper_door_bottom"
+    },
+    "waxed_exposed_copper_door_top": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_door_top"
+    },
+    "waxed_exposed_copper_door_bottom": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_door_bottom"
+    },
+    "waxed_weathered_copper_door_top": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_door_top"
+    },
+    "waxed_weathered_copper_door_bottom": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_door_bottom"
+    },
+    "waxed_oxidized_copper_door_top": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_door_top"
+    },
+    "waxed_oxidized_copper_door_bottom": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_door_bottom"
+    },
+    "waxed_copper_trapdoor": {
+      "textures": "textures/blocks/copper/waxed_copper_trapdoor"
+    },
+    "waxed_exposed_copper_trapdoor": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_trapdoor"
+    },
+    "waxed_weathered_copper_trapdoor": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_trapdoor"
+    },
+    "waxed_oxidized_copper_trapdoor": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_trapdoor"
+    },
+    "waxed_lightning_rod": {
+      "textures": [
+        "textures/blocks/copper/waxed_lightning_rod",
+        "textures/blocks/lightning_rod_powered"
+      ]
+    },
+    "waxed_exposed_lightning_rod": {
+      "textures": [
+        "textures/blocks/copper/waxed_exposed_lightning_rod",
+        "textures/blocks/lightning_rod_powered"
+      ]
+    },
+    "waxed_weathered_lightning_rod": {
+      "textures": [
+        "textures/blocks/copper/waxed_weathered_lightning_rod",
+        "textures/blocks/lightning_rod_powered"
+      ]
+    },
+    "waxed_oxidized_lightning_rod": {
+      "textures": [
+        "textures/blocks/copper/waxed_oxidized_lightning_rod",
+        "textures/blocks/lightning_rod_powered"
+      ]
+    },
+    // 方块&物品形式打蜡铜灯/铜锁链/铜栅栏显示 //
+    "waxed_copper_bars": {
+      "textures": "textures/blocks/copper/waxed_copper_bars"
+    },
+    "waxed_exposed_copper_bars": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_bars"
+    },
+    "waxed_weathered_copper_bars": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_bars"
+    },
+    "waxed_oxidized_copper_bars": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_bars"
+    },
+    "waxed_copper_lantern_carried": {
+      "textures": "textures/items/copper/waxed_copper_lantern"
+    },
+    "waxed_exposed_copper_lantern_carried": {
+      "textures": "textures/items/copper/waxed_exposed_copper_lantern"
+    },
+    "waxed_weathered_copper_lantern_carried": {
+      "textures": "textures/items/copper/waxed_weathered_copper_lantern"
+    },
+    "waxed_oxidized_copper_lantern_carried": {
+      "textures": "textures/items/copper/waxed_oxidized_copper_lantern"
+    },
+    "waxed_copper_chain1": {
+      "textures": "textures/blocks/copper/waxed_copper_chain1"
+    },
+    "waxed_exposed_copper_chain1": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_chain1"
+    },
+    "waxed_weathered_copper_chain1": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_chain1"
+    },
+    "waxed_oxidized_copper_chain1": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_chain1"
+    },
+    "waxed_copper_chain_carried": {
+      "textures": "textures/items/copper/waxed_copper_chain"
+    },
+    "waxed_exposed_copper_chain_carried": {
+      "textures": "textures/items/copper/waxed_exposed_copper_chain"
+    },
+    "waxed_weathered_copper_chain_carried": {
+      "textures": "textures/items/copper/waxed_weathered_copper_chain"
+    },
+    "waxed_oxidized_copper_chain_carried": {
+      "textures": "textures/items/copper/waxed_oxidized_copper_chain"
+    },
+    "waxed_copper_bars_carried": {
+      "textures": "textures/items/copper/waxed_copper_bars"
+    },
+    "waxed_exposed_copper_bars_carried": {
+      "textures": "textures/items/copper/waxed_exposed_copper_bars"
+    },
+    "waxed_weathered_copper_bars_carried": {
+      "textures": "textures/items/copper/waxed_weathered_copper_bars"
+    },
+    "waxed_oxidized_copper_bars_carried": {
+      "textures": "textures/items/copper/waxed_oxidized_copper_bars"
+    },
+    // 物品形式打蜡铜箱子显示 //
+    "waxed_copper_chest_inventory_top": {
+      "textures": "textures/blocks/copper/waxed_copper_chest_inventory_top"
+    },
+    "waxed_copper_chest_inventory_side": {
+      "textures": "textures/blocks/copper/waxed_copper_chest_inventory_side"
+    },
+    "waxed_copper_chest_inventory_front": {
+      "textures": "textures/blocks/copper/waxed_copper_chest_inventory_front"
+    },
+    "waxed_exposed_copper_chest_inventory_top": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_chest_inventory_top"
+    },
+    "waxed_exposed_copper_chest_inventory_side": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_chest_inventory_side"
+    },
+    "waxed_exposed_copper_chest_inventory_front": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_chest_inventory_front"
+    },
+    "waxed_weathered_copper_chest_inventory_top": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_chest_inventory_top"
+    },
+    "waxed_weathered_copper_chest_inventory_side": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_chest_inventory_side"
+    },
+    "waxed_weathered_copper_chest_inventory_front": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_chest_inventory_front"
+    },
+    "waxed_oxidized_copper_chest_inventory_top": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_chest_inventory_top"
+    },
+    "waxed_oxidized_copper_chest_inventory_side": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_chest_inventory_side"
+    },
+    "waxed_oxidized_copper_chest_inventory_front": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_chest_inventory_front"
+    },
+    // 打蜡铜台阶显示 //
+    "waxed_cut_copper_slab_top": {
+      "textures": "textures/blocks/copper/waxed_cut_copper"
+    },
+    "waxed_cut_copper_slab_side": {
+      "textures": "textures/blocks/copper/waxed_cut_copper_slab_side"
+    },
+    "waxed_exposed_cut_copper_slab_top": {
+      "textures": "textures/blocks/copper/waxed_exposed_cut_copper"
+    },
+    "waxed_exposed_cut_copper_slab_side": {
+      "textures": "textures/blocks/copper/waxed_exposed_cut_copper_slab_side"
+    },
+    "waxed_oxidized_cut_copper_slab_top": {
+      "textures": "textures/blocks/copper/waxed_oxidized_cut_copper"
+    },
+    "waxed_oxidized_cut_copper_slab_side": {
+      "textures": "textures/blocks/copper/waxed_oxidized_cut_copper_slab_side"
+    },
+    "waxed_weathered_cut_copper_slab_top": {
+      "textures": "textures/blocks/copper/waxed_weathered_cut_copper"
+    },
+    "waxed_weathered_cut_copper_slab_side": {
+      "textures": "textures/blocks/copper/waxed_weathered_cut_copper_slab_side"
+    },
+    // 台阶显示 //
+    "petrified_oak_planks_slab_top": {
+      "textures": "textures/blocks/slabs/petrified_oak_planks_slab_top"
+    },
+    "petrified_oak_planks_slab_side": {
+      "textures": "textures/blocks/slabs/petrified_oak_planks_slab_side"
+    },
+    "polished_andesite_slab_top": {
+      "textures": "textures/blocks/slabs/polished_andesite_slab_top"
+    },
+    "polished_andesite_slab_side": {
+      "textures": "textures/blocks/slabs/polished_andesite_slab_side"
+    },
+    "polished_blackstone_slab_top": {
+      "textures": "textures/blocks/slabs/polished_blackstone_slab_top"
+    },
+    "polished_blackstone_slab_side": {
+      "textures": "textures/blocks/slabs/polished_blackstone_slab_side"
+    },
+    "polished_deepslate_slab_top": {
+      "textures": "textures/blocks/slabs/polished_deepslate_slab_top"
+    },
+    "polished_deepslate_slab_side": {
+      "textures": "textures/blocks/slabs/polished_deepslate_slab_side"
+    },
+    "polished_diorite_slab_top": {
+      "textures": "textures/blocks/slabs/polished_diorite_slab_top"
+    },
+    "polished_diorite_slab_side": {
+      "textures": "textures/blocks/slabs/polished_diorite_slab_side"
+    },
+    "polished_granite_slab_top": {
+      "textures": "textures/blocks/slabs/polished_granite_slab_top"
+    },
+    "polished_granite_slab_side": {
+      "textures": "textures/blocks/slabs/polished_granite_slab_side"
+    },
+    "polished_tuff_slab_top": {
+      "textures": "textures/blocks/slabs/polished_tuff_slab_top"
+    },
+    "polished_tuff_slab_side": {
+      "textures": "textures/blocks/slabs/polished_tuff_slab_side"
+    },
+    "quartz_slab_top": {
+      "textures": "textures/blocks/slabs/quartz_slab_top"
+    },
+    "quartz_slab_side": {
+      "textures": "textures/blocks/slabs/quartz_slab_side"
+    },
+    "cut_red_sandstone_slab_top": {
+      "textures": "textures/blocks/slabs/cut_red_sandstone_slab_top"
+    },
+    "cut_red_sandstone_slab_side": {
+      "textures": "textures/blocks/slabs/cut_red_sandstone_slab_side"
+    },
+    "cut_sandstone_slab_top": {
+      "textures": "textures/blocks/slabs/cut_sandstone_slab_top"
+    },
+    "cut_sandstone_slab_side": {
+      "textures": "textures/blocks/slabs/cut_sandstone_slab_side"
+    },
+    "smooth_red_sandstone_top": {
+      "textures": "textures/blocks/smooth_red_sandstone_top"
+    },
+    "smooth_red_sandstone_slab_top": {
+      "textures": "textures/blocks/slabs/smooth_red_sandstone_slab_top"
+    },
+    "smooth_red_sandstone_slab_side": {
+      "textures": "textures/blocks/slabs/smooth_red_sandstone_slab_side"
+    },
+    "smooth_sandstone_top": {
+      "textures": "textures/blocks/smooth_sandstone_top"
+    },
+    "smooth_sandstone_slab_top": {
+      "textures": "textures/blocks/slabs/smooth_sandstone_slab_top"
+    },
+    "smooth_sandstone_slab_side": {
+      "textures": "textures/blocks/slabs/smooth_sandstone_slab_side"
+    },
+    "smooth_stone_slab_top": {
+      "textures": "textures/blocks/slabs/smooth_stone_slab_top"
+    },
+    "smooth_stone_slab_side": {
+      "textures": "textures/blocks/slabs/smooth_stone_slab_side"
+    },
+    // 矿物发光（渲染龙改包）//
+    "coal_ore": {
+      "textures": "textures/blocks/glow/coal_ore"
+    },
+    "deepslate_coal_ore": {
+      "textures": "textures/blocks/glow/deepslate_coal_ore"
+    },
+    "copper_ore": {
+      "textures": "textures/blocks/glow/copper_ore"
+    },
+    "deepslate_copper_ore": {
+      "textures": "textures/blocks/glow/deepslate_copper_ore"
+    },
+    "diamond_ore": {
+      "textures": "textures/blocks/glow/diamond_ore"
+    },
+    "deepslate_diamond_ore": {
+      "textures": "textures/blocks/glow/deepslate_diamond_ore"
+    },
+    "emerald_ore": {
+      "textures": "textures/blocks/glow/emerald_ore"
+    },
+    "deepslate_emerald_ore": {
+      "textures": "textures/blocks/glow/deepslate_emerald_ore"
+    },
+    "gilded_blackstone": {
+      "textures": "textures/blocks/glow/gilded_blackstone"
+    },
+    "gold_ore": {
+      "textures": "textures/blocks/glow/gold_ore"
+    },
+    "deepslate_gold_ore": {
+      "textures": "textures/blocks/glow/deepslate_gold_ore"
+    },
+    "iron_ore": {
+      "textures": "textures/blocks/glow/iron_ore"
+    },
+    "deepslate_iron_ore": {
+      "textures": "textures/blocks/glow/deepslate_iron_ore"
+    },
+    "lapis_ore": {
+      "textures": "textures/blocks/glow/lapis_ore"
+    },
+    "deepslate_lapis_ore": {
+      "textures": "textures/blocks/glow/deepslate_lapis_ore"
+    },
+    "nether_gold_ore": {
+      "textures": "textures/blocks/glow/nether_gold_ore"
+    },
+    "quartz_ore": {
+      "textures": "textures/blocks/glow/quartz_ore"
+    },
+    "redstone_ore": {
+      "textures": "textures/blocks/glow/redstone_ore"
+    },
+    "deepslate_redstone_ore": {
+      "textures": "textures/blocks/glow/deepslate_redstone_ore"
     }
   }
 }

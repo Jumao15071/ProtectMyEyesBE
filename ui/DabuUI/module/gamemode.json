@@ -1,0 +1,46 @@
+{
+    "namespace": "gamemode_switch",
+    
+    "gamemode_icon": {
+        "type": "image",
+        "size": [ 21, 21 ],
+        "offset": "$offset",
+        "$offset|default": [ 0, 0 ],
+        "texture": "$gamemode_switch_icon",
+        "layer": 5
+    },
+    "gamemode_switch_toggle@common_toggles.light_content_toggle": {
+        "$button_content": "gamemode_switch.gamemode_icon"
+    },
+    "survival_btn@gamemode_switch.gamemode_switch_toggle": {
+        "$offset": [ 0, -1 ],
+        "$gamemode_switch_icon": "textures/items/ender_eye",
+        "$toggle_name": "#world_game_mode_radio_spectator",
+        "bindings": [
+            {
+                "binding_name": "#world_game_mode_radio_survival",
+                "binding_name_override": "#visible"
+            }
+        ]
+    },
+    "spectator_btn@gamemode_switch.gamemode_switch_toggle": {
+        "$gamemode_switch_icon": "textures/items/iron_sword",
+        "$toggle_name": "#world_game_mode_radio_survival",
+        "bindings": [
+            {
+                "binding_name": "#world_game_mode_radio_spectator",
+                "binding_name_override": "#visible"
+            }
+        ]
+    },
+    "input_panel": {
+        "type": "input_panel",
+        "size": [ 28, 28 ],
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "controls": [
+            { "survival_btn@gamemode_switch.survival_btn": { } },
+            { "spectator_btn@gamemode_switch.spectator_btn": { } }
+        ]
+    }
+}

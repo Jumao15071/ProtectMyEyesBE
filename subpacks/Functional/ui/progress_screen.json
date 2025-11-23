@@ -1,0 +1,8 @@
+{
+    "nether_loading_background": {
+        "texture": "textures/loading_progress_screen/portal_placeholder"
+    },
+    "theend_loading_background": {
+        "texture": "textures/loading_progress_screen/the_end"
+    }
+}

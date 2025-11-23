@@ -1,0 +1,8 @@
+{
+    "dynamic_dialog_screen": {
+        "$fill_alpha": 0.5
+    },
+    "settings_content/background": {
+        "alpha": 0.01
+    }
+}

@@ -1,0 +1,216 @@
+{
+  "namespace": "dabu_ore_ui_common",
+  
+  "locked_button_image": {
+    "type": "image",
+    "layer": 2,
+    "texture": "textures/ui/dabu_ore_ui/toggle_button/checked_locked",
+    "alpha": "$content_alpha"
+  },
+  
+  "common_toggle_button_content": {
+    "type": "panel",
+    "offset": [ 0, 2 ],
+    "$button_content_size|default": [ "100% - 6px", "100% - 6px" ],
+    "size": "$button_content_size",
+    "controls": [
+      {
+        "$button_type_panel@$button_type_panel": {
+          "layer": 3
+        }
+      }
+    ]
+  },
+
+  "unchecked_new_ui_button_panel@common_buttons.new_ui_button_panel": {
+    "controls": [
+      {
+        "$button_image@$button_image": {
+          "ignored": "(not $button_image_visible)",
+          "size": "$button_image_size",
+          "offset": "$image_offset",
+          "anchor_from": "$image_anchor",
+          "anchor_to": "$image_anchor",
+          "layer": 1,
+          "fill": "$button_image_fill",
+          "color": "$button_image_color"
+        }
+      },
+      {
+        "button_content@common_toggle_button_content": {
+          "offset": [ 0, -1 ]
+        }
+      },
+      {
+        "border@common_buttons.focus_border": {
+          "color": "$border_color",
+          "layer": "$border_layer",
+          "alpha": "$border_alpha",
+          "ignored": "(not $border_visible)"
+        }
+      }
+    ]
+  },
+
+  "setting_new_ui_button_panel@common_buttons.new_ui_button_panel": {
+    "controls": [
+      {
+        "$button_image@$button_image": {
+          "ignored": "(not $button_image_visible)",
+          "size": "$button_image_size",
+          "offset": "$image_offset",
+          "anchor_from": "$image_anchor",
+          "anchor_to": "$image_anchor",
+          "layer": 2,
+          "fill": "$button_image_fill",
+          "color": "$button_image_color"
+        }
+      },
+      {
+        "button_content@common_toggle_button_content": {
+          "offset": [ 0, 1 ]
+        }
+      },
+      {
+        "border@common_buttons.focus_border": {
+          "color": "$border_color",
+          "layer": "$border_layer",
+          "alpha": "$border_alpha",
+          "ignored": "(not $border_visible)"
+        }
+      }
+    ]
+  },
+
+  "toggle_button_unchecked@common_toggles.toggle_unchecked": {
+    "$ui_button_panel": "dabu_ore_ui_common.setting_new_ui_button_panel",
+    "layer": 1
+  },
+
+  "toggle_button_checked@common_toggles.toggle_checked": {
+    "$ui_button_panel": "dabu_ore_ui_common.setting_new_ui_button_panel",
+    "layer": 1
+  },
+
+  "toggle_button_unchecked_hover@common_toggles.toggle_unchecked_hover": {
+    "$ui_button_panel": "dabu_ore_ui_common.setting_new_ui_button_panel",
+    "layer": 1
+  },
+
+  "toggle_button_locked@common_toggles.toggle_locked": {
+    "$ui_button_panel": "dabu_ore_ui_common.setting_new_ui_button_panel",
+    "$button_image": "dabu_ore_ui_common.locked_button_image",
+    "layer": 1
+  },
+  
+  "toggle_button@common.radio_toggle": {
+    "$unchecked_control|default": "dabu_ore_ui_common.toggle_button_unchecked",
+    "$checked_control|default": "dabu_ore_ui_common.toggle_button_checked",
+    "$unchecked_hover_control|default": "dabu_ore_ui_common.toggle_button_unchecked_hover",
+    "$checked_hover_control|default": "dabu_ore_ui_common.toggle_button_checked",
+    "$unchecked_locked_control|default": "common_toggles.toggle_locked",
+    "$unchecked_locked_hover_control|default": "common_toggles.toggle_locked",
+    "$checked_locked_control|default": "dabu_ore_ui_common.toggle_button_locked",
+    "$checked_locked_hover_control|default": "common_toggles.toggle_locked",
+    "$default_texture|default": "textures/ui/dabu_ore_ui/toggle_button/unchecked",
+    "$hover_texture|default": "textures/ui/dabu_ore_ui/toggle_button/checked",
+    "$pressed_texture|default": "textures/ui/dabu_ore_ui/toggle_button/unchecked_hover",
+    "$pressed_no_hover_texture|default": "textures/ui/dabu_ore_ui/toggle_button/checked",
+    "$locked_texture|default": "textures/ui/dabu_ore_ui/toggle_button/unchecked_locked",
+    "$default_text_color|default": [ 0.3, 0.3, 0.3 ],
+    "$hover_text_color|default": [ 0.117, 0.117, 0.121 ],
+    "$default_checked_text_color|default": [ 1.0, 1.0, 1.0 ],
+    "$hover_checked_text_color|default": [ 0.3, 0.3, 0.3 ],
+    "$default_border_visible|default": false,
+    "$hover_border_visible|default": false,
+    "$button_type_panel": "dabu_ore_ui_common.new_ui_binding_button_label",
+    "size": [ "fill", "100%" ],
+    "$button_image_size": [ "100%", "100%" ],
+    "$toggle_state_binding_name": "$toggle_name"
+  },
+  
+  "toggle_button_stack_panel": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ "100%", 30 ],
+    "controls": "$toggle_button_main_stack"
+  },
+  
+  "option_switch@settings_common.option_toggle": {
+    "$control_name": "dabu_ore_ui_common.base_switch_control"
+  },
+  
+  "base_switch_control@settings_common.option_toggle_control": {
+    "$unchecked_control": "dabu_ore_ui_common.base_switch_off",
+    "$checked_control": "dabu_ore_ui_common.base_switch_on",
+    "$unchecked_hover_control": "dabu_ore_ui_common.base_switch_off_hover",
+    "$checked_hover_control": "dabu_ore_ui_common.base_switch_on_hover",
+    "$unchecked_locked_control": "dabu_ore_ui_common.base_switch_off_disabled",
+    "$unchecked_locked_hover_control": "dabu_ore_ui_common.base_switch_off_disabled",
+    "$checked_locked_control": "dabu_ore_ui_common.base_switch_on_disabled",
+    "$checked_locked_hover_control": "dabu_ore_ui_common.base_switch_on_disabled"
+  },
+  
+  "base_switch_on@settings_common.option_toggle_state_template": {
+    "texture": "$base_switch_on_texture",
+    "$base_switch_on_texture|default": "textures/ui/dabu_ore_ui/toggle/toggle_on"
+  },
+
+  "base_switch_off@settings_common.option_toggle_state_template": {
+    "texture": "textures/ui/dabu_ore_ui/toggle/toggle_off"
+  },
+
+  "base_switch_on_hover@settings_common.option_toggle_state_template": {
+    "texture": "$base_switch_on_hover_texture",
+    "$base_switch_on_hover_texture|default": "textures/ui/dabu_ore_ui/toggle/toggle_on_hover"
+  },
+
+  "base_switch_off_hover@settings_common.option_toggle_state_template": {
+    "texture": "textures/ui/dabu_ore_ui/toggle/toggle_off_hover"
+  },
+
+  "base_switch_on_disabled@settings_common.option_toggle_state_template": {
+    "texture": "textures/ui/dabu_ore_ui/toggle/toggle_on_disabled"
+  },
+
+  "base_switch_off_disabled@settings_common.option_toggle_state_template": {
+    "texture": "textures/ui/dabu_ore_ui/toggle/toggle_off_disabled"
+  },
+
+  "new_ui_binding_button_label": {
+    "type": "label",
+    "layer": 2,
+    "text": "$button_text",
+    "color": "$text_color",
+    "$font_type|default": "default",
+    "font_type": "$font_type",
+    "font_size": "$button_font_size",
+    "$button_font_scale_factor|default": 1.0,
+    "font_scale_factor": "$button_font_scale_factor",
+    "$button_font_size|default": "normal",
+    "$new_ui_label_offset|default": "$button_offset",
+    "offset": "$new_ui_label_offset",
+    "$anchor|default": "center",
+    "anchor_from": "$anchor",
+    "anchor_to": "$anchor",
+    "shadow": false,
+    "$button_text_size|default": [ "default", "default" ],
+    "size": "$button_text_size",
+    "$button_text_max_size|default": [ "100%", 10 ], // Per design buttons are single line text only
+    "max_size": "$button_text_max_size",
+    "$text_alignment|default": "center",
+    "text_alignment": "$text_alignment",
+    "$tts_section_header|default": "",
+    "tts_section_header": "$tts_section_header",
+    "$button_text_collection_details|default": "none",
+    "$button_text_collection_prefix|default": "",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "new_ui_binding_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ]
+  }
+}

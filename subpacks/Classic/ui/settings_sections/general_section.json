@@ -1,27 +1,36 @@
 {
+  "dabu_vsync_option": {
+    "type": "stack_panel",
+    "controls": [
+      {
+        "vsync_option_dropdown@settings_common.option_dropdown": {
+          "$option_label": "options.vsync",
+          "$dropdown_content": "general_section.vysnc_dropdown_content",
+          "$dropdown_area": "content_area",
+          "$dropdown_name": "vsync_dropdown",
+          "$options_dropdown_toggle_label_binding": "#vsync_dropdown_toggle_label",
+          "$option_enabled_binding_name": "#vsync_dropdown_enabled",
+          "$dropdown_scroll_content_size": [ "100%", "200%" ]
+        }
+      },
+      {
+        "vsync_text_label": {
+          "type": "label",
+          "color": "$option_description_text_color",
+          "text": "dabu.ui.vsync_option_warning"
+        }
+      }
+    ]
+  },
   "video_section": {
+    "$spatialPatternsPadding": [ 2, 2 ],
     "modifications": [
       {
         "array_name": "controls",
         "operation": "insert_front",
         "value": [
           {
-            "vsync_option_dropdown@settings_common.option_dropdown": {
-              "$option_label": "options.vsync",
-              "$dropdown_content": "general_section.vysnc_dropdown_content",
-              "$dropdown_area": "content_area",
-              "$dropdown_name": "vsync_dropdown",
-              "$options_dropdown_toggle_label_binding": "#vsync_dropdown_toggle_label",
-              "$option_enabled_binding_name": "#vsync_dropdown_enabled",
-              "$dropdown_scroll_content_size": [ "100%", "200%" ]
-            }
-          },
-          {
-            "vsync_text_label": {
-              "type": "label",
-              "color": "$option_description_text_color",
-              "text": "dabu.ui.vsync_option_warning"
-            }
+            "dabu_vsync_option@general_section.dabu_vsync_option": { }
           }
         ]
       }

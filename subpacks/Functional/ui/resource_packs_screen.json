@@ -1,0 +1,102 @@
+// This is an example for pack_banner implementation
+// By MintCoolMC (Github)
+// https://github.com/MintCoolMC/MCBE_PackBanner
+{
+  "namespace": "resource_packs",
+
+  "pack_banner": {
+    "type": "image",
+    "size": [ "100% - 2px", 42 ],
+    "offset": [ 0, -1 ],
+    "fill": true,
+    "allow_debug_missing_texture": false,
+    "force_texture_reload": true,
+    "layer": 1,
+    "bindings": [
+      {
+        "binding_collection_name": "$name_collection_name",
+        "binding_name": "#icon_path",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "('\"' + #icon_path - 'pack_icon.png' + 'pack_banner.png' + '\"')",
+        "target_property_name": "#texture"
+      },
+      {
+        "binding_collection_name": "$name_collection_name",
+        "binding_name": "#icon_zip",
+        "binding_name_override": "#zip_folder",
+        "binding_type": "collection"
+      },
+      {
+        "binding_collection_name": "$name_collection_name",
+        "binding_name": "#icon_file_system",
+        "binding_name_override": "#texture_file_system",
+        "binding_type": "collection"
+      },
+      {
+        "binding_collection_name": "$name_collection_name",
+        "binding_name": "#is_read_more",
+        "binding_name_override": "#visible",
+        "binding_type": "collection"
+      }
+    ]
+  },
+
+  "selected_pack_button_layout": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "pack_banner@resource_packs.pack_banner": { }
+          }
+        ]
+      }
+    ]
+  },
+
+  "selected_pack_button_layout_hover": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "pack_banner@resource_packs.pack_banner": { }
+          }
+        ]
+      }
+    ]
+  },
+
+  "available_pack_button_layout": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "pack_banner@resource_packs.pack_banner": {}
+          }
+        ]
+      }
+    ]
+  },
+
+  "available_pack_button_layout_hover": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "pack_banner@resource_packs.pack_banner": { }
+          }
+        ]
+      }
+    ]
+  }
+}

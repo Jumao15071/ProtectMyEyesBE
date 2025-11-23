@@ -1,5 +1,10 @@
 {
   "ui_defs": [
-    "ui/DabuUI/lib/quickmove.json"
+    "ui/DabuUI/module/dabu_ore_ui_common.json",
+    "ui/DabuUI/module/gamemode.json",
+    "ui/DabuUI/module/quickmove.json",
+    "ui/DabuUI/module/tutorial_common.json",
+    "ui/DabuUI/ui_extras/accessibility_setting.json",
+    "ui/DabuUI/ui_extras/function_tutorial.json"
   ]
 }

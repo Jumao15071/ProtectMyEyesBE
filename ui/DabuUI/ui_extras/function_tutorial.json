@@ -1,0 +1,617 @@
+{
+  "namespace": "function_tutorial",
+
+  "function_tutorial_button@settings_common.section_toggle_base": {
+    "$toggle_view_binding_name": "dabu.ui.tutorial",
+    "$glyph_texture": "textures/ui/gear_glyph",
+    "$glyph_color_texture": "textures/ui/gear_glyph_color",
+    "$glyph_size": [ 16, 16 ],
+    "$button_text": "dabu.ui.tutorial",
+    "$toggle_property_bag": {
+      "#panel_title": "dabu.ui.tutorial"
+    }
+  },
+  "function_tutorial_section": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%c" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "dabu.ui.tutorial",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "icon_0": {
+          "type": "image",
+          "texture": "pack_banner",
+          "size": [ "100%", 64 ]
+        }
+      },
+      {
+        "spacer_0": {
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "title_0": {
+          "type": "label",
+          "font_scale_factor": 1.8,
+          "text": "dabu.ui.tutorial.title_0"
+        }
+      },
+      {
+        "spacer_1": {
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "paragraph_0@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_0"
+        }
+      },
+      {
+        "spacer_2": {
+          "type": "panel",
+          "size": [ 0, 6 ]
+        }
+      },
+      {
+        "header_1@tutorial_common.header": {
+          "$text": "dabu.ui.tutorial.header_1"
+        }
+      },
+      {
+        "paragraph_1.1@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_1.1"
+        }
+      },
+      {
+        "paragraph_1.2@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_1.2"
+        }
+      },
+      {
+        "paragraph_1.3@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_1.3"
+        }
+      },
+      {
+        "paragraph_1.4@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_1.4"
+        }
+      },
+      {
+        "icon_1": {
+          "type": "image",
+          "texture": "textures/tutorial/tutorial_1",
+          "size": [ "100%", 128 ]
+        }
+      },
+      {
+        "spacer_3": {
+          "type": "panel",
+          "size": [ 0, 4 ]
+        }
+      },
+      {
+        "header_2@tutorial_common.header": {
+          "$text": "dabu.ui.tutorial.header_2"
+        }
+      },
+      {
+        "paragraph_2.1@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.1"
+        }
+      },
+      {
+        "paragraph_2.2@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.2"
+        }
+      },
+      {
+        "paragraph_2.3@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.3"
+        }
+      },
+      {
+        "paragraph_2.4@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.4"
+        }
+      },
+      {
+        "paragraph_2.5@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.5"
+        }
+      },
+      {
+        "paragraph_2.6@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.6"
+        }
+      },
+      {
+        "paragraph_2.7@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.7"
+        }
+      },
+      {
+        "paragraph_2.8@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.8"
+        }
+      },
+      {
+        "paragraph_2.9@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.9"
+        }
+      },
+      {
+        "paragraph_2.10@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.10"
+        }
+      },
+      {
+        "paragraph_2.11@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.11"
+        }
+      },
+      {
+        "paragraph_2.12@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.12"
+        }
+      },
+      {
+        "paragraph_2.13@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.13"
+        }
+      },
+      {
+        "paragraph_2.14@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_2.14"
+        }
+      },
+      {
+        "icon_2": {
+          "type": "image",
+          "texture": "textures/tutorial/tutorial_2",
+          "size": [ "100%", 128 ]
+        }
+      },
+      {
+        "spacer_4": {
+          "type": "panel",
+          "size": [ 0, 4 ]
+        }
+      },
+      {
+        "header_3@tutorial_common.header": {
+          "$text": "dabu.ui.tutorial.header_3"
+        }
+      },
+      {
+        "paragraph_3.1@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.1"
+        }
+      },
+      {
+        "paragraph_3.2@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.2"
+        }
+      },
+      {
+        "paragraph_3.3@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.3"
+        }
+      },
+      {
+        "paragraph_3.4@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.4"
+        }
+      },
+      {
+        "paragraph_3.5@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.5"
+        }
+      },
+      {
+        "paragraph_3.6@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.6"
+        }
+      },
+      {
+        "paragraph_3.7@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.7"
+        }
+      },
+      {
+        "paragraph_3.8@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.8"
+        }
+      },
+      {
+        "paragraph_3.9@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.9"
+        }
+      },
+      {
+        "paragraph_3.10@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.10"
+        }
+      },
+      {
+        "paragraph_3.11@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.11"
+        }
+      },
+      {
+        "paragraph_3.12@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.12"
+        }
+      },
+      {
+        "paragraph_3.13@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.13"
+        }
+      },
+      {
+        "paragraph_3.14@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.14"
+        }
+      },
+      {
+        "paragraph_3.15@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.15"
+        }
+      },
+      {
+        "paragraph_3.16@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.16"
+        }
+      },
+      {
+        "paragraph_3.17@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.17"
+        }
+      },
+      {
+        "paragraph_3.18@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_3.18"
+        }
+      },
+      {
+        "spacer_5": {
+          "type": "panel",
+          "size": [ 0, 4 ]
+        }
+      },
+      {
+        "header_4@tutorial_common.header": {
+          "$text": "dabu.ui.tutorial.header_4"
+        }
+      },
+      {
+        "paragraph_4.1@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.1"
+        }
+      },
+      {
+        "paragraph_4.2@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.2"
+        }
+      },
+      {
+        "paragraph_4.3@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.3"
+        }
+      },
+      {
+        "paragraph_4.4@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.4"
+        }
+      },
+      {
+        "paragraph_4.5@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.5"
+        }
+      },
+      {
+        "paragraph_4.6@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.6"
+        }
+      },
+      {
+        "paragraph_4.7@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.7"
+        }
+      },
+      {
+        "paragraph_4.8@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.8"
+        }
+      },
+      {
+        "paragraph_4.9@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.9"
+        }
+      },
+      {
+        "paragraph_4.10@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.10"
+        }
+      },
+      {
+        "paragraph_4.11@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.11"
+        }
+      },
+      {
+        "paragraph_4.12@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.12"
+        }
+      },
+      {
+        "paragraph_4.13@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.13"
+        }
+      },
+      {
+        "paragraph_4.14@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.14"
+        }
+      },
+      {
+        "paragraph_4.15@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.15"
+        }
+      },
+      {
+        "paragraph_4.16@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.16"
+        }
+      },
+      {
+        "paragraph_4.17@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.17"
+        }
+      },
+      {
+        "paragraph_4.18@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.18"
+        }
+      },
+      {
+        "paragraph_4.19@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.19"
+        }
+      },
+      {
+        "paragraph_4.20@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.20"
+        }
+      },
+      {
+        "paragraph_4.21@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_4.21"
+        }
+      },
+      {
+        "spacer_6": {
+          "type": "panel",
+          "size": [ 0, 4 ]
+        }
+      },
+      {
+        "header_5@tutorial_common.header": {
+          "$text": "dabu.ui.tutorial.header_5"
+        }
+      },
+      {
+        "paragraph_5.1@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.1"
+        }
+      },
+      {
+        "paragraph_5.2@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.2"
+        }
+      },
+      {
+        "paragraph_5.3@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.3"
+        }
+      },
+      {
+        "paragraph_5.4@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.4"
+        }
+      },
+      {
+        "paragraph_5.5@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.5"
+        }
+      },
+      {
+        "paragraph_5.6@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.6"
+        }
+      },
+      {
+        "paragraph_5.7@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.7"
+        }
+      },
+      {
+        "paragraph_5.8@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.8"
+        }
+      },
+      {
+        "paragraph_5.9@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.9"
+        }
+      },
+      {
+        "paragraph_5.10@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.10"
+        }
+      },
+      {
+        "paragraph_5.11@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.11"
+        }
+      },
+      {
+        "paragraph_5.12@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.12"
+        }
+      },
+      {
+        "paragraph_5.13@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.13"
+        }
+      },
+      {
+        "paragraph_5.14@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.14"
+        }
+      },
+      {
+        "paragraph_5.15@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_5.15"
+        }
+      },
+      {
+        "spacer_end": {
+          "type": "panel",
+          "size": [ 0, 8 ]
+        }
+      },
+      {
+        "header_authors@tutorial_common.header": {
+          "$text": "dabu.ui.tutorial.header_authors"
+        }
+      },
+      {
+        "paragraph_author_1@tutorial_common.paragraph": {
+          "$font_scale_factor": 1.2,
+          "$text": "dabu.ui.tutorial.paragraph_author_1"
+        }
+      },
+      {
+        "paragraph_author_1_description@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_author_1_description"
+        }
+      },
+      {
+        "paragraph_author_2@tutorial_common.paragraph": {
+          "$font_scale_factor": 1.2,
+          "$text": "dabu.ui.tutorial.paragraph_author_2"
+        }
+      },
+      {
+        "paragraph_author_2_description@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_author_2_description"
+        }
+      },
+      {
+        "paragraph_author_3@tutorial_common.paragraph": {
+          "$font_scale_factor": 1.2,
+          "$text": "dabu.ui.tutorial.paragraph_author_3"
+        }
+      },
+      {
+        "paragraph_author_3_description@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_author_3_description"
+        }
+      },
+      {
+        "paragraph_author_4@tutorial_common.paragraph": {
+          "$font_scale_factor": 1.2,
+          "$text": "dabu.ui.tutorial.paragraph_author_4"
+        }
+      },
+      {
+        "paragraph_author_4_description@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_author_4_description"
+        }
+      },
+      {
+        "paragraph_author_5@tutorial_common.paragraph": {
+          "$font_scale_factor": 1.2,
+          "$text": "dabu.ui.tutorial.paragraph_author_5"
+        }
+      },
+      {
+        "paragraph_author_5_description@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_author_5_description"
+        }
+      },
+      {
+        "paragraph_author_6@tutorial_common.paragraph": {
+          "$font_scale_factor": 1.2,
+          "$text": "dabu.ui.tutorial.paragraph_author_6"
+        }
+      },
+      {
+        "paragraph_author_6_description@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_author_6_description"
+        }
+      },
+      {
+        "paragraph_author_7@tutorial_common.paragraph": {
+          "$font_scale_factor": 1.2,
+          "$text": "dabu.ui.tutorial.paragraph_author_7"
+        }
+      },
+      {
+        "paragraph_author_7_description@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_author_7_description"
+        }
+      },
+      {
+        "paragraph_author_8@tutorial_common.paragraph": {
+          "$font_scale_factor": 1.2,
+          "$text": "dabu.ui.tutorial.paragraph_author_8"
+        }
+      },
+      {
+        "paragraph_author_8_description@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_author_8_description"
+        }
+      },
+      {
+        "paragraph_author_9@tutorial_common.paragraph": {
+          "$font_scale_factor": 1.2,
+          "$text": "dabu.ui.tutorial.paragraph_author_9"
+        }
+      },
+      {
+        "paragraph_author_9_description@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_author_9_description"
+        }
+      },
+      {
+        "paragraph_author_10@tutorial_common.paragraph": {
+          "$font_scale_factor": 1.2,
+          "$text": "dabu.ui.tutorial.paragraph_author_10"
+        }
+      },
+      {
+        "paragraph_author_10_description@tutorial_common.paragraph": {
+          "$text": "dabu.ui.tutorial.paragraph_author_10_description"
+        }
+      },
+      {
+        "spacer_30": {
+          "type": "panel",
+          "size": [ 0, 40 ]
+        }
+      }
+    ]
+  }
+}

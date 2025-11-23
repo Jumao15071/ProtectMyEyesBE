@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:magma_cube",
+      "animations": {
+        "move": "animation.magma_cube.move"
+      },
+      "animation_controllers": [
+        { "general": "controller.animation.magma_cube.general" },
+        { "position": "controller.animation.marker" }
+      ],
+      "particle_effects": {
+        "position_marker": "jm:magma_cube_position_marker"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg_magma_cube"
+      }
+    }
+  }
+}

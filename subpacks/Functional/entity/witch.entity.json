@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:witch",
+      "min_engine_version": "1.8.0",
+      "animations": {
+        "villager_general": "animation.villager.general",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.villager.move",
+        "general": "animation.witch.general"
+      },
+      "animation_controllers": [
+        { "general": "controller.animation.witch.general" },
+        { "move": "controller.animation.villager.move" },
+        { "position": "controller.animation.marker" }
+      ],
+      "particle_effects": {
+        "position_marker": "jm:witch_position_marker"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg_witch"
+      }
+    }
+  }
+}

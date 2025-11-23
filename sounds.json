@@ -1,9 +1,56 @@
 {
   "individual_event_sounds": {
     "events": {
-      "piston.out" : {"sound": "tile.piston.out", "volume" : 0.5, "pitch" : [0.6, 0.85] },
-      "piston.in" : {"sound": "tile.piston.in", "volume" : 0.5, "pitch" : [0.6, 0.8] },
-      "deny": {"sound": "entity.player.attack.crit", "volume": 0.7, "pitch": 1.0 }
+      "piston.out": {
+        "sound": "tile.piston.out",
+        "volume": 0.5,
+        "pitch": [
+          0.6,
+          0.85
+        ]
+      },
+      "piston.in": {
+        "sound": "tile.piston.in",
+        "volume": 0.5,
+        "pitch": [
+          0.6,
+          0.8
+        ]
+      },
+      "explode": {
+        "sound": "random.explode",
+        "volume": 4.0,
+        "pitch": [
+          0.56,
+          0.84
+        ]
+      },
+      "deny": {
+        "sound": "entity.player.attack.crit",
+        "volume": 0.7,
+        "pitch": 1.0
+      }
+    }
+  },
+  "entity_sounds": {
+    "entities": {
+      "creeper": {
+        "events": {
+          "step": {
+            "sound": "mob.creeper.say",
+            "volume": 2.0
+          }
+        }
+      },
+      "zombie": {
+        "events": {
+          "step": {
+            "pitch": 1.0,
+            "sound": "mob.zombie.step",
+            "volume": 2.0
+          }
+        }
+      }
     }
   }
 }

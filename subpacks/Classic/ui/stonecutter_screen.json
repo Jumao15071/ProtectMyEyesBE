@@ -1,34 +1,33 @@
 {
   // Auto Craft //
-
-	"auto_crafting_arrow": {
-		"type": "image",
-		"layer": 5,
-		"texture": "textures/ui/arrow",
-		"anchor_from": "top_middle",
-		"anchor_to": "top_middle",
-		"size": [22, 15],
-		"offset": [0, 0]
-	},
+  "auto_crafting_arrow": {
+    "type": "image",
+    "layer": 5,
+    "texture": "textures/ui/arrow",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [ 21, 14 ],
+    "offset": [ 0, 0 ]
+  },
   "arrow_icon": {
-		"modifications": [
-			{
-				"array_name": "controls",
-				"operation": "insert_front",
-				"value": [
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
           {
             "stonecutter_auto_crafting_icon@stonecutter.stonecutter_auto_crafting": {
-						  "size": [26, 22],
-              "offset": [0, -5]
+              "size": [ 26, 22 ],
+              "offset": [ 0, -5 ]
             }
           }
-				]
-			}
-		]
-	},
+        ]
+      }
+    ]
+  },
   "stonecutter_auto_crafting@common_buttons.light_content_button": {
-    "size": [26, 22],
-		"offset": [0, 0],
+    "size": [ 26, 22 ],
+    "offset": [ 0, 0 ],
     "anchor_from": "top_middle",
     "anchor_to": "top_middle",
     "$button_content": "stonecutter.auto_crafting_arrow",
@@ -49,9 +48,7 @@
       }
     ]
   },
-
   // Remove Help Button //
-  
   "help_button": {
     "ignored": true
   }

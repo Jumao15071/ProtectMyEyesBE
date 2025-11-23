@@ -1,0 +1,541 @@
+{
+  "namespace": "accessibility_setting",
+
+  "accessibility_setting_button@settings_common.section_toggle_base": {
+    "$toggle_view_binding_name": "dabu.ui.accessibility",
+    "$glyph_texture": "textures/ui/debug_glyph",
+    "$glyph_color_texture": "textures/ui/debug_glyph_color",
+    "$glyph_size": [ 16, 16 ],
+    "$button_text": "dabu.ui.accessibility",
+    "$toggle_property_bag": {
+      "#panel_title": "dabu.ui.accessibility"
+    }
+  },
+  "accessibility_setting_section": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%c" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "dabu.ui.accessibility",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      /*{ "gamemode_switch@gamemode_switch.input_panel": {
+          "ignored": "($is_on_3p_server or not $include_world_section)"
+        }
+      },*/
+      {
+        "spacer_00": {
+          "type": "panel",
+          "size": [ 0, 10 ]
+        }
+      },
+      {
+        "gamemode_dropdown_0@settings_common.option_dropdown": {
+          "ignored": "($is_on_3p_server or not $include_world_section)",
+          "$option_label": "createWorldScreen.gameMode.default",
+          "$option_enabled_binding_name": "#world_game_mode_dropdown_enabled",
+          "$control_name": "dabu_ore_ui_common.toggle_button_stack_panel",
+          "$toggle_button_main_stack": [
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#world_game_mode_radio_survival",
+                "$button_text": "createWorldScreen.gameMode.survival"
+              }
+            },
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#world_game_mode_radio_creative",
+                "$button_text": "createWorldScreen.gameMode.creative"
+              }
+            },
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#world_game_mode_radio_adventure",
+                "$button_text": "createWorldScreen.gameMode.adventure"
+              }
+            },
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#world_game_mode_radio_spectator",
+                "$button_text": "createWorldScreen.gameMode.spectator"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "spacer_0": {
+          "ignored": "(not $include_world_section)",
+          "type": "panel",
+          "size": [ 0, 1 ]
+        }
+      },
+      {
+        "gamemode_dropdown_1@settings_common.option_dropdown": {
+          "ignored": "(not $include_world_section)",
+          "$option_label": "createWorldScreen.gameMode.personal",
+          "$option_enabled_binding_name": "#player_game_mode_dropdown_enabled",
+          "$control_name": "dabu_ore_ui_common.toggle_button_stack_panel",
+          "$toggle_button_main_stack": [
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#player_game_mode_radio_default",
+                "$button_text": "createWorldScreen.gameMode.serverDefault"
+              }
+            },
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#player_game_mode_radio_survival",
+                "$button_text": "createWorldScreen.gameMode.survival"
+              }
+            },
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#player_game_mode_radio_creative",
+                "$button_text": "createWorldScreen.gameMode.creative"
+              }
+            },
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#player_game_mode_radio_adventure",
+                "$button_text": "createWorldScreen.gameMode.adventure"
+              }
+            },
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#player_game_mode_radio_spectator",
+                "$button_text": "createWorldScreen.gameMode.spectator"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "spacer_1": {
+          "ignored": "(not $include_world_section)",
+          "type": "panel",
+          "size": [ 0, 1 ]
+        }
+      },
+      {
+        "world_difficulty_dropdown@settings_common.option_dropdown": {
+          "ignored": "(not $include_world_section)",
+          "$option_label": "options.difficulty",
+          "$option_enabled_binding_name": "#world_difficulty_dropdown_enabled",
+          "$control_name": "dabu_ore_ui_common.toggle_button_stack_panel",
+          "$toggle_button_main_stack": [
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#world_difficulty_radio_peaceful",
+                "$button_text": "options.difficulty.peaceful"
+              }
+            },
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#world_difficulty_radio_easy",
+                "$button_text": "options.difficulty.easy"
+              }
+            },
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#world_difficulty_radio_normal",
+                "$button_text": "options.difficulty.normal"
+              }
+            },
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#world_difficulty_radio_hard",
+                "$button_text": "options.difficulty.hard"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "spacer_2": {
+          "ignored": "(not $include_controls_and_settings_sections or not $touch)",
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "option_show_toggle_camera_perspective_button@settings_common.option_toggle": {
+          "ignored": "(not $include_controls_and_settings_sections or not $touch)",
+          "$option_label": "options.showToggleCameraPerspectiveButton",
+          "$option_binding_name": "#show_toggle_camera_perspective_button",
+          "$option_enabled_binding_name": "#show_toggle_camera_perspective_button_enabled",
+          "$toggle_name": "show_toggle_camera_perspective_button"
+        }
+      },
+      {
+        "spacer_3": {
+          "ignored": "(not $include_controls_and_settings_sections or not $touch)",
+          "type": "panel",
+          "size": [ 0, 1 ]
+        }
+      },
+      {
+        "perspective_dropdown@settings_common.option_dropdown": {
+          "ignored": "(not $include_controls_and_settings_sections or not $touch)",
+          "$option_label": "dabu.ui.accessibility.perspective",
+          "$control_name": "dabu_ore_ui_common.toggle_button_stack_panel",
+          "$toggle_button_main_stack": [
+            {
+              "firstperson@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#thirdperson_radio_first",
+                "$button_text": "dabu.ui.accessibility.firstperson"
+              }
+            },
+            {
+              "thirdperson_front@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#thirdperson_radio_third_front",
+                "$button_text": "dabu.ui.accessibility.thirdperson_front"
+              }
+            },
+            {
+              "thirdperson_back@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#thirdperson_radio_third_back",
+                "$button_text": "dabu.ui.accessibility.thirdperson_back"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "spacer_4": {
+          "ignored": "(not $include_controls_and_settings_sections or not $touch)",
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "option_toggle_hidehand@settings_common.option_toggle": {
+          "ignored": "(not $include_controls_and_settings_sections or not $touch)",
+          "$option_label": "options.hidehand",
+          "$option_binding_name": "#hide_hand",
+          "$option_enabled_binding_name": "#hide_hand_enabled",
+          "$toggle_name": "hide_hand"
+        }
+      },
+      {
+        "spacer_5": {
+          "ignored": "(not $include_controls_and_settings_sections or not $touch)",
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "option_toggle_hidehud@settings_common.option_toggle": {
+          "ignored": "(not $include_controls_and_settings_sections or not $touch)",
+          "$option_label": "options.hidehud",
+          "$option_binding_name": "#hide_hud",
+          "$option_enabled_binding_name": "#hide_hud_enabled",
+          "$toggle_name": "hide_hud"
+        }
+      },
+      {
+        "spacer_6": {
+          "ignored": "(not $include_controls_and_settings_sections or not $touch)",
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "option_show_block_select_button@settings_common.option_toggle": {
+          "ignored": "(not $include_controls_and_settings_sections or not $touch)",
+          "$option_label": "options.showBlockSelectButton",
+          "$option_binding_name": "#show_block_select_button",
+          "$option_enabled_binding_name": "#show_block_select_button_enabled",
+          "$toggle_name": "show_block_select_button",
+          "$has_option_description": true,
+          "$option_description": "options.showBlockSelectButton.message"
+        }
+      },
+      {
+        "spacer_7": {
+          "ignored": "(not $include_controls_and_settings_sections or not $touch)",
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "option_creative_delayed_block_breaking@settings_common.option_toggle": {
+          "ignored": "(not $include_controls_and_settings_sections or not $touch)",
+          "$option_label": "options.creativeDelayedBlockBreaking",
+          "$option_binding_name": "#creative_delayed_block_breaking",
+          "$option_enabled_binding_name": "#creative_delayed_block_breaking_enabled",
+          "$toggle_name": "creative_delayed_block_breaking",
+          "bindings": [
+            {
+              "binding_name": "(not #crosshair_action_button_on)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "spacer_8": {
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "pause_toggle@settings_common.option_toggle": {
+          "$option_label": "options.pauseHint",
+          "$option_binding_name": "#pause_option_toggle",
+          "$toggle_name": "pause_option_toggle",
+          "bindings": [
+            {
+              "binding_name": "#pause_toggle_enabled",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "spacer_9": {
+          "ignored": "(not $include_world_section)",
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "allow_commands_toggle@settings_common.option_toggle": {
+          "ignored": "(not $include_world_section)",
+          "$tts_section_header": "createWorldScreen.cheatSettings",
+          "$option_label": "dabu.createWorldScreen.commands",
+          "$option_binding_name": "#allow_cheats",
+          "$option_enabled_binding_name": "#allow_cheats_enabled",
+          "$toggle_name": "allow_cheats",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "$toggle_binding_condition": "always_when_visible"
+        }
+      },
+      {
+        "spacer_10": {
+          "ignored": "(not $include_world_section)",
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "perfect_weather_toggle@settings_common.option_toggle": {
+          "ignored": "(not $include_world_section)",
+          "$tts_section_header": "createWorldScreen.cheatSettings",
+          "$option_label": "dabu.createWorldScreen.perfectweather",
+          "$option_binding_name": "#perfect_weather",
+          "$option_enabled_binding_name": "#perfect_weather_enabled",
+          "$toggle_name": "perfect_weather",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "$toggle_binding_condition": "always_when_visible"
+        }
+      },
+      {
+        "spacer_11": {
+          "ignored": "(not $include_world_section)",
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "always_day_toggle@settings_common.option_toggle": {
+          "ignored": "(not $include_world_section)",
+          "$tts_section_header": "createWorldScreen.cheatSettings",
+          "$option_label": "createWorldScreen.alwaysDay",
+          "$option_binding_name": "#always_day",
+          "$option_enabled_binding_name": "#always_day_enabled",
+          "$toggle_name": "always_day",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "$toggle_binding_condition": "always_when_visible"
+        }
+      },
+      {
+        "spacer_12": {
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "cross_platform_enabled_toggle@dabu_ore_ui_common.option_switch": {
+          "$option_label": "dabu.ui.accessibility.crossplatform",
+          "$option_binding_name": "#crossplatform_toggle",
+          "$option_enabled_binding_name": "#crossplatform_toggle_enabled",
+          "$toggle_name": "crossplatform_toggle"
+        }
+      },
+      {
+        "spacer_13": {
+          "type": "panel",
+          "size": [ 0, 1 ]
+        }
+      },
+      {
+        "vsync_dropdown@settings_common.option_dropdown": {
+          "$option_label": "options.vsync.on",
+          "$control_name": "dabu_ore_ui_common.toggle_button_stack_panel",
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "vsync_button_toggle",
+              "source_property_name": "#toggle_state",
+              "target_property_name": "#visible"
+            }
+          ],
+          "$toggle_button_main_stack": [
+            {
+              "vsync_off@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#vsync_off",
+                "$button_text": "options.vsync.off"
+              }
+            },
+            {
+              "vsync_on@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#vsync_on",
+                "$button_text": "options.vsync.on"
+              }
+            },
+            {
+              "vsync_adaptive@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#vsync_adaptive",
+                "$button_text": "options.vsync.adaptive"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "vsync_text_label": {
+          "type": "label",
+          "color": "$option_description_text_color",
+          "text": "dabu.ui.vsync_option_warning"
+        }
+      },
+      {
+        "spacer_14": {
+          "ignored": "(not $pre_release)",
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "debug_hud_radio_dropdown@settings_common.option_dropdown": {
+          "ignored": "(not $pre_release)",
+          "$option_label": "dabu.ui.accessibility.debug_hud_radio",
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "debug_hud_radio_button_toggle",
+              "source_property_name": "#toggle_state",
+              "target_property_name": "#visible"
+            }
+          ],
+          "$control_name": "dabu_ore_ui_common.toggle_button_stack_panel",
+          "$toggle_button_main_stack": [
+            {
+              "debug_hud_radio_off@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#debug_hud_radio_basic",
+                "$button_text": "dabu.ui.accessibility.debug_hud_radio_off"
+              }
+            },
+            {
+              "debug_hud_radio_on@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#debug_hud_radio_off",
+                "$button_text": "dabu.ui.accessibility.debug_hud_radio_on"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "spacer_15": {
+          "ignored": "(not $include_world_section)",
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "world_edit_button_container": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "ignored": "(not $include_world_section)",
+          "controls": [
+            {
+              "template_version@settings_common.option_text_edit": {
+                "$option_label": "gui.templateMinVersion",
+                "$text_box_name": "template_version_text_box",
+                "$option_binding_name": "#minimum_template_version",
+                "$option_enabled_binding_name": "#minimum_template_enabled",
+                "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+                "$text_edit_box_text_type": "ExtendedASCII"
+              }
+            },
+            {
+              "export_template_warning_label": {
+                "type": "label",
+                "color": "$option_description_text_color",
+                "text": "dabu.ui.export_template_warning"
+              }
+            },
+            {
+              "spacer_1": {
+                "type": "panel",
+                "size": [ 0, 2 ]
+              }
+            },
+            {
+              "export_world_button@settings_common.action_button": {
+                "size": [ "100%", 30 ],
+                "$button_text": "gui.exportWorldLong",
+                "$pressed_button_name": "export_world_button",
+                "$focus_id": "export_world_button"
+              }
+            },
+            {
+              "export_template@world_section.export_template_button": {
+                "size": [ "100%", 30 ]
+              }
+            },
+            {
+              "spacer_2": {
+                "type": "panel",
+                "size": [ 0, 2 ]
+              }
+            },
+            {
+              "export_template_warning_label": {
+                "type": "label",
+                "color": "$option_description_text_color",
+                "text": "dabu.ui.copy_world_warning"
+              }
+            },
+            {
+              "spacer_3": {
+                "type": "panel",
+                "size": [ 0, 2 ]
+              }
+            },
+            {
+              "copy_world_button@world_section.copy_world_button": {
+                "size": [ "100%", 30 ],
+                "$button_text": "gui.copyWorld",
+                "$pressed_button_name": "copy_world_button"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "spacer_16": {
+          "type": "panel",
+          "size": [ 0, 20 ]
+        }
+      }
+    ]
+  }
+}

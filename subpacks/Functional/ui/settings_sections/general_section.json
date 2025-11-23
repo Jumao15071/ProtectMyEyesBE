@@ -1,0 +1,64 @@
+{
+  "dabu_vsync_option": {
+    "type": "stack_panel",
+    "controls": [
+      {
+        "vsync_option_dropdown@settings_common.option_dropdown": {
+          "$option_label": "options.vsync",
+          "$dropdown_content": "general_section.vysnc_dropdown_content",
+          "$dropdown_area": "content_area",
+          "$dropdown_name": "vsync_dropdown",
+          "$options_dropdown_toggle_label_binding": "#vsync_dropdown_toggle_label",
+          "$option_enabled_binding_name": "#vsync_dropdown_enabled",
+          "$dropdown_scroll_content_size": [ "100%", "200%" ]
+        }
+      },
+      {
+        "vsync_text_label": {
+          "type": "label",
+          "color": "$option_description_text_color",
+          "text": "dabu.ui.vsync_option_warning"
+        }
+      }
+    ]
+  },
+  "video_section_ore_ui": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%c" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "video_button_toggle",
+        "source_property_name": "(#toggle_state and $use_ore_ui_settings_video)",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "spacer_0": {
+          "type": "panel",
+          "size": [ 0, 10 ]
+        }
+      },
+      {
+        "dabu_vsync_option@general_section.dabu_vsync_option": { }
+      }
+    ]
+  },
+  "video_section": {
+    "$spatialPatternsPadding": [ 2, 2 ],
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "dabu_vsync_option@general_section.dabu_vsync_option": { }
+          }
+        ]
+      }
+    ]
+  }
+}

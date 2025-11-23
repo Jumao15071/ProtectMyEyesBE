@@ -1,0 +1,21 @@
+{
+    "disconnect_screen_text": {
+        "color": [0.0, 0.0, 0.0, 1.0],
+        "shadow": true
+    },
+    "disconnect_screen@common.base_screen": {
+        "$screen_bg_content": "disconnect.bg_xibao"
+    },
+    "realms_disconnect_screen@disconnect.disconnect_screen": {
+        "$screen_bg_content": "disconnect.bg_xibao"
+    },
+    "realms_warning_screen@disconnect.disconnect_screen": {
+        "$screen_bg_content": "disconnect.bg_xibao"
+    },
+    "bg_xibao": {
+        "type": "image",
+        "fill": true,
+        "bilinear": true,
+        "texture": "textures/loading_progress_screen/xibao"
+    }
+}

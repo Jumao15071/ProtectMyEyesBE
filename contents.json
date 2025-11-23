@@ -22,6 +22,9 @@
          "path" : "assets/minecraft/textures/block/acacia_planks.png"
       },
       {
+         "path" : "assets/minecraft/textures/block/acacia_shelf.png"
+      },
+      {
          "path" : "assets/minecraft/textures/block/amethyst_block.png"
       },
       {
@@ -67,6 +70,9 @@
          "path" : "assets/minecraft/textures/block/bamboo_planks.png"
       },
       {
+         "path" : "assets/minecraft/textures/block/bamboo_shelf.png"
+      },
+      {
          "path" : "assets/minecraft/textures/block/bamboo_stalk.png"
       },
       {
@@ -89,6 +95,9 @@
       },
       {
          "path" : "assets/minecraft/textures/block/birch_planks.png"
+      },
+      {
+         "path" : "assets/minecraft/textures/block/birch_shelf.png"
       },
       {
          "path" : "assets/minecraft/textures/block/black_concrete.png"
@@ -175,6 +184,9 @@
          "path" : "assets/minecraft/textures/block/cherry_planks.png"
       },
       {
+         "path" : "assets/minecraft/textures/block/cherry_shelf.png"
+      },
+      {
          "path" : "assets/minecraft/textures/block/chiseled_bookshelf_side.png"
       },
       {
@@ -253,6 +265,9 @@
          "path" : "assets/minecraft/textures/block/crimson_planks.png"
       },
       {
+         "path" : "assets/minecraft/textures/block/crimson_shelf.png"
+      },
+      {
          "path" : "assets/minecraft/textures/block/crimson_stem.png"
       },
       {
@@ -260,6 +275,9 @@
       },
       {
          "path" : "assets/minecraft/textures/block/crying_obsidian.png"
+      },
+      {
+         "path" : "assets/minecraft/textures/block/cut_copper.png"
       },
       {
          "path" : "assets/minecraft/textures/block/cut_red_sandstone.png"
@@ -287,6 +305,9 @@
       },
       {
          "path" : "assets/minecraft/textures/block/dark_oak_planks.png"
+      },
+      {
+         "path" : "assets/minecraft/textures/block/dark_oak_shelf.png"
       },
       {
          "path" : "assets/minecraft/textures/block/dark_prismarine.png"
@@ -373,6 +394,9 @@
          "path" : "assets/minecraft/textures/block/end_stone_bricks.png"
       },
       {
+         "path" : "assets/minecraft/textures/block/exposed_cut_copper.png"
+      },
+      {
          "path" : "assets/minecraft/textures/block/farmland.png"
       },
       {
@@ -410,6 +434,9 @@
       },
       {
          "path" : "assets/minecraft/textures/block/gilded_blackstone.png"
+      },
+      {
+         "path" : "assets/minecraft/textures/block/glow_lichen.png"
       },
       {
          "path" : "assets/minecraft/textures/block/glowstone.png"
@@ -490,6 +517,9 @@
          "path" : "assets/minecraft/textures/block/jungle_planks.png"
       },
       {
+         "path" : "assets/minecraft/textures/block/jungle_shelf.png"
+      },
+      {
          "path" : "assets/minecraft/textures/block/lapis_ore.png"
       },
       {
@@ -568,6 +598,9 @@
          "path" : "assets/minecraft/textures/block/mangrove_roots_top.png"
       },
       {
+         "path" : "assets/minecraft/textures/block/mangrove_shelf.png"
+      },
+      {
          "path" : "assets/minecraft/textures/block/melon_side.png"
       },
       {
@@ -625,6 +658,9 @@
          "path" : "assets/minecraft/textures/block/oak_planks.png"
       },
       {
+         "path" : "assets/minecraft/textures/block/oak_shelf.png"
+      },
+      {
          "path" : "assets/minecraft/textures/block/obsidian.png"
       },
       {
@@ -638,6 +674,9 @@
       },
       {
          "path" : "assets/minecraft/textures/block/orange_wool.png"
+      },
+      {
+         "path" : "assets/minecraft/textures/block/oxidized_cut_copper.png"
       },
       {
          "path" : "assets/minecraft/textures/block/packed_ice.png"
@@ -659,6 +698,9 @@
       },
       {
          "path" : "assets/minecraft/textures/block/pale_oak_planks.png"
+      },
+      {
+         "path" : "assets/minecraft/textures/block/pale_oak_shelf.png"
       },
       {
          "path" : "assets/minecraft/textures/block/pink_concrete.png"
@@ -781,6 +823,9 @@
          "path" : "assets/minecraft/textures/block/redstone_ore.png"
       },
       {
+         "path" : "assets/minecraft/textures/block/resin_block.png"
+      },
+      {
          "path" : "assets/minecraft/textures/block/resin_bricks.png"
       },
       {
@@ -826,6 +871,9 @@
          "path" : "assets/minecraft/textures/block/soul_soil.png"
       },
       {
+         "path" : "assets/minecraft/textures/block/sponge.png"
+      },
+      {
          "path" : "assets/minecraft/textures/block/spruce_leaves.png"
       },
       {
@@ -833,6 +881,9 @@
       },
       {
          "path" : "assets/minecraft/textures/block/spruce_planks.png"
+      },
+      {
+         "path" : "assets/minecraft/textures/block/spruce_shelf.png"
       },
       {
          "path" : "assets/minecraft/textures/block/stone.png"
@@ -952,6 +1003,9 @@
          "path" : "assets/minecraft/textures/block/warped_planks.png"
       },
       {
+         "path" : "assets/minecraft/textures/block/warped_shelf.png"
+      },
+      {
          "path" : "assets/minecraft/textures/block/warped_stem.png"
       },
       {
@@ -965,6 +1019,12 @@
       },
       {
          "path" : "assets/minecraft/textures/block/water_still.png"
+      },
+      {
+         "path" : "assets/minecraft/textures/block/weathered_cut_copper.png"
+      },
+      {
+         "path" : "assets/minecraft/textures/block/wet_sponge.png"
       },
       {
          "path" : "assets/minecraft/textures/block/white_concrete.png"
@@ -1006,13 +1066,373 @@
          "path" : "assets/minecraft/textures/item/bundle_open_front.png"
       },
       {
+         "path" : "biomes_client.json"
+      },
+      {
          "path" : "blocks.json"
       },
       {
          "path" : "contents.json"
       },
       {
+         "path" : "entity/allay.entity.json"
+      },
+      {
+         "path" : "entity/armadillo.entity.json"
+      },
+      {
+         "path" : "entity/axolotl.entity.json"
+      },
+      {
+         "path" : "entity/bee.entity.json"
+      },
+      {
+         "path" : "entity/bogged.entity.json"
+      },
+      {
+         "path" : "entity/breeze.entity.json"
+      },
+      {
+         "path" : "entity/camel.entity.json"
+      },
+      {
+         "path" : "entity/creaking.entity.json"
+      },
+      {
+         "path" : "entity/ender_dragon.entity.json"
+      },
+      {
+         "path" : "entity/frog.entity.json"
+      },
+      {
+         "path" : "entity/glow_squid.entity.json"
+      },
+      {
+         "path" : "entity/goat.entity.json"
+      },
+      {
+         "path" : "entity/happy_ghast.entity.json"
+      },
+      {
+         "path" : "entity/hoglin.entity.json"
+      },
+      {
+         "path" : "entity/iron_golem.entity.json"
+      },
+      {
+         "path" : "entity/piglin.entity.json"
+      },
+      {
+         "path" : "entity/piglin_brute.entity.json"
+      },
+      {
+         "path" : "entity/polar_bear.entity.json"
+      },
+      {
+         "path" : "entity/sniffer.entity.json"
+      },
+      {
+         "path" : "entity/snow_golem.entity.json"
+      },
+      {
+         "path" : "entity/strider.entity.json"
+      },
+      {
+         "path" : "entity/tadpole.entity.json"
+      },
+      {
+         "path" : "entity/trader_llama.entity.json"
+      },
+      {
+         "path" : "entity/wandering_trader.entity.json"
+      },
+      {
+         "path" : "entity/warden.entity.json"
+      },
+      {
+         "path" : "entity/wither_skeleton.entity.json"
+      },
+      {
+         "path" : "entity/zoglin.entity.json"
+      },
+      {
+         "path" : "fogs/bamboo_jungle_fog_setting.json"
+      },
+      {
+         "path" : "fogs/bamboo_jungle_hills_fog_setting.json"
+      },
+      {
+         "path" : "fogs/basalt_deltas_fog_setting.json"
+      },
+      {
+         "path" : "fogs/beach_fog_setting.json"
+      },
+      {
+         "path" : "fogs/birch_forest_fog_setting.json"
+      },
+      {
+         "path" : "fogs/birch_forest_hills_fog_setting.json"
+      },
+      {
+         "path" : "fogs/cherry_grove_fog_setting.json"
+      },
+      {
+         "path" : "fogs/cold_beach_fog_setting.json"
+      },
+      {
+         "path" : "fogs/cold_ocean_fog_setting.json"
+      },
+      {
+         "path" : "fogs/cold_taiga_fog_setting.json"
+      },
+      {
+         "path" : "fogs/cold_taiga_hills_fog_setting.json"
+      },
+      {
+         "path" : "fogs/cold_taiga_mutated_fog_setting.json"
+      },
+      {
+         "path" : "fogs/crimson_forest_fog_setting.json"
+      },
+      {
+         "path" : "fogs/deep_cold_ocean_fog_setting.json"
+      },
+      {
+         "path" : "fogs/deep_frozen_ocean_fog_setting.json"
+      },
+      {
+         "path" : "fogs/deep_lukewarm_ocean_fog_setting.json"
+      },
+      {
+         "path" : "fogs/deep_ocean_fog_setting.json"
+      },
+      {
+         "path" : "fogs/deep_warm_ocean_fog_setting.json"
+      },
+      {
+         "path" : "fogs/default_fog_setting.json"
+      },
+      {
+         "path" : "fogs/desert_fog_setting.json"
+      },
+      {
+         "path" : "fogs/desert_hills_fog_setting.json"
+      },
+      {
+         "path" : "fogs/extreme_hills_edge_fog_setting.json"
+      },
+      {
+         "path" : "fogs/extreme_hills_fog_setting.json"
+      },
+      {
+         "path" : "fogs/extreme_hills_mutated_fog_setting.json"
+      },
+      {
+         "path" : "fogs/extreme_hills_plus_trees_fog_setting.json"
+      },
+      {
+         "path" : "fogs/extreme_hills_plus_trees_mutated_fog_setting.json"
+      },
+      {
+         "path" : "fogs/flower_forest_fog_setting.json"
+      },
+      {
+         "path" : "fogs/forest_fog_setting.json"
+      },
+      {
+         "path" : "fogs/forest_hills_fog_setting.json"
+      },
+      {
+         "path" : "fogs/frozen_ocean_fog_setting.json"
+      },
+      {
+         "path" : "fogs/frozen_river_fog_setting.json"
+      },
+      {
+         "path" : "fogs/hell_fog_setting.json"
+      },
+      {
+         "path" : "fogs/ice_mountains_fog_setting.json"
+      },
+      {
+         "path" : "fogs/ice_plains_fog_setting.json"
+      },
+      {
+         "path" : "fogs/ice_plains_spikes_fog_setting.json"
+      },
+      {
+         "path" : "fogs/jungle_edge_fog_setting.json"
+      },
+      {
+         "path" : "fogs/jungle_fog_setting.json"
+      },
+      {
+         "path" : "fogs/jungle_hills_fog_setting.json"
+      },
+      {
+         "path" : "fogs/jungle_mutated_fog_setting.json"
+      },
+      {
+         "path" : "fogs/lukewarm_ocean_fog_setting.json"
+      },
+      {
+         "path" : "fogs/lush_caves_fog_setting.json"
+      },
+      {
+         "path" : "fogs/mangrove_swamp_fog_setting.json"
+      },
+      {
+         "path" : "fogs/mega_spruce_taiga_fog_setting.json"
+      },
+      {
+         "path" : "fogs/mega_spruse_taiga_mutated_fog_setting.json"
+      },
+      {
+         "path" : "fogs/mega_taiga_fog_setting.json"
+      },
+      {
+         "path" : "fogs/mega_taiga_hills_fog_setting.json"
+      },
+      {
+         "path" : "fogs/mega_taiga_mutated_fog_setting.json"
+      },
+      {
+         "path" : "fogs/mesa_bryce_fog_setting.json"
+      },
+      {
+         "path" : "fogs/mesa_fog_setting.json"
+      },
+      {
+         "path" : "fogs/mesa_mutated_fog_setting.json"
+      },
+      {
+         "path" : "fogs/mesa_plateau_fog_setting.json"
+      },
+      {
+         "path" : "fogs/mesa_plateau_stone_fog_setting.json"
+      },
+      {
+         "path" : "fogs/mushroom_island_fog_setting.json"
+      },
+      {
+         "path" : "fogs/mushroom_island_shore_fog_setting.json"
+      },
+      {
+         "path" : "fogs/ocean_fog_setting.json"
+      },
+      {
+         "path" : "fogs/pale_garden_fog_setting.json"
+      },
+      {
+         "path" : "fogs/plains_fog_setting.json"
+      },
+      {
+         "path" : "fogs/river_fog_setting.json"
+      },
+      {
+         "path" : "fogs/roofed_forest_fog_setting.json"
+      },
+      {
+         "path" : "fogs/roofed_forest_mutated_fog_setting.json"
+      },
+      {
+         "path" : "fogs/savanna_fog_setting.json"
+      },
+      {
+         "path" : "fogs/savanna_mutated_fog_setting.json"
+      },
+      {
+         "path" : "fogs/savanna_plateau_fog_setting.json"
+      },
+      {
+         "path" : "fogs/soulsand_valley_fog_setting.json"
+      },
+      {
+         "path" : "fogs/stone_beach_fog_setting.json"
+      },
+      {
+         "path" : "fogs/sunflower_plains_fog_setting.json"
+      },
+      {
+         "path" : "fogs/swampland_fog_setting.json"
+      },
+      {
+         "path" : "fogs/swampland_mutated_fog_setting.json"
+      },
+      {
+         "path" : "fogs/taiga_fog_setting.json"
+      },
+      {
+         "path" : "fogs/taiga_hills_fog_setting.json"
+      },
+      {
+         "path" : "fogs/taiga_mutated_fog_setting.json"
+      },
+      {
+         "path" : "fogs/the_end_fog_setting.json"
+      },
+      {
+         "path" : "fogs/warm_ocean_fog_setting.json"
+      },
+      {
+         "path" : "fogs/warped_forest_fog_setting.json"
+      },
+      {
+         "path" : "items/bordure_indented_banner_pattern.json"
+      },
+      {
+         "path" : "items/creeper_banner_pattern.json"
+      },
+      {
+         "path" : "items/field_masoned_banner_pattern.json"
+      },
+      {
+         "path" : "items/flow_banner_pattern.json"
+      },
+      {
+         "path" : "items/flower_banner_pattern.json"
+      },
+      {
+         "path" : "items/globe_banner_pattern.json"
+      },
+      {
+         "path" : "items/guster_banner_pattern.json"
+      },
+      {
+         "path" : "items/mojang_banner_pattern.json"
+      },
+      {
+         "path" : "items/piglin_banner_pattern.json"
+      },
+      {
+         "path" : "items/skull_banner_pattern.json"
+      },
+      {
+         "path" : "items/waxed_copper_door.json"
+      },
+      {
+         "path" : "items/waxed_exposed_copper_door.json"
+      },
+      {
+         "path" : "items/waxed_oxidized_copper_door.json"
+      },
+      {
+         "path" : "items/waxed_weathered_copper_door.json"
+      },
+      {
          "path" : "manifest.json"
+      },
+      {
+         "path" : "materials/terrain.material"
+      },
+      {
+         "path" : "models/entity/happy_ghast.geo.json"
+      },
+      {
+         "path" : "models/entity/villager.geo.json"
+      },
+      {
+         "path" : "models/entity/villager_v2.geo.json"
       },
       {
          "path" : "pack.mcmeta"
@@ -1025,12 +1445,6 @@
       },
       {
          "path" : "pack_icon.png"
-      },
-      {
-         "path" : "particles/blaze_marker.json"
-      },
-      {
-         "path" : "particles/blaze_position_marker.json"
       },
       {
          "path" : "particles/critical_hit.json"
@@ -1066,6 +1480,9 @@
          "path" : "particles/mobspell_ambient.json"
       },
       {
+         "path" : "particles/mobspell_lingering.json"
+      },
+      {
          "path" : "particles/note.json"
       },
       {
@@ -1081,19 +1498,16 @@
          "path" : "particles/vibration_signal.json"
       },
       {
-         "path" : "particles/wither_skeleton_marker.json"
-      },
-      {
-         "path" : "particles/wither_skeleton_position_marker.json"
-      },
-      {
          "path" : "render_controllers/creeper.render_controllers.json"
       },
       {
-         "path" : "shaders/glsl/renderchunk.fragment"
+         "path" : "render_controllers/happy_ghast.render_controllers.json"
       },
       {
-         "path" : "shaders/glsl/renderchunk.vertex"
+         "path" : "shaders/glsl/dabu_renderchunk.fragment"
+      },
+      {
+         "path" : "shaders/glsl/dabu_renderchunk.vertex"
       },
       {
          "path" : "sounds.json"
@@ -1126,316 +1540,13 @@
          "path" : "subpacks/Borderless_glass/cameras/first_person.json"
       },
       {
-         "path" : "subpacks/Borderless_glass/entity/agent.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/allay.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/armadillo.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/axolotl.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/bat.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/bee.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/blaze.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/bogged.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/breeze.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/camel.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/cat.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/cave_spider.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/chicken.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/cod.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/cow.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/creaking.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/creeper.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/dolphin.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/donkey_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/drowned.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/elder_guardian.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/ender_dragon.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/enderman.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/endermite.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/evocation_illager.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/fox.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/frog.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/ghast.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/glow_squid.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/goat.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/guardian.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/happy_ghast.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/hoglin.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/horse_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/husk.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/iron_golem.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/llama.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/magma_cube.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/mooshroom.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/mule_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/ocelot.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/panda.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/parrot.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/phantom.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/pig.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/piglin.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/piglin_brute.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/pillager.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/polar_bear.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/pufferfish.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/rabbit.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/ravager.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/salmon.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/sheep.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/shulker.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/silverfish.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/skeleton.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/skeleton_horse_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/slime.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/sniffer.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/snow_golem.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/spider.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/squid.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/stray.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/strider.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/tadpole.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/trader_llama.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/tropicalfish.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/turtle.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/vex.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/villager_v2.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/vindicator.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/wandering_trader.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/warden.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/witch.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/wither.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/wither_skeleton.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/wolf.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/zoglin.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/zombie.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/zombie_horse_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/zombie_pigman.entity.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/entity/zombie_villager.entity.json"
-      },
-      {
          "path" : "subpacks/Borderless_glass/environment/sun.png"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/bordure_indented_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/creeper_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/field_masoned_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/flow_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/flower_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/globe_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/guster_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/mojang_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/piglin_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/skull_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/waxed_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/waxed_exposed_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/waxed_oxidized_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/items/waxed_weathered_copper_door.json"
       },
       {
          "path" : "subpacks/Borderless_glass/materials/ui3D.material"
       },
       {
-         "path" : "subpacks/Borderless_glass/models/entity/happy_ghast.geo.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/models/entity/villager.geo.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/models/entity/villager_v2.geo.json"
-      },
-      {
          "path" : "subpacks/Borderless_glass/particles/block_destruct.json"
-      },
-      {
-         "path" : "subpacks/Borderless_glass/render_controllers/happy_ghast.render_controllers.json"
       },
       {
          "path" : "subpacks/Borderless_glass/textures/blocks/glass.png"
@@ -1495,10 +1606,34 @@
          "path" : "subpacks/Borderless_glass/textures/blocks/tinted_glass.png"
       },
       {
-         "path" : "subpacks/Borderless_glass/textures/item_texture.json"
+         "path" : "subpacks/Borderless_glass/textures/entity/shield.png"
+      },
+      {
+         "path" : "subpacks/Borderless_glass/textures/items/copper_sword.png"
+      },
+      {
+         "path" : "subpacks/Borderless_glass/textures/items/diamond_sword.png"
+      },
+      {
+         "path" : "subpacks/Borderless_glass/textures/items/gold_sword.png"
+      },
+      {
+         "path" : "subpacks/Borderless_glass/textures/items/iron_sword.png"
+      },
+      {
+         "path" : "subpacks/Borderless_glass/textures/items/netherite_sword.png"
+      },
+      {
+         "path" : "subpacks/Borderless_glass/textures/items/stone_sword.png"
+      },
+      {
+         "path" : "subpacks/Borderless_glass/textures/items/wood_sword.png"
       },
       {
          "path" : "subpacks/Borderless_glass/textures/terrain_texture.json"
+      },
+      {
+         "path" : "subpacks/Borderless_glass/ui/account_banned_screen.json"
       },
       {
          "path" : "subpacks/Borderless_glass/ui/anvil_screen.json"
@@ -1514,6 +1649,9 @@
       },
       {
          "path" : "subpacks/Borderless_glass/ui/command_block_screen.json"
+      },
+      {
+         "path" : "subpacks/Borderless_glass/ui/disconnect_screen.json"
       },
       {
          "path" : "subpacks/Borderless_glass/ui/furnace_screen.json"
@@ -1534,13 +1672,22 @@
          "path" : "subpacks/Borderless_glass/ui/loom_screen_pocket.json"
       },
       {
+         "path" : "subpacks/Borderless_glass/ui/progress_screen.json"
+      },
+      {
          "path" : "subpacks/Borderless_glass/ui/redstone_screen.json"
+      },
+      {
+         "path" : "subpacks/Borderless_glass/ui/resource_packs_screen.json"
+      },
+      {
+         "path" : "subpacks/Borderless_glass/ui/settings_screen.json"
       },
       {
          "path" : "subpacks/Borderless_glass/ui/settings_sections/general_section.json"
       },
       {
-         "path" : "subpacks/Borderless_glass/ui/settings_sections/world_section.json"
+         "path" : "subpacks/Borderless_glass/ui/settings_sections/settings_common.json"
       },
       {
          "path" : "subpacks/Borderless_glass/ui/smoker_screen.json"
@@ -1567,319 +1714,13 @@
          "path" : "subpacks/Borderless_glass/ui/ui_common.json"
       },
       {
-         "path" : "subpacks/Classic/entity/agent.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/allay.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/armadillo.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/axolotl.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/bat.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/bee.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/blaze.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/bogged.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/breeze.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/camel.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/cat.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/cave_spider.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/chicken.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/cod.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/cow.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/creaking.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/creeper.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/dolphin.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/donkey_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/drowned.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/elder_guardian.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/ender_dragon.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/enderman.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/endermite.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/evocation_illager.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/fox.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/frog.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/ghast.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/glow_squid.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/goat.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/guardian.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/happy_ghast.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/hoglin.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/horse_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/husk.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/iron_golem.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/llama.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/magma_cube.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/mooshroom.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/mule_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/ocelot.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/panda.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/parrot.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/phantom.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/pig.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/piglin.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/piglin_brute.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/pillager.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/polar_bear.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/pufferfish.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/rabbit.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/ravager.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/salmon.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/sheep.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/shulker.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/silverfish.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/skeleton.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/skeleton_horse_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/slime.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/sniffer.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/snow_golem.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/spider.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/squid.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/stray.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/strider.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/tadpole.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/trader_llama.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/tropicalfish.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/turtle.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/vex.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/villager_v2.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/vindicator.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/wandering_trader.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/warden.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/witch.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/wither.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/wither_skeleton.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/wolf.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/zoglin.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/zombie.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/zombie_horse_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/zombie_pigman.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/entity/zombie_villager.entity.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/bordure_indented_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/creeper_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/field_masoned_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/flow_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/flower_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/globe_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/guster_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/mojang_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/piglin_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/skull_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/waxed_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/waxed_exposed_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/waxed_oxidized_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Classic/items/waxed_weathered_copper_door.json"
-      },
-      {
          "path" : "subpacks/Classic/materials/ui3D.material"
-      },
-      {
-         "path" : "subpacks/Classic/models/entity/happy_ghast.geo.json"
-      },
-      {
-         "path" : "subpacks/Classic/models/entity/villager.geo.json"
-      },
-      {
-         "path" : "subpacks/Classic/models/entity/villager_v2.geo.json"
       },
       {
          "path" : "subpacks/Classic/particles/block_destruct.json"
       },
       {
-         "path" : "subpacks/Classic/render_controllers/happy_ghast.render_controllers.json"
-      },
-      {
-         "path" : "subpacks/Classic/renderer/materials/RenderChunk.material.bin"
-      },
-      {
-         "path" : "subpacks/Classic/textures/item_texture.json"
+         "path" : "subpacks/Classic/ui/account_banned_screen.json"
       },
       {
          "path" : "subpacks/Classic/ui/chat_screen.json"
@@ -1889,6 +1730,9 @@
       },
       {
          "path" : "subpacks/Classic/ui/command_block_screen.json"
+      },
+      {
+         "path" : "subpacks/Classic/ui/disconnect_screen.json"
       },
       {
          "path" : "subpacks/Classic/ui/hud_screen.json"
@@ -1906,13 +1750,22 @@
          "path" : "subpacks/Classic/ui/loom_screen_pocket.json"
       },
       {
+         "path" : "subpacks/Classic/ui/progress_screen.json"
+      },
+      {
          "path" : "subpacks/Classic/ui/redstone_screen.json"
+      },
+      {
+         "path" : "subpacks/Classic/ui/resource_packs_screen.json"
+      },
+      {
+         "path" : "subpacks/Classic/ui/settings_screen.json"
       },
       {
          "path" : "subpacks/Classic/ui/settings_sections/general_section.json"
       },
       {
-         "path" : "subpacks/Classic/ui/settings_sections/world_section.json"
+         "path" : "subpacks/Classic/ui/settings_sections/settings_common.json"
       },
       {
          "path" : "subpacks/Classic/ui/stonecutter_screen.json"
@@ -1931,6 +1784,1140 @@
       },
       {
          "path" : "subpacks/Classic/ui/ui_common.json"
+      },
+      {
+         "path" : "subpacks/Functional/blocks.json"
+      },
+      {
+         "path" : "subpacks/Functional/cameras/first_person.json"
+      },
+      {
+         "path" : "subpacks/Functional/entity/blaze.entity.json"
+      },
+      {
+         "path" : "subpacks/Functional/entity/guardian.entity.json"
+      },
+      {
+         "path" : "subpacks/Functional/entity/happy_ghast.entity.json"
+      },
+      {
+         "path" : "subpacks/Functional/entity/magma_cube.entity.json"
+      },
+      {
+         "path" : "subpacks/Functional/entity/pillager.entity.json"
+      },
+      {
+         "path" : "subpacks/Functional/entity/skeleton.entity.json"
+      },
+      {
+         "path" : "subpacks/Functional/entity/witch.entity.json"
+      },
+      {
+         "path" : "subpacks/Functional/entity/wither_skeleton.entity.json"
+      },
+      {
+         "path" : "subpacks/Functional/entity/zombie_pigman.entity.json"
+      },
+      {
+         "path" : "subpacks/Functional/materials/ui3D.material"
+      },
+      {
+         "path" : "subpacks/Functional/particles/blaze_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/blaze_position_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/block_destruct.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/guardian_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/guardian_position_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/magma_cube_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/magma_cube_position_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/pillager_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/pillager_position_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/skeleton_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/skeleton_position_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/witch_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/witch_position_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/wither_skeleton_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/wither_skeleton_position_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/zombie_pigman_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/particles/zombie_pigman_position_marker.json"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/amethyst_block.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/azalea_leaves.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/azalea_leaves_flowers.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/azalea_leaves_flowers_opaque.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/azalea_leaves_opaque.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/azalea_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/bamboo_block.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/bamboo_block_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/bamboo_mosaic.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/bamboo_planks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/basalt_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/basalt_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/bedrock.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/blackstone.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/blackstone_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/blue_ice.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/bone_block_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/brick.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/calcite.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/cherry_leaves.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/cherry_leaves_opaque.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/cherry_log_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/cherry_planks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/chiseled_bookshelf_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/chiseled_bookshelf_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/chiseled_nether_bricks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/chiseled_resin_bricks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/chiseled_tuff_bricks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/clay.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/coal_block.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/coarse_dirt.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/cobblestone.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/cobblestone_mossy.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_black.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_blue.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_brown.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_cyan.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_gray.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_green.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_light_blue.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_lime.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_magenta.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_orange.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_pink.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_black.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_blue.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_brown.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_cyan.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_gray.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_green.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_light_blue.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_lime.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_magenta.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_orange.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_pink.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_purple.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_red.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_silver.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_white.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_powder_yellow.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_purple.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_red.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_silver.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_white.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/concrete_yellow.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/coral_blue.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/coral_blue_dead.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/coral_pink.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/coral_pink_dead.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/coral_purple.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/coral_purple_dead.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/coral_red.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/coral_red_dead.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/coral_yellow.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/coral_yellow_dead.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/cracked_nether_bricks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/cracked_polished_blackstone_bricks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/creaking_heart_side_active.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/creaking_heart_side_dormant.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/creaking_heart_side_inactive.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/crimson_nylium_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/crimson_nylium_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/crimson_planks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/crying_obsidian.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/deepslate/chiseled_deepslate.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/deepslate/cobbled_deepslate.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/deepslate/cracked_deepslate_bricks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/deepslate/cracked_deepslate_tiles.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/deepslate/deepslate.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/deepslate/deepslate_bricks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/deepslate/deepslate_tiles.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/deepslate/deepslate_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/deepslate/polished_deepslate.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/dirt.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/dirt_podzol_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/dirt_podzol_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/dirt_with_roots.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/dripstone_block.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/end_bricks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/end_stone.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/farmland_dry.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/farmland_wet.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/frosted_ice_0.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/frosted_ice_1.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/frosted_ice_2.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/frosted_ice_3.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_black.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_blue.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_brown.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_cyan.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_gray.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_green.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_light_blue.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_lime.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_magenta.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_orange.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_pane_top_black.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_pink.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_purple.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_red.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_silver.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_white.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glass_yellow.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/glowstone.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/grass_carried.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/grass_path_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/grass_path_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/grass_side.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/grass_side_snowed.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/grass_side_snowed.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/grass_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/gravel.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_black.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_blue.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_brown.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_cyan.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_gray.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_green.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_light_blue.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_lime.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_magenta.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_orange.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_pink.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_purple.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_red.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_silver.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_white.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hardened_clay_stained_yellow.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hay_block_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/hay_block_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/honeycomb.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/huge_fungus/crimson_log_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/huge_fungus/crimson_planks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/huge_fungus/stripped_crimson_stem_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/huge_fungus/stripped_crimson_stem_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/huge_fungus/stripped_warped_stem_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/huge_fungus/stripped_warped_stem_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/huge_fungus/warped_planks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/huge_fungus/warped_stem_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/ice.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/ice_packed.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_acacia.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_acacia_carried.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_acacia_opaque.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_big_oak.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_big_oak_carried.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_big_oak_opaque.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_birch.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_birch_carried.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_birch_opaque.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_jungle.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_jungle_carried.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_jungle_opaque.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_oak.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_oak_carried.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_oak_opaque.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_spruce.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_spruce_carried.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/leaves_spruce_opaque.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/log_acacia.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/log_big_oak.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/log_birch.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/log_jungle.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/log_oak.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/log_spruce.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/magma.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mangrove_leaves.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mangrove_leaves_carried.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mangrove_log_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mangrove_planks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mangrove_roots_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mangrove_roots_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/melon_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/melon_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/missing_tile.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/moss_block.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mud.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mud_bricks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/muddy_mangrove_roots_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/muddy_mangrove_roots_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mushroom_block_inside.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mushroom_block_skin_brown.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mushroom_block_skin_red.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mushroom_block_skin_stem.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mycelium_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/mycelium_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/nether_brick.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/nether_wart_block.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/obsidian.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/packed_mud.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/pale_moss.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/pale_moss_block.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/pale_oak_leaves.tga"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/pale_oak_leaves_opaque.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/pale_oak_log_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/pale_oak_planks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/planks_acacia.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/planks_big_oak.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/planks_birch.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/planks_jungle.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/planks_oak.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/planks_spruce.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/polished_basalt_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/polished_basalt_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/polished_blackstone_bricks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/prismarine_bricks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/prismarine_dark.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/prismarine_rough.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/pumpkin_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/pumpkin_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/purpur_block.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/purpur_pillar.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/purpur_pillar_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/quartz_block_lines.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/quartz_block_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/quartz_block_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/raw_copper_block.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/raw_gold_block.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/raw_iron_block.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/red_nether_brick.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/red_sand.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/red_sandstone_bottom.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/red_sandstone_carved.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/red_sandstone_normal.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/red_sandstone_smooth.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/red_sandstone_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/resin_block.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/resin_bricks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/sand.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/sandstone_bottom.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/sandstone_carved.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/sandstone_normal.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/sandstone_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/sculk.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/sculk_vein.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/shroomlight.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/slime.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/smooth_basalt.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/snow.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/soul_sand.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/soul_soil.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stone.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stone_andesite.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stone_diorite.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stone_granite.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stonebrick.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stonebrick_cracked.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stonebrick_mossy.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_acacia_log.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_acacia_log_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_bamboo_block.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_bamboo_block_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_birch_log.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_birch_log_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_cherry_log_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_cherry_log_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_crimson_stem_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_crimson_stem_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_dark_oak_log.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_dark_oak_log_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_jungle_log.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_jungle_log_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_mangrove_log_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_mangrove_log_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_oak_log.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_oak_log_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_pale_oak_log_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_pale_oak_log_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_spruce_log.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_spruce_log_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_warped_stem_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/stripped_warped_stem_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/tinted_glass.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/tuff.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/tuff_bricks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/warped_nylium_side.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/warped_nylium_top.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/warped_planks.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_black.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_blue.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_brown.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_cyan.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_gray.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_green.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_light_blue.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_lime.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_magenta.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_orange.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_pink.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_purple.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_red.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_silver.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_white.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/blocks/wool_colored_yellow.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/entity/shield.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/items/copper_sword.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/items/diamond_sword.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/items/gold_sword.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/items/iron_sword.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/items/netherite_sword.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/items/stone_sword.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/items/wood_sword.png"
+      },
+      {
+         "path" : "subpacks/Functional/textures/terrain_texture.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/account_banned_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/anvil_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/chat_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/chest_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/command_block_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/disconnect_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/hud_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/inventory_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/inventory_screen_pocket.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/loom_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/loom_screen_pocket.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/progress_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/redstone_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/resource_packs_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/settings_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/settings_sections/general_section.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/settings_sections/settings_common.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/stonecutter_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/stonecutter_screen_pocket.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/structure_editor_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/trade_2_screen.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/trade_2_screen_pocket.json"
+      },
+      {
+         "path" : "subpacks/Functional/ui/ui_common.json"
+      },
+      {
+         "path" : "subpacks/JavaOriginal/textures/blocks/acacia_shelf.png"
       },
       {
          "path" : "subpacks/JavaOriginal/textures/blocks/amethyst_block.png"
@@ -1963,6 +2950,9 @@
          "path" : "subpacks/JavaOriginal/textures/blocks/bamboo_planks.png"
       },
       {
+         "path" : "subpacks/JavaOriginal/textures/blocks/bamboo_shelf.png"
+      },
+      {
          "path" : "subpacks/JavaOriginal/textures/blocks/bamboo_stem.png"
       },
       {
@@ -1976,6 +2966,9 @@
       },
       {
          "path" : "subpacks/JavaOriginal/textures/blocks/bedrock.png"
+      },
+      {
+         "path" : "subpacks/JavaOriginal/textures/blocks/birch_shelf.png"
       },
       {
          "path" : "subpacks/JavaOriginal/textures/blocks/blackstone.png"
@@ -2012,6 +3005,9 @@
       },
       {
          "path" : "subpacks/JavaOriginal/textures/blocks/cherry_planks.png"
+      },
+      {
+         "path" : "subpacks/JavaOriginal/textures/blocks/cherry_shelf.png"
       },
       {
          "path" : "subpacks/JavaOriginal/textures/blocks/chiseled_bookshelf_side.png"
@@ -2131,10 +3127,16 @@
          "path" : "subpacks/JavaOriginal/textures/blocks/crimson_nylium_top.png"
       },
       {
+         "path" : "subpacks/JavaOriginal/textures/blocks/crimson_shelf.png"
+      },
+      {
          "path" : "subpacks/JavaOriginal/textures/blocks/crying_obsidian.png"
       },
       {
          "path" : "subpacks/JavaOriginal/textures/blocks/cut_sandstone.png"
+      },
+      {
+         "path" : "subpacks/JavaOriginal/textures/blocks/dark_oak_shelf.png"
       },
       {
          "path" : "subpacks/JavaOriginal/textures/blocks/deepslate/chiseled_deepslate.png"
@@ -2392,6 +3394,9 @@
          "path" : "subpacks/JavaOriginal/textures/blocks/iron_ore.png"
       },
       {
+         "path" : "subpacks/JavaOriginal/textures/blocks/jungle_shelf.png"
+      },
+      {
          "path" : "subpacks/JavaOriginal/textures/blocks/lapis_ore.png"
       },
       {
@@ -2449,6 +3454,9 @@
          "path" : "subpacks/JavaOriginal/textures/blocks/mangrove_roots_top.png"
       },
       {
+         "path" : "subpacks/JavaOriginal/textures/blocks/mangrove_shelf.png"
+      },
+      {
          "path" : "subpacks/JavaOriginal/textures/blocks/melon_side.png"
       },
       {
@@ -2488,6 +3496,9 @@
          "path" : "subpacks/JavaOriginal/textures/blocks/netherrack.png"
       },
       {
+         "path" : "subpacks/JavaOriginal/textures/blocks/oak_shelf.png"
+      },
+      {
          "path" : "subpacks/JavaOriginal/textures/blocks/obsidian.png"
       },
       {
@@ -2507,6 +3518,9 @@
       },
       {
          "path" : "subpacks/JavaOriginal/textures/blocks/pale_oak_planks.png"
+      },
+      {
+         "path" : "subpacks/JavaOriginal/textures/blocks/pale_oak_shelf.png"
       },
       {
          "path" : "subpacks/JavaOriginal/textures/blocks/planks_acacia.png"
@@ -2644,6 +3658,9 @@
          "path" : "subpacks/JavaOriginal/textures/blocks/soul_soil.png"
       },
       {
+         "path" : "subpacks/JavaOriginal/textures/blocks/spruce_shelf.png"
+      },
+      {
          "path" : "subpacks/JavaOriginal/textures/blocks/stone.png"
       },
       {
@@ -2764,6 +3781,9 @@
          "path" : "subpacks/JavaOriginal/textures/blocks/warped_nylium_top.png"
       },
       {
+         "path" : "subpacks/JavaOriginal/textures/blocks/warped_shelf.png"
+      },
+      {
          "path" : "subpacks/JavaOriginal/textures/blocks/warped_wart_block.png"
       },
       {
@@ -2791,2008 +3811,196 @@
          "path" : "subpacks/JavaOriginal/textures/ui/title.png"
       },
       {
-         "path" : "subpacks/NoUI/blocks.json"
+         "path" : "subpacks/Redstone/blocks.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/agent.entity.json"
+         "path" : "subpacks/Redstone/cameras/first_person.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/allay.entity.json"
+         "path" : "subpacks/Redstone/entity/blaze.entity.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/armadillo.entity.json"
+         "path" : "subpacks/Redstone/entity/guardian.entity.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/axolotl.entity.json"
+         "path" : "subpacks/Redstone/entity/happy_ghast.entity.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/bat.entity.json"
+         "path" : "subpacks/Redstone/entity/magma_cube.entity.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/bee.entity.json"
+         "path" : "subpacks/Redstone/entity/pillager.entity.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/blaze.entity.json"
+         "path" : "subpacks/Redstone/entity/skeleton.entity.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/bogged.entity.json"
+         "path" : "subpacks/Redstone/entity/witch.entity.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/breeze.entity.json"
+         "path" : "subpacks/Redstone/entity/wither_skeleton.entity.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/camel.entity.json"
+         "path" : "subpacks/Redstone/entity/zombie_pigman.entity.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/cat.entity.json"
+         "path" : "subpacks/Redstone/materials/ui3D.material"
       },
       {
-         "path" : "subpacks/NoUI/entity/cave_spider.entity.json"
+         "path" : "subpacks/Redstone/particles/blaze_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/chicken.entity.json"
+         "path" : "subpacks/Redstone/particles/blaze_position_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/cod.entity.json"
+         "path" : "subpacks/Redstone/particles/block_destruct.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/cow.entity.json"
+         "path" : "subpacks/Redstone/particles/guardian_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/creaking.entity.json"
+         "path" : "subpacks/Redstone/particles/guardian_position_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/creeper.entity.json"
+         "path" : "subpacks/Redstone/particles/magma_cube_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/dolphin.entity.json"
+         "path" : "subpacks/Redstone/particles/magma_cube_position_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/donkey_v3.entity.json"
+         "path" : "subpacks/Redstone/particles/pillager_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/drowned.entity.json"
+         "path" : "subpacks/Redstone/particles/pillager_position_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/elder_guardian.entity.json"
+         "path" : "subpacks/Redstone/particles/skeleton_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/ender_dragon.entity.json"
+         "path" : "subpacks/Redstone/particles/skeleton_position_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/enderman.entity.json"
+         "path" : "subpacks/Redstone/particles/witch_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/endermite.entity.json"
+         "path" : "subpacks/Redstone/particles/witch_position_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/evocation_illager.entity.json"
+         "path" : "subpacks/Redstone/particles/wither_skeleton_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/fox.entity.json"
+         "path" : "subpacks/Redstone/particles/wither_skeleton_position_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/frog.entity.json"
+         "path" : "subpacks/Redstone/particles/zombie_pigman_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/ghast.entity.json"
+         "path" : "subpacks/Redstone/particles/zombie_pigman_position_marker.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/glow_squid.entity.json"
+         "path" : "subpacks/Redstone/renderer/materials/RenderChunk.material.bin"
       },
       {
-         "path" : "subpacks/NoUI/entity/goat.entity.json"
+         "path" : "subpacks/Redstone/renderer/materials/旧版/1.21.30-1.21.90/RenderChunk.material.bin"
       },
       {
-         "path" : "subpacks/NoUI/entity/guardian.entity.json"
+         "path" : "subpacks/Redstone/renderer/materials/注：此文件仅支持1.21.120，不支持其它版本；支持Windows和Android"
       },
       {
-         "path" : "subpacks/NoUI/entity/hoglin.entity.json"
+         "path" : "subpacks/Redstone/textures/entity/shield.png"
       },
       {
-         "path" : "subpacks/NoUI/entity/horse_v3.entity.json"
+         "path" : "subpacks/Redstone/textures/items/copper_sword.png"
       },
       {
-         "path" : "subpacks/NoUI/entity/husk.entity.json"
+         "path" : "subpacks/Redstone/textures/items/diamond_sword.png"
       },
       {
-         "path" : "subpacks/NoUI/entity/iron_golem.entity.json"
+         "path" : "subpacks/Redstone/textures/items/gold_sword.png"
       },
       {
-         "path" : "subpacks/NoUI/entity/llama.entity.json"
+         "path" : "subpacks/Redstone/textures/items/iron_sword.png"
       },
       {
-         "path" : "subpacks/NoUI/entity/magma_cube.entity.json"
+         "path" : "subpacks/Redstone/textures/items/netherite_sword.png"
       },
       {
-         "path" : "subpacks/NoUI/entity/mooshroom.entity.json"
+         "path" : "subpacks/Redstone/textures/items/stone_sword.png"
       },
       {
-         "path" : "subpacks/NoUI/entity/mule_v3.entity.json"
+         "path" : "subpacks/Redstone/textures/items/wood_sword.png"
       },
       {
-         "path" : "subpacks/NoUI/entity/ocelot.entity.json"
+         "path" : "subpacks/Redstone/textures/terrain_texture.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/panda.entity.json"
+         "path" : "subpacks/Redstone/ui/account_banned_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/parrot.entity.json"
+         "path" : "subpacks/Redstone/ui/anvil_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/phantom.entity.json"
+         "path" : "subpacks/Redstone/ui/chat_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/pig.entity.json"
+         "path" : "subpacks/Redstone/ui/chest_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/piglin.entity.json"
+         "path" : "subpacks/Redstone/ui/command_block_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/piglin_brute.entity.json"
+         "path" : "subpacks/Redstone/ui/disconnect_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/pillager.entity.json"
+         "path" : "subpacks/Redstone/ui/hud_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/polar_bear.entity.json"
+         "path" : "subpacks/Redstone/ui/inventory_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/pufferfish.entity.json"
+         "path" : "subpacks/Redstone/ui/inventory_screen_pocket.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/rabbit.entity.json"
+         "path" : "subpacks/Redstone/ui/loom_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/ravager.entity.json"
+         "path" : "subpacks/Redstone/ui/loom_screen_pocket.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/salmon.entity.json"
+         "path" : "subpacks/Redstone/ui/progress_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/sheep.entity.json"
+         "path" : "subpacks/Redstone/ui/redstone_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/shulker.entity.json"
+         "path" : "subpacks/Redstone/ui/resource_packs_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/silverfish.entity.json"
+         "path" : "subpacks/Redstone/ui/settings_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/skeleton.entity.json"
+         "path" : "subpacks/Redstone/ui/settings_sections/general_section.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/skeleton_horse_v3.entity.json"
+         "path" : "subpacks/Redstone/ui/settings_sections/settings_common.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/slime.entity.json"
+         "path" : "subpacks/Redstone/ui/stonecutter_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/sniffer.entity.json"
+         "path" : "subpacks/Redstone/ui/stonecutter_screen_pocket.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/snow_golem.entity.json"
+         "path" : "subpacks/Redstone/ui/structure_editor_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/spider.entity.json"
+         "path" : "subpacks/Redstone/ui/trade_2_screen.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/squid.entity.json"
+         "path" : "subpacks/Redstone/ui/trade_2_screen_pocket.json"
       },
       {
-         "path" : "subpacks/NoUI/entity/stray.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/strider.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/tadpole.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/trader_llama.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/tropicalfish.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/turtle.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/vex.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/villager_v2.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/vindicator.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/wandering_trader.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/warden.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/witch.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/wither.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/wither_skeleton.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/wolf.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/zoglin.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/zombie.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/zombie_horse_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/zombie_pigman.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/entity/zombie_villager.entity.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/bordure_indented_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/creeper_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/field_masoned_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/flow_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/flower_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/globe_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/guster_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/mojang_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/piglin_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/skull_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/waxed_copper_door.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/waxed_exposed_copper_door.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/waxed_oxidized_copper_door.json"
-      },
-      {
-         "path" : "subpacks/NoUI/items/waxed_weathered_copper_door.json"
-      },
-      {
-         "path" : "subpacks/NoUI/textures/item_texture.json"
-      },
-      {
-         "path" : "subpacks/NoUI/textures/terrain_texture.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/blocks.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/cameras/first_person.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/agent.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/allay.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/armadillo.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/axolotl.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/bat.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/bee.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/blaze.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/bogged.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/breeze.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/camel.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/cat.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/cave_spider.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/chicken.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/cod.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/cow.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/creaking.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/creeper.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/dolphin.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/donkey_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/drowned.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/elder_guardian.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/ender_dragon.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/enderman.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/endermite.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/evocation_illager.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/fox.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/frog.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/ghast.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/glow_squid.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/goat.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/guardian.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/happy_ghast.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/hoglin.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/horse_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/husk.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/iron_golem.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/llama.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/magma_cube.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/mooshroom.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/mule_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/ocelot.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/panda.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/parrot.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/phantom.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/pig.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/piglin.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/piglin_brute.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/pillager.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/polar_bear.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/pufferfish.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/rabbit.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/ravager.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/salmon.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/sheep.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/shulker.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/silverfish.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/skeleton.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/skeleton_horse_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/slime.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/sniffer.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/snow_golem.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/spider.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/squid.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/stray.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/strider.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/tadpole.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/trader_llama.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/tropicalfish.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/turtle.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/vex.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/villager_v2.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/vindicator.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/wandering_trader.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/warden.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/witch.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/wither.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/wither_skeleton.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/wolf.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/zoglin.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/zombie.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/zombie_horse_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/zombie_pigman.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/entity/zombie_villager.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/bordure_indented_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/creeper_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/field_masoned_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/flow_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/flower_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/globe_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/guster_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/mojang_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/piglin_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/skull_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/waxed_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/waxed_exposed_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/waxed_oxidized_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/items/waxed_weathered_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/materials/ui3D.material"
-      },
-      {
-         "path" : "subpacks/Redstone_only/models/entity/happy_ghast.geo.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/models/entity/villager.geo.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/models/entity/villager_v2.geo.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/particles/block_destruct.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/render_controllers/happy_ghast.render_controllers.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/renderer/materials/RenderChunk.material.bin"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/amethyst_block.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/azalea_leaves.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/azalea_leaves_flowers.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/azalea_leaves_flowers_opaque.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/azalea_leaves_opaque.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/azalea_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/bamboo_block.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/bamboo_block_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/bamboo_mosaic.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/bamboo_planks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/basalt_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/basalt_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/bedrock.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/blackstone.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/blackstone_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/blue_ice.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/bone_block_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/brick.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/calcite.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/cherry_leaves.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/cherry_leaves_opaque.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/cherry_log_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/cherry_planks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/chiseled_bookshelf_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/chiseled_bookshelf_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/chiseled_nether_bricks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/chiseled_resin_bricks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/chiseled_tuff_bricks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/clay.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/coal_block.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/coarse_dirt.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/cobblestone.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/cobblestone_mossy.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_black.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_blue.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_brown.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_cyan.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_gray.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_green.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_light_blue.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_lime.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_magenta.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_orange.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_pink.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_black.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_blue.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_brown.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_cyan.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_gray.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_green.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_light_blue.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_lime.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_magenta.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_orange.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_pink.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_purple.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_red.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_silver.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_white.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_powder_yellow.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_purple.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_red.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_silver.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_white.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/concrete_yellow.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/coral_blue.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/coral_blue_dead.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/coral_pink.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/coral_pink_dead.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/coral_purple.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/coral_purple_dead.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/coral_red.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/coral_red_dead.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/coral_yellow.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/coral_yellow_dead.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/cracked_nether_bricks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/cracked_polished_blackstone_bricks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/creaking_heart_side_active.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/creaking_heart_side_dormant.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/creaking_heart_side_inactive.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/crimson_nylium_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/crimson_nylium_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/crimson_planks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/crying_obsidian.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/deepslate/chiseled_deepslate.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/deepslate/cobbled_deepslate.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/deepslate/cracked_deepslate_bricks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/deepslate/cracked_deepslate_tiles.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/deepslate/deepslate.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/deepslate/deepslate_bricks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/deepslate/deepslate_tiles.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/deepslate/deepslate_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/deepslate/polished_deepslate.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/dirt.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/dirt_podzol_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/dirt_podzol_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/dirt_with_roots.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/dripstone_block.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/end_bricks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/end_stone.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/farmland_dry.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/farmland_wet.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/frosted_ice_0.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/frosted_ice_1.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/frosted_ice_2.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/frosted_ice_3.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_black.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_blue.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_brown.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_cyan.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_gray.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_green.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_light_blue.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_lime.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_magenta.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_orange.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_pane_top_black.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_pink.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_purple.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_red.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_silver.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_white.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glass_yellow.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/glowstone.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/grass_carried.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/grass_path_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/grass_path_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/grass_side.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/grass_side_snowed.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/grass_side_snowed.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/grass_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/gravel.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_black.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_blue.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_brown.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_cyan.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_gray.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_green.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_light_blue.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_lime.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_magenta.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_orange.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_pink.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_purple.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_red.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_silver.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_white.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hardened_clay_stained_yellow.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hay_block_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/hay_block_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/honeycomb.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/huge_fungus/crimson_log_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/huge_fungus/crimson_planks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/huge_fungus/stripped_crimson_stem_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/huge_fungus/stripped_crimson_stem_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/huge_fungus/stripped_warped_stem_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/huge_fungus/stripped_warped_stem_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/huge_fungus/warped_planks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/huge_fungus/warped_stem_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/ice.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/ice_packed.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_acacia.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_acacia_carried.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_acacia_opaque.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_big_oak.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_big_oak_carried.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_big_oak_opaque.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_birch.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_birch_carried.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_birch_opaque.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_jungle.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_jungle_carried.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_jungle_opaque.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_oak.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_oak_carried.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_oak_opaque.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_spruce.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_spruce_carried.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/leaves_spruce_opaque.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/log_acacia.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/log_big_oak.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/log_birch.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/log_jungle.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/log_oak.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/log_spruce.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/magma.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mangrove_leaves.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mangrove_leaves_carried.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mangrove_log_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mangrove_planks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mangrove_roots_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mangrove_roots_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/melon_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/melon_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/missing_tile.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/moss_block.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mud.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mud_bricks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/muddy_mangrove_roots_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/muddy_mangrove_roots_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mushroom_block_inside.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mushroom_block_skin_brown.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mushroom_block_skin_red.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mushroom_block_skin_stem.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mycelium_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/mycelium_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/nether_brick.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/nether_wart_block.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/obsidian.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/packed_mud.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/pale_moss.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/pale_moss_block.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/pale_oak_leaves.tga"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/pale_oak_leaves_opaque.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/pale_oak_log_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/pale_oak_planks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/planks_acacia.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/planks_big_oak.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/planks_birch.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/planks_jungle.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/planks_oak.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/planks_spruce.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/polished_basalt_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/polished_basalt_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/polished_blackstone_bricks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/prismarine_bricks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/prismarine_dark.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/prismarine_rough.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/pumpkin_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/pumpkin_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/purpur_block.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/purpur_pillar.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/purpur_pillar_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/quartz_block_lines.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/quartz_block_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/quartz_block_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/raw_copper_block.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/raw_gold_block.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/raw_iron_block.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/red_nether_brick.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/red_sand.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/red_sandstone_bottom.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/red_sandstone_carved.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/red_sandstone_normal.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/red_sandstone_smooth.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/red_sandstone_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/resin_block.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/resin_bricks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/sand.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/sandstone_bottom.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/sandstone_carved.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/sandstone_normal.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/sandstone_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/sculk.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/sculk_vein.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/shroomlight.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/slime.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/smooth_basalt.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/snow.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/soul_sand.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/soul_soil.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stone.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stone_andesite.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stone_diorite.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stone_granite.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stonebrick.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stonebrick_cracked.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stonebrick_mossy.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_acacia_log.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_acacia_log_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_bamboo_block.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_bamboo_block_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_birch_log.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_birch_log_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_cherry_log_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_cherry_log_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_crimson_stem_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_crimson_stem_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_dark_oak_log.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_dark_oak_log_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_jungle_log.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_jungle_log_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_mangrove_log_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_mangrove_log_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_oak_log.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_oak_log_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_pale_oak_log_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_pale_oak_log_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_spruce_log.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_spruce_log_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_warped_stem_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/stripped_warped_stem_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/tinted_glass.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/tuff.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/tuff_bricks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/warped_nylium_side.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/warped_nylium_top.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/warped_planks.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_black.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_blue.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_brown.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_cyan.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_gray.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_green.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_light_blue.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_lime.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_magenta.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_orange.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_pink.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_purple.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_red.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_silver.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_white.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/blocks/wool_colored_yellow.png"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/item_texture.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/textures/terrain_texture.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/anvil_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/chat_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/chest_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/command_block_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/hud_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/inventory_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/inventory_screen_pocket.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/loom_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/loom_screen_pocket.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/redstone_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/settings_sections/general_section.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/settings_sections/world_section.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/stonecutter_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/stonecutter_screen_pocket.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/structure_editor_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/trade_2_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/trade_2_screen_pocket.json"
-      },
-      {
-         "path" : "subpacks/Redstone_only/ui/ui_common.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/blocks.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/cameras/first_person.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/agent.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/allay.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/armadillo.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/axolotl.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/bat.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/bee.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/blaze.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/bogged.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/breeze.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/camel.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/cat.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/cave_spider.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/chicken.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/cod.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/cow.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/creaking.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/creeper.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/dolphin.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/donkey_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/drowned.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/elder_guardian.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/ender_dragon.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/enderman.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/endermite.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/evocation_illager.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/fox.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/frog.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/ghast.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/glow_squid.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/goat.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/guardian.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/happy_ghast.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/hoglin.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/horse_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/husk.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/iron_golem.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/llama.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/magma_cube.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/mooshroom.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/mule_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/ocelot.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/panda.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/parrot.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/phantom.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/pig.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/piglin.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/piglin_brute.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/pillager.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/polar_bear.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/pufferfish.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/rabbit.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/ravager.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/salmon.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/sheep.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/shulker.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/silverfish.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/skeleton.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/skeleton_horse_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/slime.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/sniffer.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/snow_golem.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/spider.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/squid.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/stray.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/strider.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/tadpole.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/trader_llama.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/tropicalfish.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/turtle.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/vex.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/villager_v2.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/vindicator.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/wandering_trader.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/warden.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/witch.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/wither.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/wither_skeleton.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/wolf.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/zoglin.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/zombie.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/zombie_horse_v3.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/zombie_pigman.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/entity/zombie_villager.entity.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/bordure_indented_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/creeper_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/field_masoned_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/flow_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/flower_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/globe_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/guster_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/mojang_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/piglin_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/skull_banner_pattern.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/waxed_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/waxed_exposed_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/waxed_oxidized_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/items/waxed_weathered_copper_door.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/materials/ui3D.material"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/models/entity/happy_ghast.geo.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/models/entity/villager.geo.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/models/entity/villager_v2.geo.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/particles/block_destruct.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/render_controllers/happy_ghast.render_controllers.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/renderer/materials/RenderChunk.material.bin"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/textures/item_texture.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/textures/terrain_texture.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/anvil_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/chat_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/chest_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/command_block_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/hud_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/inventory_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/inventory_screen_pocket.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/loom_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/loom_screen_pocket.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/redstone_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/settings_sections/general_section.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/settings_sections/world_section.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/stonecutter_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/stonecutter_screen_pocket.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/structure_editor_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/trade_2_screen.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/trade_2_screen_pocket.json"
-      },
-      {
-         "path" : "subpacks/Redstone_plus/ui/ui_common.json"
-      },
-      {
-         "path" : "texts/Readme.txt"
+         "path" : "subpacks/Redstone/ui/ui_common.json"
       },
       {
          "path" : "texts/de_DE.lang"
@@ -4813,7 +4021,13 @@
          "path" : "texts/ko_KR.lang"
       },
       {
+         "path" : "texts/language_names.json"
+      },
+      {
          "path" : "texts/languages.json"
+      },
+      {
+         "path" : "texts/lzh.lang"
       },
       {
          "path" : "texts/ru_RU.lang"
@@ -4822,10 +4036,16 @@
          "path" : "texts/zh_CN.lang"
       },
       {
+         "path" : "texts/zh_HK.lang"
+      },
+      {
          "path" : "texts/zh_TW.lang"
       },
       {
          "path" : "textures/blocks/.nomedia"
+      },
+      {
+         "path" : "textures/blocks/acacia_shelf.png"
       },
       {
          "path" : "textures/blocks/amethyst_block.png"
@@ -4850,6 +4070,27 @@
       },
       {
          "path" : "textures/blocks/ancient_debris_top_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/anvil/.nomedia"
+      },
+      {
+         "path" : "textures/blocks/anvil/anvil_base_damaged_0.png"
+      },
+      {
+         "path" : "textures/blocks/anvil/anvil_base_damaged_1.png"
+      },
+      {
+         "path" : "textures/blocks/anvil/anvil_base_damaged_2.png"
+      },
+      {
+         "path" : "textures/blocks/anvil/anvil_top_damaged_0.png"
+      },
+      {
+         "path" : "textures/blocks/anvil/anvil_top_damaged_1.png"
+      },
+      {
+         "path" : "textures/blocks/anvil/anvil_top_damaged_2.png"
       },
       {
          "path" : "textures/blocks/azalea_leaves.tga"
@@ -4885,6 +4126,9 @@
          "path" : "textures/blocks/bamboo_planks.png"
       },
       {
+         "path" : "textures/blocks/bamboo_shelf.png"
+      },
+      {
          "path" : "textures/blocks/barrel_side.png"
       },
       {
@@ -4900,6 +4144,9 @@
          "path" : "textures/blocks/beetroots_stage_3.png"
       },
       {
+         "path" : "textures/blocks/birch_shelf.png"
+      },
+      {
          "path" : "textures/blocks/blackstone.png"
       },
       {
@@ -4910,6 +4157,9 @@
       },
       {
          "path" : "textures/blocks/bone_block_side.png"
+      },
+      {
+         "path" : "textures/blocks/bookshelf_top.png"
       },
       {
          "path" : "textures/blocks/brick.png"
@@ -4954,6 +4204,12 @@
          "path" : "textures/blocks/cherry_planks.png"
       },
       {
+         "path" : "textures/blocks/cherry_shelf.png"
+      },
+      {
+         "path" : "textures/blocks/chest/.nomedia"
+      },
+      {
          "path" : "textures/blocks/chest/chest_inventory_front.png"
       },
       {
@@ -4970,6 +4226,9 @@
       },
       {
          "path" : "textures/blocks/chest/trapped_chest_inventory_top.png"
+      },
+      {
+         "path" : "textures/blocks/chiseled_bookshelf_occupied.png"
       },
       {
          "path" : "textures/blocks/chiseled_bookshelf_side.png"
@@ -5009,12 +4268,6 @@
       },
       {
          "path" : "textures/blocks/cobblestone_mossy.png"
-      },
-      {
-         "path" : "textures/blocks/comparator_off.png"
-      },
-      {
-         "path" : "textures/blocks/comparator_on.png"
       },
       {
          "path" : "textures/blocks/composter_side.png"
@@ -5116,13 +4369,28 @@
          "path" : "textures/blocks/concrete_yellow.png"
       },
       {
+         "path" : "textures/blocks/copper/.nomedia"
+      },
+      {
          "path" : "textures/blocks/copper/waxed_chiseled_copper.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_chiseled_copper_carried.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_copper_bars.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_copper_block.png"
       },
       {
+         "path" : "textures/blocks/copper/waxed_copper_block_carried.png"
+      },
+      {
          "path" : "textures/blocks/copper/waxed_copper_bulb.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_copper_bulb_carried.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_copper_bulb_lit.png"
@@ -5132,6 +4400,9 @@
       },
       {
          "path" : "textures/blocks/copper/waxed_copper_bulb_powered.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_copper_chain1.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_copper_chest_inventory_front.png"
@@ -5152,19 +4423,40 @@
          "path" : "textures/blocks/copper/waxed_copper_grate.png"
       },
       {
+         "path" : "textures/blocks/copper/waxed_copper_grate_carried.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_copper_lantern.png"
+      },
+      {
          "path" : "textures/blocks/copper/waxed_copper_trapdoor.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_cut_copper.png"
       },
       {
+         "path" : "textures/blocks/copper/waxed_cut_copper_carried.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_cut_copper_slab_side.png"
+      },
+      {
          "path" : "textures/blocks/copper/waxed_exposed_chiseled_copper.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_exposed_chiseled_copper_carried.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_exposed_copper.png"
       },
       {
+         "path" : "textures/blocks/copper/waxed_exposed_copper_bars.png"
+      },
+      {
          "path" : "textures/blocks/copper/waxed_exposed_copper_bulb.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_exposed_copper_bulb_carried.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_exposed_copper_bulb_lit.png"
@@ -5174,6 +4466,12 @@
       },
       {
          "path" : "textures/blocks/copper/waxed_exposed_copper_bulb_powered.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_exposed_copper_carried.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_exposed_copper_chain1.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_exposed_copper_chest_inventory_front.png"
@@ -5194,19 +4492,46 @@
          "path" : "textures/blocks/copper/waxed_exposed_copper_grate.png"
       },
       {
+         "path" : "textures/blocks/copper/waxed_exposed_copper_grate_carried.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_exposed_copper_lantern.png"
+      },
+      {
          "path" : "textures/blocks/copper/waxed_exposed_copper_trapdoor.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_exposed_cut_copper.png"
       },
       {
+         "path" : "textures/blocks/copper/waxed_exposed_cut_copper_carried.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_exposed_cut_copper_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_exposed_lightning_rod.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_lightning_rod.png"
+      },
+      {
          "path" : "textures/blocks/copper/waxed_oxidized_chiseled_copper.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_oxidized_chiseled_copper_carried.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_oxidized_copper.png"
       },
       {
+         "path" : "textures/blocks/copper/waxed_oxidized_copper_bars.png"
+      },
+      {
          "path" : "textures/blocks/copper/waxed_oxidized_copper_bulb.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_oxidized_copper_bulb_carried.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_oxidized_copper_bulb_lit.png"
@@ -5216,6 +4541,12 @@
       },
       {
          "path" : "textures/blocks/copper/waxed_oxidized_copper_bulb_powered.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_oxidized_copper_carried.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_oxidized_copper_chain1.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_oxidized_copper_chest_inventory_front.png"
@@ -5236,19 +4567,43 @@
          "path" : "textures/blocks/copper/waxed_oxidized_copper_grate.png"
       },
       {
+         "path" : "textures/blocks/copper/waxed_oxidized_copper_grate_carried.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_oxidized_copper_lantern.png"
+      },
+      {
          "path" : "textures/blocks/copper/waxed_oxidized_copper_trapdoor.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_oxidized_cut_copper.png"
       },
       {
+         "path" : "textures/blocks/copper/waxed_oxidized_cut_copper_carried.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_oxidized_cut_copper_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_oxidized_lightning_rod.png"
+      },
+      {
          "path" : "textures/blocks/copper/waxed_weathered_chiseled_copper.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_weathered_chiseled_copper_carried.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_weathered_copper.png"
       },
       {
+         "path" : "textures/blocks/copper/waxed_weathered_copper_bars.png"
+      },
+      {
          "path" : "textures/blocks/copper/waxed_weathered_copper_bulb.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_weathered_copper_bulb_carried.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_weathered_copper_bulb_lit.png"
@@ -5258,6 +4613,12 @@
       },
       {
          "path" : "textures/blocks/copper/waxed_weathered_copper_bulb_powered.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_weathered_copper_carried.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_weathered_copper_chain1.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_weathered_copper_chest_inventory_front.png"
@@ -5278,10 +4639,25 @@
          "path" : "textures/blocks/copper/waxed_weathered_copper_grate.png"
       },
       {
+         "path" : "textures/blocks/copper/waxed_weathered_copper_grate_carried.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_weathered_copper_lantern.png"
+      },
+      {
          "path" : "textures/blocks/copper/waxed_weathered_copper_trapdoor.png"
       },
       {
          "path" : "textures/blocks/copper/waxed_weathered_cut_copper.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_weathered_cut_copper_carried.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_weathered_cut_copper_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/copper/waxed_weathered_lightning_rod.png"
       },
       {
          "path" : "textures/blocks/copper_ore.png"
@@ -5329,7 +4705,13 @@
          "path" : "textures/blocks/cracked_polished_blackstone_bricks.png"
       },
       {
+         "path" : "textures/blocks/crafter/.nomedia"
+      },
+      {
          "path" : "textures/blocks/crafter/crafter_bottom.png"
+      },
+      {
+         "path" : "textures/blocks/crafter/crafter_bottom_triggered.png"
       },
       {
          "path" : "textures/blocks/crafter/crafter_east.png"
@@ -5374,6 +4756,9 @@
          "path" : "textures/blocks/crafter/crafter_west_triggered.png"
       },
       {
+         "path" : "textures/blocks/crafting_table_bottom.png"
+      },
+      {
          "path" : "textures/blocks/creaking_heart.png"
       },
       {
@@ -5395,16 +4780,40 @@
          "path" : "textures/blocks/crimson_nylium_top.png"
       },
       {
+         "path" : "textures/blocks/crimson_shelf.png"
+      },
+      {
          "path" : "textures/blocks/crying_obsidian.png"
       },
       {
          "path" : "textures/blocks/cut_sandstone.png"
       },
       {
+         "path" : "textures/blocks/dark_oak_shelf.png"
+      },
+      {
+         "path" : "textures/blocks/daylight_detector/.nomedia"
+      },
+      {
+         "path" : "textures/blocks/daylight_detector/daylight_detector_inverted_side.png"
+      },
+      {
+         "path" : "textures/blocks/daylight_detector/daylight_detector_inverted_top.png"
+      },
+      {
+         "path" : "textures/blocks/daylight_detector/daylight_detector_side.png"
+      },
+      {
+         "path" : "textures/blocks/daylight_detector/daylight_detector_top.png"
+      },
+      {
          "path" : "textures/blocks/deadbush.tga"
       },
       {
          "path" : "textures/blocks/decorated_pot_side.png"
+      },
+      {
+         "path" : "textures/blocks/deepslate/.nomedia"
       },
       {
          "path" : "textures/blocks/deepslate/chiseled_deepslate.png"
@@ -5581,6 +4990,18 @@
          "path" : "textures/blocks/frosted_ice_3.png"
       },
       {
+         "path" : "textures/blocks/furnace_side_off.png"
+      },
+      {
+         "path" : "textures/blocks/furnace_side_on.png"
+      },
+      {
+         "path" : "textures/blocks/furnace_top_off.png"
+      },
+      {
+         "path" : "textures/blocks/furnace_top_on.png"
+      },
+      {
          "path" : "textures/blocks/gilded_blackstone.png"
       },
       {
@@ -5594,6 +5015,198 @@
       },
       {
          "path" : "textures/blocks/glass_pane_top_black.png"
+      },
+      {
+         "path" : "textures/blocks/glow/.nomedia"
+      },
+      {
+         "path" : "textures/blocks/glow/ancient_debris_side.png"
+      },
+      {
+         "path" : "textures/blocks/glow/ancient_debris_side.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/ancient_debris_side_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/ancient_debris_top.png"
+      },
+      {
+         "path" : "textures/blocks/glow/ancient_debris_top.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/ancient_debris_top_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/coal_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/coal_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/coal_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/copper_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/copper_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/copper_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_coal_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_coal_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_coal_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_copper_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_copper_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_copper_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_diamond_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_diamond_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_diamond_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_emerald_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_emerald_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_emerald_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_gold_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_gold_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_gold_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_iron_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_iron_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_iron_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_lapis_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_lapis_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_lapis_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_redstone_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_redstone_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/deepslate_redstone_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/diamond_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/diamond_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/diamond_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/emerald_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/emerald_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/emerald_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/gilded_blackstone.png"
+      },
+      {
+         "path" : "textures/blocks/glow/gilded_blackstone.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/gilded_blackstone_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/gold_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/gold_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/gold_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/iron_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/iron_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/iron_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/lapis_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/lapis_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/lapis_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/nether_gold_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/nether_gold_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/nether_gold_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/quartz_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/quartz_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/quartz_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/glow/redstone_ore.png"
+      },
+      {
+         "path" : "textures/blocks/glow/redstone_ore.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/glow/redstone_ore_mers.tga"
       },
       {
          "path" : "textures/blocks/glowing_obsidian.png"
@@ -5698,6 +5311,9 @@
          "path" : "textures/blocks/honeycomb.png"
       },
       {
+         "path" : "textures/blocks/hopper/.nomedia"
+      },
+      {
          "path" : "textures/blocks/hopper/hopper_inside.png"
       },
       {
@@ -5773,6 +5389,9 @@
          "path" : "textures/blocks/hopper/hopper_top_west_powered.png"
       },
       {
+         "path" : "textures/blocks/huge_fungus/.nomedia"
+      },
+      {
          "path" : "textures/blocks/huge_fungus/crimson_log_side.png"
       },
       {
@@ -5830,6 +5449,18 @@
          "path" : "textures/blocks/iron_bars.png"
       },
       {
+         "path" : "textures/blocks/iron_block.png"
+      },
+      {
+         "path" : "textures/blocks/iron_block.texture_set.json"
+      },
+      {
+         "path" : "textures/blocks/iron_block_heightmap.png"
+      },
+      {
+         "path" : "textures/blocks/iron_block_mer.tga"
+      },
+      {
          "path" : "textures/blocks/iron_ore.png"
       },
       {
@@ -5837,6 +5468,9 @@
       },
       {
          "path" : "textures/blocks/iron_ore_mers.tga"
+      },
+      {
+         "path" : "textures/blocks/jungle_shelf.png"
       },
       {
          "path" : "textures/blocks/kelp_top_age25.tga"
@@ -5917,6 +5551,12 @@
          "path" : "textures/blocks/leaves_spruce_opaque.png"
       },
       {
+         "path" : "textures/blocks/lectern_base.png"
+      },
+      {
+         "path" : "textures/blocks/lectern_bottom.png"
+      },
+      {
          "path" : "textures/blocks/log_acacia.png"
       },
       {
@@ -5957,6 +5597,9 @@
       },
       {
          "path" : "textures/blocks/mangrove_roots_top.png"
+      },
+      {
+         "path" : "textures/blocks/mangrove_shelf.png"
       },
       {
          "path" : "textures/blocks/melon_side.png"
@@ -6025,6 +5668,12 @@
          "path" : "textures/blocks/netherrack.png"
       },
       {
+         "path" : "textures/blocks/oak_shelf.png"
+      },
+      {
+         "path" : "textures/blocks/observer/.nomedia"
+      },
+      {
          "path" : "textures/blocks/observer/observer_back.png"
       },
       {
@@ -6079,7 +5728,13 @@
          "path" : "textures/blocks/pale_oak_planks.png"
       },
       {
+         "path" : "textures/blocks/pale_oak_shelf.png"
+      },
+      {
          "path" : "textures/blocks/pink_petals.tga"
+      },
+      {
+         "path" : "textures/blocks/piston/.nomedia"
       },
       {
          "path" : "textures/blocks/piston/piston_bottom.png"
@@ -6122,6 +5777,9 @@
       },
       {
          "path" : "textures/blocks/planks_spruce.png"
+      },
+      {
+         "path" : "textures/blocks/plate/.nomedia"
       },
       {
          "path" : "textures/blocks/plate/acacia_planks_plate.png"
@@ -6274,6 +5932,33 @@
          "path" : "textures/blocks/red_sandstone_top.png"
       },
       {
+         "path" : "textures/blocks/redstone/.nomedia"
+      },
+      {
+         "path" : "textures/blocks/redstone/comparator_floor_off.png"
+      },
+      {
+         "path" : "textures/blocks/redstone/comparator_floor_on.png"
+      },
+      {
+         "path" : "textures/blocks/redstone/comparator_up_off.png"
+      },
+      {
+         "path" : "textures/blocks/redstone/comparator_up_on.png"
+      },
+      {
+         "path" : "textures/blocks/redstone/repeater_floor_off.png"
+      },
+      {
+         "path" : "textures/blocks/redstone/repeater_floor_on.png"
+      },
+      {
+         "path" : "textures/blocks/redstone/repeater_up_off.png"
+      },
+      {
+         "path" : "textures/blocks/redstone/repeater_up_on.png"
+      },
+      {
          "path" : "textures/blocks/redstone_dust_cross.png"
       },
       {
@@ -6290,12 +5975,6 @@
       },
       {
          "path" : "textures/blocks/redstone_torch_on.png"
-      },
-      {
-         "path" : "textures/blocks/repeater_off.png"
-      },
-      {
-         "path" : "textures/blocks/repeater_on.png"
       },
       {
          "path" : "textures/blocks/resin_block.png"
@@ -6340,6 +6019,135 @@
          "path" : "textures/blocks/shroomlight.png"
       },
       {
+         "path" : "textures/blocks/slabs/.nomedia"
+      },
+      {
+         "path" : "textures/blocks/slabs/andesite_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/andesite_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/cobbled_deepslate_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/cobbled_deepslate_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/cobblestone_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/cobblestone_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/cut_red_sandstone_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/cut_red_sandstone_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/cut_sandstone_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/cut_sandstone_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/diorite_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/diorite_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/granite_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/granite_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/mossy_cobblestone_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/mossy_cobblestone_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/normal_stone_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/normal_stone_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/petrified_oak_planks_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/petrified_oak_planks_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/polished_andesite_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/polished_andesite_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/polished_blackstone_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/polished_blackstone_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/polished_deepslate_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/polished_deepslate_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/polished_diorite_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/polished_diorite_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/polished_granite_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/polished_granite_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/polished_tuff_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/polished_tuff_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/quartz_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/quartz_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/smooth_red_sandstone_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/smooth_red_sandstone_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/smooth_sandstone_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/smooth_sandstone_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/smooth_stone_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/smooth_stone_slab_top.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/tuff_slab_side.png"
+      },
+      {
+         "path" : "textures/blocks/slabs/tuff_slab_top.png"
+      },
+      {
          "path" : "textures/blocks/slime.png"
       },
       {
@@ -6347,6 +6155,12 @@
       },
       {
          "path" : "textures/blocks/smooth_basalt.png"
+      },
+      {
+         "path" : "textures/blocks/smooth_red_sandstone_top.png"
+      },
+      {
+         "path" : "textures/blocks/smooth_sandstone_top.png"
       },
       {
          "path" : "textures/blocks/snow.png"
@@ -6358,10 +6172,16 @@
          "path" : "textures/blocks/soul_fire_1.png"
       },
       {
+         "path" : "textures/blocks/soul_lantern.png"
+      },
+      {
          "path" : "textures/blocks/soul_sand.png"
       },
       {
          "path" : "textures/blocks/soul_soil.png"
+      },
+      {
+         "path" : "textures/blocks/specialredstone/.nomedia"
       },
       {
          "path" : "textures/blocks/specialredstone/dispenser_front_horizontal.png"
@@ -6388,6 +6208,9 @@
          "path" : "textures/blocks/specialredstone/dropper_top.png"
       },
       {
+         "path" : "textures/blocks/specialredstone2/.nomedia"
+      },
+      {
          "path" : "textures/blocks/specialredstone2/dispenser_front_horizontal.png"
       },
       {
@@ -6412,6 +6235,15 @@
          "path" : "textures/blocks/specialredstone2/dropper_top.png"
       },
       {
+         "path" : "textures/blocks/sponge.png"
+      },
+      {
+         "path" : "textures/blocks/sponge_wet.png"
+      },
+      {
+         "path" : "textures/blocks/spruce_shelf.png"
+      },
+      {
          "path" : "textures/blocks/stone.png"
       },
       {
@@ -6422,6 +6254,9 @@
       },
       {
          "path" : "textures/blocks/stone_granite.png"
+      },
+      {
+         "path" : "textures/blocks/stone_slab_top.png"
       },
       {
          "path" : "textures/blocks/stonebrick.png"
@@ -6541,6 +6376,9 @@
          "path" : "textures/blocks/tuff_bricks.png"
       },
       {
+         "path" : "textures/blocks/vault/.nomedia"
+      },
+      {
          "path" : "textures/blocks/vault/vault_bottom.png"
       },
       {
@@ -6602,6 +6440,9 @@
       },
       {
          "path" : "textures/blocks/warped_nylium_top.png"
+      },
+      {
+         "path" : "textures/blocks/warped_shelf.png"
       },
       {
          "path" : "textures/blocks/warped_wart_block.png"
@@ -6709,10 +6550,16 @@
          "path" : "textures/entity/pistonarm/pistonArmSticky.png"
       },
       {
+         "path" : "textures/environment/.nomedia"
+      },
+      {
          "path" : "textures/environment/sun.png"
       },
       {
          "path" : "textures/flipbook_textures.json"
+      },
+      {
+         "path" : "textures/gui/.nomedia"
       },
       {
          "path" : "textures/gui/gui.png"
@@ -6721,13 +6568,40 @@
          "path" : "textures/gui/gui3.png"
       },
       {
+         "path" : "textures/hsa/.nomedia"
+      },
+      {
          "path" : "textures/hsa/blaze_marker.png"
+      },
+      {
+         "path" : "textures/hsa/guardian_marker.png"
+      },
+      {
+         "path" : "textures/hsa/magma_cube_marker.png"
       },
       {
          "path" : "textures/hsa/marker.png"
       },
       {
+         "path" : "textures/hsa/pillager_marker.png"
+      },
+      {
+         "path" : "textures/hsa/skeleton_marker.png"
+      },
+      {
+         "path" : "textures/hsa/witch_marker.png"
+      },
+      {
          "path" : "textures/hsa/wither_skeleton_marker.png"
+      },
+      {
+         "path" : "textures/hsa/zombie_pigman_marker.png"
+      },
+      {
+         "path" : "textures/item_texture.json"
+      },
+      {
+         "path" : "textures/items/.nomedia"
       },
       {
          "path" : "textures/items/bed_black.png"
@@ -6781,6 +6655,15 @@
          "path" : "textures/items/bordure_indented_banner_pattern.png"
       },
       {
+         "path" : "textures/items/bow_pulling_0.png"
+      },
+      {
+         "path" : "textures/items/bow_pulling_1.png"
+      },
+      {
+         "path" : "textures/items/bow_pulling_2.png"
+      },
+      {
          "path" : "textures/items/bucket_axolotl.png"
       },
       {
@@ -6829,10 +6712,109 @@
          "path" : "textures/items/bundle_open_front.png"
       },
       {
+         "path" : "textures/items/copper/.nomedia"
+      },
+      {
+         "path" : "textures/items/copper/waxed_copper_bars.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_copper_chain.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_copper_door.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_copper_lantern.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_exposed_copper_bars.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_exposed_copper_chain.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_exposed_copper_door.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_exposed_copper_lantern.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_oxidized_copper_bars.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_oxidized_copper_chain.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_oxidized_copper_door.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_oxidized_copper_lantern.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_weathered_copper_bars.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_weathered_copper_chain.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_weathered_copper_door.png"
+      },
+      {
+         "path" : "textures/items/copper/waxed_weathered_copper_lantern.png"
+      },
+      {
          "path" : "textures/items/creeper_banner_pattern.png"
       },
       {
          "path" : "textures/items/dragon_fireball.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_black_new.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_blue_new.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_brown_new.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_cyan.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_gray.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_green.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_light_blue.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_lime.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_magenta.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_orange.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_pink.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_purple.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_red.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_silver.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_white_new.png"
+      },
+      {
+         "path" : "textures/items/dye_powder_yellow.png"
       },
       {
          "path" : "textures/items/field_masoned_banner_pattern.png"
@@ -7135,6 +7117,9 @@
          "path" : "textures/items/snowball.png"
       },
       {
+         "path" : "textures/items/spawn_eggs/.nomedia"
+      },
+      {
          "path" : "textures/items/spawn_eggs/spawn_egg_agent.png"
       },
       {
@@ -7175,6 +7160,9 @@
       },
       {
          "path" : "textures/items/spawn_eggs/spawn_egg_cod.png"
+      },
+      {
+         "path" : "textures/items/spawn_eggs/spawn_egg_copper_golem.png"
       },
       {
          "path" : "textures/items/spawn_eggs/spawn_egg_cow.png"
@@ -7384,16 +7372,7 @@
          "path" : "textures/items/spawn_eggs/spawn_egg_zombified_piglin.png"
       },
       {
-         "path" : "textures/items/waxed_copper_door.png"
-      },
-      {
-         "path" : "textures/items/waxed_exposed_copper_door.png"
-      },
-      {
-         "path" : "textures/items/waxed_oxidized_copper_door.png"
-      },
-      {
-         "path" : "textures/items/waxed_weathered_copper_door.png"
+         "path" : "textures/loading_progress_screen/.nomedia"
       },
       {
          "path" : "textures/loading_progress_screen/portal_placeholder.png"
@@ -7405,7 +7384,13 @@
          "path" : "textures/loading_progress_screen/xibao.png"
       },
       {
+         "path" : "textures/misc/.nomedia"
+      },
+      {
          "path" : "textures/misc/pumpkinblur.png"
+      },
+      {
+         "path" : "textures/netease/button/.nomedia"
       },
       {
          "path" : "textures/netease/button/choose.png"
@@ -7421,6 +7406,9 @@
       },
       {
          "path" : "textures/netease/button/pressed.png"
+      },
+      {
+         "path" : "textures/netease/voice_trans/.nomedia"
       },
       {
          "path" : "textures/netease/voice_trans/btn01@3x.png"
@@ -7465,6 +7453,9 @@
          "path" : "textures/note/readme.txt"
       },
       {
+         "path" : "textures/particle/.nomedia"
+      },
+      {
          "path" : "textures/particle/explosions.png"
       },
       {
@@ -7472,6 +7463,15 @@
       },
       {
          "path" : "textures/terrain_texture.json"
+      },
+      {
+         "path" : "textures/tutorial/tutorial_1.png"
+      },
+      {
+         "path" : "textures/tutorial/tutorial_2.png"
+      },
+      {
+         "path" : "textures/ui/.nomedia"
       },
       {
          "path" : "textures/ui/Dabu_TabTopFront.png"
@@ -7633,19 +7633,52 @@
          "path" : "textures/ui/bundle_item_background.png"
       },
       {
+         "path" : "textures/ui/button_borderless_darkpressed.json"
+      },
+      {
+         "path" : "textures/ui/button_borderless_darkpressed.png"
+      },
+      {
+         "path" : "textures/ui/button_borderless_light.json"
+      },
+      {
          "path" : "textures/ui/button_borderless_light.png"
+      },
+      {
+         "path" : "textures/ui/button_borderless_lighthover.json"
       },
       {
          "path" : "textures/ui/button_borderless_lighthover.png"
       },
       {
+         "path" : "textures/ui/button_borderless_lightpressed.json"
+      },
+      {
          "path" : "textures/ui/button_borderless_lightpressed.png"
+      },
+      {
+         "path" : "textures/ui/button_borderless_lightpressednohover.json"
       },
       {
          "path" : "textures/ui/button_borderless_lightpressednohover.png"
       },
       {
+         "path" : "textures/ui/button_dark_color.png"
+      },
+      {
          "path" : "textures/ui/cancel.png"
+      },
+      {
+         "path" : "textures/ui/chat_autocomplete.png"
+      },
+      {
+         "path" : "textures/ui/chat_autocomplete_back.png"
+      },
+      {
+         "path" : "textures/ui/chat_next.png"
+      },
+      {
+         "path" : "textures/ui/chat_previous.png"
       },
       {
          "path" : "textures/ui/confirm.png"
@@ -7660,7 +7693,13 @@
          "path" : "textures/ui/container_crafter.png"
       },
       {
+         "path" : "textures/ui/container_default-88ce9.png"
+      },
+      {
          "path" : "textures/ui/container_default_button_TabRightBackMost.png"
+      },
+      {
+         "path" : "textures/ui/container_default_dark-1f864.png"
       },
       {
          "path" : "textures/ui/container_dispenser.png"
@@ -7711,6 +7750,9 @@
          "path" : "textures/ui/dabu_chat_autocomplete_back.png"
       },
       {
+         "path" : "textures/ui/dabu_chat_close.png"
+      },
+      {
          "path" : "textures/ui/dabu_chat_next.png"
       },
       {
@@ -7724,6 +7766,60 @@
       },
       {
          "path" : "textures/ui/dabu_chestpickup.png"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle/toggle_off_disabled.png"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle/toggle_off_hover.png"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle/toggle_on.png"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle/toggle_on_disabled.png"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle/toggle_on_hover.png"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle/toggle_toggle_off.png"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle_button/checked.json"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle_button/checked.png"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle_button/checked_hover_pressed.json"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle_button/checked_hover_pressed.png"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle_button/checked_locked.json"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle_button/checked_locked.png"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle_button/unchecked.json"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle_button/unchecked.png"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle_button/unchecked_hover.json"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle_button/unchecked_hover.png"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle_button/unchecked_locked.json"
+      },
+      {
+         "path" : "textures/ui/dabu_ore_ui/toggle_button/unchecked_locked.png"
       },
       {
          "path" : "textures/ui/dialog_background_hollow_1.png"
@@ -7817,6 +7913,12 @@
       },
       {
          "path" : "textures/ui/gameChatExtension/new/tab1_2.png"
+      },
+      {
+         "path" : "textures/ui/gear_glyph.png"
+      },
+      {
+         "path" : "textures/ui/gear_glyph_color.png"
       },
       {
          "path" : "textures/ui/hardcore/wither_heart.png"
@@ -7921,16 +8023,43 @@
          "path" : "textures/ui/night_vision_effect.png"
       },
       {
+         "path" : "textures/ui/nor.png"
+      },
+      {
          "path" : "textures/ui/oozing_effect.png"
       },
       {
          "path" : "textures/ui/perspective.png"
       },
       {
+         "path" : "textures/ui/pocket_button_default.json"
+      },
+      {
+         "path" : "textures/ui/pocket_button_default.png"
+      },
+      {
+         "path" : "textures/ui/pocket_button_hover.json"
+      },
+      {
+         "path" : "textures/ui/pocket_button_hover.png"
+      },
+      {
+         "path" : "textures/ui/pocket_button_pressed.json"
+      },
+      {
+         "path" : "textures/ui/pocket_button_pressed.png"
+      },
+      {
          "path" : "textures/ui/pocket_tab_left_side.png"
       },
       {
          "path" : "textures/ui/pocket_tab_right_side.png"
+      },
+      {
+         "path" : "textures/ui/pocket_ui_highlight_selected_slot.png"
+      },
+      {
+         "path" : "textures/ui/pocket_ui_highlight_slot.png"
       },
       {
          "path" : "textures/ui/poison_effect.png"
@@ -7984,6 +8113,60 @@
          "path" : "textures/ui/selected_hotbar_slot.png"
       },
       {
+         "path" : "textures/ui/slider_background.png"
+      },
+      {
+         "path" : "textures/ui/slider_background_hover.png"
+      },
+      {
+         "path" : "textures/ui/slider_border.png"
+      },
+      {
+         "path" : "textures/ui/slider_button_default.json"
+      },
+      {
+         "path" : "textures/ui/slider_button_default.png"
+      },
+      {
+         "path" : "textures/ui/slider_button_hover.json"
+      },
+      {
+         "path" : "textures/ui/slider_button_hover.png"
+      },
+      {
+         "path" : "textures/ui/slider_button_indent.json"
+      },
+      {
+         "path" : "textures/ui/slider_button_indent.png"
+      },
+      {
+         "path" : "textures/ui/slider_button_locked.json"
+      },
+      {
+         "path" : "textures/ui/slider_button_locked.png"
+      },
+      {
+         "path" : "textures/ui/slider_locked_transparent_fade.png"
+      },
+      {
+         "path" : "textures/ui/slider_progress.png"
+      },
+      {
+         "path" : "textures/ui/slider_progress_hover.png"
+      },
+      {
+         "path" : "textures/ui/slider_step_background.png"
+      },
+      {
+         "path" : "textures/ui/slider_step_background_hover.png"
+      },
+      {
+         "path" : "textures/ui/slider_step_progress.png"
+      },
+      {
+         "path" : "textures/ui/slider_step_progress_hover.png"
+      },
+      {
          "path" : "textures/ui/slow_falling_effect.png"
       },
       {
@@ -8023,6 +8206,9 @@
          "path" : "textures/ui/trial_omen_effect.png"
       },
       {
+         "path" : "textures/ui/unlock.png"
+      },
+      {
          "path" : "textures/ui/village_hero_effect.png"
       },
       {
@@ -8047,34 +8233,28 @@
          "path" : "textures/ui/wither_heart_half.png"
       },
       {
-         "path" : "ui/DabuUI/lib/quickmove.json"
+         "path" : "ui/DabuUI/module/dabu_ore_ui_common.json"
+      },
+      {
+         "path" : "ui/DabuUI/module/gamemode.json"
+      },
+      {
+         "path" : "ui/DabuUI/module/quickmove.json"
+      },
+      {
+         "path" : "ui/DabuUI/module/tutorial_common.json"
+      },
+      {
+         "path" : "ui/DabuUI/ui_extras/accessibility_setting.json"
+      },
+      {
+         "path" : "ui/DabuUI/ui_extras/function_tutorial.json"
       },
       {
          "path" : "ui/_global_variables.json"
       },
       {
          "path" : "ui/_ui_defs.json"
-      },
-      {
-         "path" : "ui/account_banned_screen.json"
-      },
-      {
-         "path" : "ui/disconnect_screen.json"
-      },
-      {
-         "path" : "ui/hud_screen.json"
-      },
-      {
-         "path" : "ui/inventory_screen.json"
-      },
-      {
-         "path" : "ui/progress_screen.json"
-      },
-      {
-         "path" : "ui/resource_packs_screen.json"
-      },
-      {
-         "path" : "ui/ui_common.json"
       }
    ],
    "version" : 1

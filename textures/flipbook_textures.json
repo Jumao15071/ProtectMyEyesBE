@@ -27,6 +27,11 @@
     "ticks_per_frame": 20
   },
   {
+    "flipbook_texture": "textures/blocks/soul_lantern",
+    "atlas_tile": "soul_lantern",
+    "ticks_per_frame": 8
+  },
+  {
     "flipbook_texture": "textures/blocks/kelp_top_age25",
     "atlas_index": 25,
     "atlas_tile": "kelp_top",

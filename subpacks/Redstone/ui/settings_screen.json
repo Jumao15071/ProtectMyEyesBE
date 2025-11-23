@@ -1,0 +1,47 @@
+{
+  "selector_stack_panel/controls_and_settings_selector_pane/language_button": {
+    "ignored": false
+  },
+  "section_content_panels/general_and_controls_sections/language_section": {
+    "ignored": false
+  },
+  "section_content_panels/general_and_controls_sections": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          { "function_tutorial_section@function_tutorial.function_tutorial_section": { "visible": false } },
+          { "accessibility_setting_section@accessibility_setting.accessibility_setting_section": { "visible": false } }
+        ]
+      }
+    ]
+  },
+  "selector_stack_panel/controls_and_settings_selector_pane": {
+    "$spatialPatternsPadding": [ 0, 0 ]
+  },
+  "selector_stack_panel": {
+    "$settings_spatial_pattern_fix_enabled": false,
+    "$spatialPatternsPadding": [ 0, 0 ],
+    "modifications": [
+      {
+        "control_name": "how_to_play_button",
+        "operation": "insert_after",
+        "value": [
+          {
+            "function_tutorial_button@function_tutorial.function_tutorial_button": {
+              "$toggle_group_forced_index": 1145,
+              "$tts_section_header": "$general_section_header"
+            }
+          },
+          {
+            "accessibility_setting_button@accessibility_setting.accessibility_setting_button": {
+              "$toggle_group_forced_index": 9810,
+              "$tts_section_header": "$general_section_header"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

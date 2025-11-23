@@ -1,0 +1,10 @@
+{
+    "account_banned_screen@common.base_screen": {
+        "$screen_bg_content": "account_banned.bg_xibao"
+    },
+    "bg_xibao": {
+        "type": "image",
+        "fill": true,
+        "texture": "textures/loading_progress_screen/xibao"
+    }
+}

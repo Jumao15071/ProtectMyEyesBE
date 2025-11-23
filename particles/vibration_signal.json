@@ -44,10 +44,14 @@
 				"active_time": 0.15
 			},
 			"minecraft:emitter_shape_point": {
-				"direction": ["variable.direction.x", "variable.direction.y", "variable.direction.z"]
+				"direction": [
+					"variable.direction.x",
+					"variable.direction.y",
+					"variable.direction.z"
+				]
 			},
 			"minecraft:particle_lifetime_expression": {
-				"max_lifetime": "(variable.max_lifetime - 0.05)"//避免粒子透过感测体
+				"max_lifetime": "(variable.max_lifetime - 0.05)" //避免粒子透过感测体
 			},
 			"minecraft:particle_initial_speed": "variable.particle_initial_speed",
 			"minecraft:particle_motion_dynamic": {},
@@ -55,15 +59,27 @@
 				"rotation": -90
 			},
 			"minecraft:particle_appearance_billboard": {
-				"size": [0.25, 0.25],
+				"size": [
+					0.25,
+					0.25
+				],
 				"facing_camera_mode": "lookat_direction",
 				"uv": {
 					"texture_width": 18,
 					"texture_height": 126,
 					"flipbook": {
-						"base_UV": [0, 0],
-						"size_UV": [18, 18],
-						"step_UV": [0, 18],
+						"base_UV": [
+							0,
+							0
+						],
+						"size_UV": [
+							18,
+							18
+						],
+						"step_UV": [
+							0,
+							18
+						],
 						"frames_per_second": 20,
 						"max_frame": 7,
 						"loop": true
@@ -71,7 +87,12 @@
 				}
 			},
 			"minecraft:particle_appearance_tinting": {
-				"color": [1, 1, 1, 1]
+				"color": [
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		}
 	}
