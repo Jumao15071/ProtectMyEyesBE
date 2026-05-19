@@ -1,6 +1,9 @@
 ﻿{
   "pack": {
-    "pack_format": 34,
-    "description":"\u00A76作者黑山大叔 在B站可以找到我"
+		"pack_format": 16,
+		"supported_formats": {"min_inclusive": 4, "max_inclusive": 999},
+		"min_format": 4,
+		"max_format": 999,
+    "description":"\u00A76适用1.19-1.21.9 B站黑山大叔"
   }
 }

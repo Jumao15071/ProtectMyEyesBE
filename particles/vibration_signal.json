@@ -10,9 +10,9 @@
 		},
 		//感谢@邹陈云飞Zouchenyunfei提供的粒子指导
 		"events": {
-			"signal_path": {
+			"signal_trail": {
 				"particle_effect": {
-					"effect": "minecraft:redstone_vibration_signal_path",
+					"effect": "minecraft:vibration_signal_trail",
 					"type": "particle_with_velocity"
 				}
 			}
@@ -20,21 +20,21 @@
 		"components": {
 			"minecraft:particle_lifetime_events": {
 				"timeline": {
-					"0.05": "signal_path",
-					"0.10": "signal_path",
-					"0.15": "signal_path",
-					"0.20": "signal_path",
-					"0.25": "signal_path",
-					"0.30": "signal_path",
-					"0.35": "signal_path",
-					"0.40": "signal_path",
-					"0.45": "signal_path",
-					"0.50": "signal_path",
-					"0.55": "signal_path",
-					"0.60": "signal_path",
-					"0.65": "signal_path",
-					"0.70": "signal_path",
-					"0.75": "signal_path"
+					"0.05": "signal_trail",
+					"0.10": "signal_trail",
+					"0.15": "signal_trail",
+					"0.20": "signal_trail",
+					"0.25": "signal_trail",
+					"0.30": "signal_trail",
+					"0.35": "signal_trail",
+					"0.40": "signal_trail",
+					"0.45": "signal_trail",
+					"0.50": "signal_trail",
+					"0.55": "signal_trail",
+					"0.60": "signal_trail",
+					"0.65": "signal_trail",
+					"0.70": "signal_trail",
+					"0.75": "signal_trail"
 				}
 			},
 			"minecraft:emitter_rate_instant": {

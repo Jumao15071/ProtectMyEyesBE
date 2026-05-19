@@ -1,4 +1,6 @@
 {
+  "materials": {
+    "version": "1.0.0",
     "selection_box": {
       "+defines": [ "LINE_STRIP" ],
       "primitiveMode": "Line",
@@ -10,7 +12,8 @@
       "vertexFields": [
         { "field": "Position" }
       ],
-
+      
       "msaaSupport": "Both"
     }
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:command_block_minecart"
+    },
+    "components": {
+      "minecraft:rarity": "epic"
+    }
+  }
+}

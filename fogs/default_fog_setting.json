@@ -11,6 +11,12 @@
         "fog_color": "#ABD2FF",
         "render_distance_type": "render"
       },
+      "powder_snow": {
+        "fog_start": 8.0,
+        "fog_end": 64.0,
+        "fog_color": "#cbeeff",
+        "render_distance_type": "fixed"
+      },
       "water": {
         "fog_start": 8.0,
         "fog_end": 96.0,

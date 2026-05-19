@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:extreme_hills_plus_trees"
+    },
+    "components": {
+      "minecraft:fog_appearance": {
+        "fog_identifier": "dabu:fog_extreme_hills_plus_trees"
+      }
+    }
+  }
+}

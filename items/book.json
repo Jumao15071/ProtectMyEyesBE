@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:book",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:icon": "book_normal",
+      "minecraft:rarity": "common"
+    }
+  }
+}

@@ -4,26 +4,17 @@
       "piston.out": {
         "sound": "tile.piston.out",
         "volume": 0.5,
-        "pitch": [
-          0.6,
-          0.85
-        ]
+        "pitch": [ 0.6, 0.85 ]
       },
       "piston.in": {
         "sound": "tile.piston.in",
         "volume": 0.5,
-        "pitch": [
-          0.6,
-          0.8
-        ]
+        "pitch": [ 0.6, 0.8 ]
       },
       "explode": {
         "sound": "random.explode",
         "volume": 4.0,
-        "pitch": [
-          0.56,
-          0.84
-        ]
+        "pitch": [ 0.56, 0.84 ]
       },
       "deny": {
         "sound": "entity.player.attack.crit",
@@ -37,7 +28,7 @@
       "creeper": {
         "events": {
           "step": {
-            "sound": "mob.creeper.say",
+            "sound": "entity.mob.creeper.step",
             "volume": 2.0
           }
         }

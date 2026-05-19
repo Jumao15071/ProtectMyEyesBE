@@ -1,9 +1,22 @@
 {
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "hud_inventory@hud_inventory.hud_inventory_content": { }
+          }
+        ]
+      }
+    ]
+  },
   "gui_hotbar_grid_item/hotbar_parent/item_count": {
-    "modifications": [  
-      {      
+    "modifications": [
+      {
         "array_name": "bindings",
-        "where": {"binding_name":"#stack_count_visible"},
+        "where": { "binding_name": "#stack_count_visible" },
         "operation": "remove"
       }
     ]

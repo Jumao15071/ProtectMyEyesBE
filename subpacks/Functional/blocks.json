@@ -1,6 +1,6 @@
 {
   "format_version": [ 1, 1, 0 ],
-  // Redstone element dispenser&dropper 投掷器发射器红石显示 //
+  // 投掷器发射器红石显示 //
   "dispenser": {
     "blockshape": "command_block",
     "textures": {
@@ -121,10 +121,38 @@
   "daylight_detector_inverted": {
     "sound": "wood",
     "textures": {
-      "down": "daylight_detector_inverted_side",
-      "side": "daylight_detector_inverted_side",
-      "up": "daylight_detector_inverted_top"
+      "down": "daylight_detector_lunar_side",
+      "side": "daylight_detector_lunar_side",
+      "up": "daylight_detector_lunar_top"
     }
+  },
+  // 拉杆火把显示 //
+  "lever": {
+    "blockshape": "lever",
+    "carried_textures": "lever_carried",
+    "textures": {
+      "down": "lever", //核心
+      "east": "lever_base", //破坏粒子
+      "north": "lever",
+      "south": "lever",
+      "up": "lever",
+      "west": "lever"
+    }
+  },
+  "cobblestone_wall": {
+    "sound": "stone",
+    "textures": {
+      "down": "cobblestone_wall",
+      "east": "cobblestone_wall",
+      "north": "cobblestone_wall",
+      "south": "cobblestone_wall",
+      "up": "lever_base_wall", //控制拉杆显示
+      "west": "cobblestone_wall"
+    }
+  },
+  "redstone_torch": {
+    "carried_textures": "redstone_torch_carried",
+    "textures": "redstone_torch_on"
   },
   // 中继器比较器显示 //
   "unpowered_comparator": {
@@ -136,7 +164,7 @@
     }
   },
   "unpowered_repeater": {
-    "sound": "wood",
+    "sound": "comparator",
     "textures": {
       "down": "repeater_floor_off",
       "side": "repeater_floor_off",
@@ -144,7 +172,7 @@
     }
   },
   "powered_comparator": {
-    "sound": "wood",
+    "sound": "comparator",
     "textures": {
       "down": "comparator_floor_on",
       "side": "comparator_floor_on",
@@ -152,7 +180,7 @@
     }
   },
   "powered_repeater": {
-    "sound": "wood",
+    "sound": "comparator",
     "textures": {
       "down": "repeater_floor_on",
       "side": "repeater_floor_on",
@@ -171,12 +199,40 @@
     },
     "sound": "wood"
   },
-  // 黑曜石更明显 //
+  // 方块更明显 //
   "obsidian": {
+    "ambient_occlusion_exponent": 0.1,
     "isotropic": false,
     "textures": "obsidian",
-    "brightness_gamma": 2.50,
     "sound": "stone"
+  },
+  "crying_obsidian": {
+    "ambient_occlusion_exponent": 2.0,
+    "isotropic": false,
+    "textures": "crying_obsidian",
+    "sound": "stone"
+  },
+  "diamond_ore": {
+    "ambient_occlusion_exponent": 0.1,
+    "sound": "stone",
+    "textures": "diamond_ore"
+  },
+  "deepslate_diamond_ore": {
+    "ambient_occlusion_exponent": 0.1,
+    "isotropic": false,
+    "sound": "deepslate",
+    "textures": "deepslate_diamond_ore"
+  },
+  "coal_ore": {
+    "ambient_occlusion_exponent": 0.1,
+    "sound": "stone",
+    "textures": "coal_ore"
+  },
+  "deepslate_coal_ore": {
+    "ambient_occlusion_exponent": 0.1,
+    "isotropic": false,
+    "sound": "deepslate",
+    "textures": "deepslate_coal_ore"
   },
   // 虫蚀方块 //
   "infested_deepslate": {
@@ -498,41 +554,23 @@
     "textures": "waxed_oxidized_lightning_rod",
     "sound": "copper"
   },
-  // 铜傀儡实体只能通过行为包显示打蜡，此处为破坏粒子显示 //
-  "waxed_copper_golem_statue": {
-    "textures": "waxed_copper_block",
-    "sound": "copper_golem_statue"
-  },
-  "waxed_exposed_copper_golem_statue": {
-    "textures": "waxed_exposed_copper",
-    "sound": "copper_golem_statue"
-  },
-  "waxed_weathered_copper_golem_statue": {
-    "textures": "waxed_weathered_copper",
-    "sound": "copper_golem_statue"
-  },
-  "waxed_oxidized_copper_golem_statue": {
-    "textures": "waxed_oxidized_copper",
-    "sound": "copper_golem_statue"
-  },
-  // 方块&物品形式打蜡铜灯/铜锁链/铜栅栏显示 //
   "waxed_copper_lantern": {
-    "textures": "copper_lantern",
+    "textures": "waxed_copper_lantern",
     "carried_textures": "waxed_copper_lantern_carried",
     "sound": "lantern"
   },
   "waxed_exposed_copper_lantern": {
-    "textures": "exposed_copper_lantern",
+    "textures": "waxed_exposed_copper_lantern",
     "carried_textures": "waxed_exposed_copper_lantern_carried",
     "sound": "lantern"
   },
   "waxed_weathered_copper_lantern": {
-    "textures": "weathered_copper_lantern",
+    "textures": "waxed_weathered_copper_lantern",
     "carried_textures": "waxed_weathered_copper_lantern_carried",
     "sound": "lantern"
   },
   "waxed_oxidized_copper_lantern": {
-    "textures": "oxidized_copper_lantern",
+    "textures": "waxed_oxidized_copper_lantern",
     "carried_textures": "waxed_oxidized_copper_lantern_carried",
     "sound": "lantern"
   },
@@ -668,6 +706,27 @@
       "east": "waxed_oxidized_copper_chest_inventory_side"
     },
     "sound": "copper_chest_oxidized"
+  },
+  // 铜傀儡实体只能通过行为包显示打蜡，此处为破坏粒子显示 //
+  "waxed_copper_golem_statue": {
+    "blockshape": "chain", //打蜡显示
+    "textures": "waxed_copper_statue",
+    "sound": "copper_golem_statue"
+  },
+  "waxed_exposed_copper_golem_statue": {
+    "blockshape": "chain",
+    "textures": "waxed_exposed_copper_statue",
+    "sound": "copper_golem_statue"
+  },
+  "waxed_weathered_copper_golem_statue": {
+    "blockshape": "chain",
+    "textures": "waxed_weathered_copper_statue",
+    "sound": "copper_golem_statue"
+  },
+  "waxed_oxidized_copper_golem_statue": {
+    "blockshape": "chain",
+    "textures": "waxed_oxidized_copper_statue",
+    "sound": "copper_golem_statue"
   },
   // 打蜡铜台阶显示 //
   "waxed_double_cut_copper_slab": {
@@ -989,12 +1048,6 @@
     "sound": "nether_brick"
   },
   "cracked_nether_bricks": {
-    "sound": "nether_brick"
-  },
-  "red_nether_brick_double_slab": {
-    "sound": "nether_brick"
-  },
-  "red_nether_brick_slab": {
     "sound": "nether_brick"
   },
   "red_nether_brick_wall": {

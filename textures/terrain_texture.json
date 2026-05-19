@@ -1,106 +1,214 @@
 {
-  "resource_pack_name": "vanilla",
+  "resource_pack_name": "protectmyeyes",
   "texture_name": "atlas.terrain",
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
     // 投掷器&发射器&合成器红石显示 //
+    "crafter_north": {
+      "textures": [
+        "textures/blocks/redstone/crafter_north",
+        "textures/blocks/redstone/crafter_north_triggered",
+        "textures/blocks/redstone/crafter_north_crafting"
+      ]
+    },
     "crafter_south": {
       "textures": [
-        "textures/blocks/crafter/crafter_south",
-        "textures/blocks/crafter/crafter_south_triggered",
-        "textures/blocks/crafter/crafter_south_triggered"
+        "textures/blocks/redstone/crafter_south",
+        "textures/blocks/redstone/crafter_south_triggered",
+        "textures/blocks/redstone/crafter_south_triggered"
       ]
     },
     "crafter_bottom": {
       "textures": [
-        "textures/blocks/crafter/crafter_bottom",
-        "textures/blocks/crafter/crafter_bottom_triggered",
-        "textures/blocks/crafter/crafter_bottom_triggered"
+        "textures/blocks/redstone/crafter_bottom",
+        "textures/blocks/redstone/crafter_bottom_triggered",
+        "textures/blocks/redstone/crafter_bottom_triggered"
       ]
     },
     "dispenser_front_horizontal": {
-      "textures": "textures/blocks/specialredstone/dispenser_front_horizontal"
+      "textures": "textures/blocks/redstone/dispenser_front_horizontal"
     },
     "dispenser_front_vertical": {
-      "textures": "textures/blocks/specialredstone/dispenser_front_vertical"
+      "textures": "textures/blocks/redstone/dispenser_front_vertical"
     },
     "dispenser_top": {
-      "textures": "textures/blocks/specialredstone/dispenser_top"
+      "textures": "textures/blocks/redstone/dispenser_top"
     },
     "dispenser_side": {
-      "textures": "textures/blocks/specialredstone/dispenser_side"
+      "textures": "textures/blocks/redstone/dispenser_side"
     },
     "dropper_front_horizontal": {
-      "textures": "textures/blocks/specialredstone/dropper_front_horizontal"
+      "textures": "textures/blocks/redstone/dropper_front_horizontal"
     },
     "dropper_front_vertical": {
-      "textures": "textures/blocks/specialredstone/dropper_front_vertical"
+      "textures": "textures/blocks/redstone/dropper_front_vertical"
     },
     "dropper_top": {
-      "textures": "textures/blocks/specialredstone/dropper_top"
+      "textures": "textures/blocks/redstone/dropper_top"
     },
     "dropper_side": {
-      "textures": "textures/blocks/specialredstone/dropper_side"
+      "textures": "textures/blocks/redstone/dropper_side"
+    },
+    // 树苗显示 //
+    "cherry_sapling": {
+      "textures": [
+        "textures/blocks/cherry_sapling_0",
+        "textures/blocks/cherry_sapling_1"
+      ]
+    },
+    "oak_sapling": {
+      "textures": [
+        "textures/blocks/sapling_oak_0",
+        "textures/blocks/sapling_oak_1"
+      ]
+    },
+    "spruce_sapling": {
+      "textures": [
+        "textures/blocks/sapling_spruce_0",
+        "textures/blocks/sapling_spruce_1"
+      ]
+    },
+    "birch_sapling": {
+      "textures": [
+        "textures/blocks/sapling_birch_0",
+        "textures/blocks/sapling_birch_1"
+      ]
+    },
+    "jungle_sapling": {
+      "textures": [
+        "textures/blocks/sapling_jungle_0",
+        "textures/blocks/sapling_jungle_1"
+      ]
+    },
+    "acacia_sapling": {
+      "textures": [
+        "textures/blocks/sapling_acacia_0",
+        "textures/blocks/sapling_acacia_1"
+      ]
+    },
+    "dark_oak_sapling": {
+      "textures": [
+        "textures/blocks/sapling_roofed_oak_0",
+        "textures/blocks/sapling_roofed_oak_1"
+      ]
+    },
+    "pale_oak_sapling": {
+      "textures": [
+        "textures/blocks/pale_oak_sapling_0",
+        "textures/blocks/pale_oak_sapling_1"
+      ]
     },
     // 铁砧显示 //
     "flattened_anvil_top": {
-      "textures": "textures/blocks/anvil/anvil_top_damaged_0"
+      "textures": "textures/blocks/redstone/anvil_top_damaged_0"
     },
     "chipped_anvil_top": {
-      "textures": "textures/blocks/anvil/anvil_top_damaged_1"
+      "textures": "textures/blocks/redstone/anvil_top_damaged_1"
     },
     "damaged_anvil_top": {
-      "textures": "textures/blocks/anvil/anvil_top_damaged_2"
+      "textures": "textures/blocks/redstone/anvil_top_damaged_2"
     },
     "flattened_anvil_base": {
-      "textures": "textures/blocks/anvil/anvil_base_damaged_0"
+      "textures": "textures/blocks/redstone/anvil_base_damaged_0"
     },
     "chipped_anvil_base": {
-      "textures": "textures/blocks/anvil/anvil_base_damaged_1"
+      "textures": "textures/blocks/redstone/anvil_base_damaged_1"
     },
     "damaged_anvil_base": {
-      "textures": "textures/blocks/anvil/anvil_base_damaged_2"
+      "textures": "textures/blocks/redstone/anvil_base_damaged_2"
     },
     // 木板纹理区分 //
     "bookshelf_top": {
-      "textures": "textures/blocks/bookshelf_top"
+      "textures": "textures/blocks/redstone/bookshelf_top"
     },
     "crafting_table_bottom": {
-      "textures": "textures/blocks/crafting_table_bottom"
+      "textures": "textures/blocks/redstone/crafting_table_bottom"
+    },
+    "lectern_base": {
+      "textures": "textures/blocks/redstone/lectern_base"
     },
     "lectern_bottom": {
-      "textures": "textures/blocks/lectern_bottom"
+      "textures": "textures/blocks/redstone/lectern_bottom"
     },
     // 熔炉显示 //
     "furnace_top_off": {
-      "textures": "textures/blocks/furnace_top_off"
+      "textures": "textures/blocks/redstone/furnace_top_off"
     },
     "furnace_top_on": {
-      "textures": "textures/blocks/furnace_top_on"
+      "textures": "textures/blocks/redstone/furnace_top_on"
     },
     "furnace_side_off": {
-      "textures": "textures/blocks/furnace_side_off"
+      "textures": "textures/blocks/redstone/furnace_side_off"
     },
     "furnace_side_on": {
-      "textures": "textures/blocks/furnace_side_on"
+      "textures": "textures/blocks/redstone/furnace_side_on"
     },
     // 感测体显示 //
     "calibrated_sculk_sensor_side": {
-      "textures": "textures/blocks/calibrated_sculk_sensor_side"
+      "textures": "textures/blocks/redstone/calibrated_sculk_sensor_side"
     },
     // 阳光传感器显示 //
     "daylight_detector_side": {
-      "textures": "textures/blocks/daylight_detector/daylight_detector_side"
+      "textures": "textures/blocks/redstone/daylight_detector_side"
     },
     "daylight_detector_top": {
-      "textures": "textures/blocks/daylight_detector/daylight_detector_top"
+      "textures": "textures/blocks/redstone/daylight_detector_top"
     },
-    "daylight_detector_inverted_side": {
-      "textures": "textures/blocks/daylight_detector/daylight_detector_inverted_side"
+    "daylight_detector_lunar_side": {
+      "textures": "textures/blocks/redstone/daylight_detector_lunar_side"
     },
-    "daylight_detector_inverted_top": {
-      "textures": "textures/blocks/daylight_detector/daylight_detector_inverted_top"
+    "daylight_detector_lunar_top": {
+      "textures": "textures/blocks/redstone/daylight_detector_lunar_top"
+    },
+    // 拉杆火把显示 //
+    "lever": {
+      "textures": "textures/blocks/redstone/lever"
+    },
+    "lever_carried": {
+      "textures": "textures/items/lever"
+    },
+    "lever_base": {
+      "textures": "textures/blocks/redstone/lever_base"
+    },
+    "cobblestone_wall": {
+      "textures": [
+        "textures/blocks/cobblestone",
+        "textures/blocks/cobblestone_mossy",
+        "textures/blocks/stone_granite",
+        "textures/blocks/stone_diorite",
+        "textures/blocks/stone_andesite",
+        "textures/blocks/sandstone_normal",
+        "textures/blocks/brick",
+        "textures/blocks/stonebrick",
+        "textures/blocks/stonebrick_mossy",
+        "textures/blocks/nether_brick",
+        "textures/blocks/end_bricks",
+        "textures/blocks/prismarine_rough",
+        "textures/blocks/red_sandstone_normal",
+        "textures/blocks/red_nether_brick"
+      ]
+    },
+    "lever_base_wall": {
+      "textures": [
+        "textures/blocks/redstone/lever_base",
+        "textures/blocks/cobblestone_mossy",
+        "textures/blocks/stone_granite",
+        "textures/blocks/stone_diorite",
+        "textures/blocks/stone_andesite",
+        "textures/blocks/sandstone_normal",
+        "textures/blocks/brick",
+        "textures/blocks/stonebrick",
+        "textures/blocks/stonebrick_mossy",
+        "textures/blocks/nether_brick",
+        "textures/blocks/end_bricks",
+        "textures/blocks/prismarine_rough",
+        "textures/blocks/red_sandstone_normal",
+        "textures/blocks/red_nether_brick"
+      ]
+    },
+    "redstone_torch_carried": {
+      "textures": "textures/items/redstone_torch"
     },
     // 中继器比较器显示 //
     "comparator_floor_off": {
@@ -129,22 +237,22 @@
     },
     // 箱子显示 //
     "chest_inventory_top": {
-      "textures": "textures/blocks/chest/chest_inventory_top"
+      "textures": "textures/blocks/redstone/chest_inventory_top"
     },
     "chest_inventory_side": {
-      "textures": "textures/blocks/chest/chest_inventory_side"
+      "textures": "textures/blocks/redstone/chest_inventory_side"
     },
     "chest_inventory_front": {
-      "textures": "textures/blocks/chest/chest_inventory_front"
+      "textures": "textures/blocks/redstone/chest_inventory_front"
     },
     "trapped_chest_inventory_top": {
-      "textures": "textures/blocks/chest/trapped_chest_inventory_top"
+      "textures": "textures/blocks/redstone/trapped_chest_inventory_top"
     },
     "trapped_chest_inventory_side": {
-      "textures": "textures/blocks/chest/trapped_chest_inventory_side"
+      "textures": "textures/blocks/redstone/trapped_chest_inventory_side"
     },
     "trapped_chest_inventory_front": {
-      "textures": "textures/blocks/chest/trapped_chest_inventory_front"
+      "textures": "textures/blocks/redstone/trapped_chest_inventory_front"
     },
     // 虫蚀方块 //
     "infested_deepslate_top": {
@@ -165,212 +273,212 @@
     },
     // 压力板显示 //
     "acacia_pressure_plate": {
-      "textures": "textures/blocks/plate/acacia_planks_plate"
+      "textures": "textures/blocks/redstone/acacia_planks_plate"
     },
     "bamboo_pressure_plate": {
-      "textures": "textures/blocks/plate/bamboo_planks_plate"
+      "textures": "textures/blocks/redstone/bamboo_planks_plate"
     },
     "birch_pressure_plate": {
-      "textures": "textures/blocks/plate/birch_planks_plate"
+      "textures": "textures/blocks/redstone/birch_planks_plate"
     },
     "cherry_pressure_plate": {
-      "textures": "textures/blocks/plate/cherry_planks_plate"
+      "textures": "textures/blocks/redstone/cherry_planks_plate"
     },
     "crimson_pressure_plate": {
-      "textures": "textures/blocks/plate/crimson_planks_plate"
+      "textures": "textures/blocks/redstone/crimson_planks_plate"
     },
     "dark_oak_pressure_plate": {
-      "textures": "textures/blocks/plate/dark_oak_planks_plate"
+      "textures": "textures/blocks/redstone/dark_oak_planks_plate"
     },
     "jungle_pressure_plate": {
-      "textures": "textures/blocks/plate/jungle_planks_plate"
+      "textures": "textures/blocks/redstone/jungle_planks_plate"
     },
     "mangrove_pressure_plate": {
-      "textures": "textures/blocks/plate/mangrove_planks_plate"
+      "textures": "textures/blocks/redstone/mangrove_planks_plate"
     },
     "pale_oak_pressure_plate": {
-      "textures": "textures/blocks/plate/pale_oak_planks_plate"
+      "textures": "textures/blocks/redstone/pale_oak_planks_plate"
     },
     "spruce_pressure_plate": {
-      "textures": "textures/blocks/plate/spruce_planks_plate"
+      "textures": "textures/blocks/redstone/spruce_planks_plate"
     },
     "warped_pressure_plate": {
-      "textures": "textures/blocks/plate/warped_planks_plate"
+      "textures": "textures/blocks/redstone/warped_planks_plate"
     },
     "wooden_pressure_plate": {
-      "textures": "textures/blocks/plate/oak_planks_plate"
+      "textures": "textures/blocks/redstone/oak_planks_plate"
     },
     "stone_pressure_plate": {
-      "textures": "textures/blocks/plate/stone_plate"
+      "textures": "textures/blocks/redstone/stone_plate"
     },
     "polished_blackstone_pressure_plate": {
-      "textures": "textures/blocks/plate/polished_blackstone_plate"
+      "textures": "textures/blocks/redstone/polished_blackstone_plate"
     },
     "heavy_weighted_pressure_plate": {
-      "textures": "textures/blocks/plate/iron_block_plate"
+      "textures": "textures/blocks/redstone/iron_block_plate"
     },
     "light_weighted_pressure_plate": {
-      "textures": "textures/blocks/plate/gold_block_plate"
+      "textures": "textures/blocks/redstone/gold_block_plate"
     },
     // 侦测器显示 //
     "observer_north": {
       "textures": [
-        "textures/blocks/observer/observer_front",
-        "textures/blocks/observer/observer_front_lit"
+        "textures/blocks/redstone/observer_front",
+        "textures/blocks/redstone/observer_front_lit"
       ]
     },
     "observer_south": {
       "textures": [
-        "textures/blocks/observer/observer_back",
-        "textures/blocks/observer/observer_back_lit"
+        "textures/blocks/redstone/observer_back",
+        "textures/blocks/redstone/observer_back_lit"
       ]
     },
     "observer_east": {
       "textures": [
-        "textures/blocks/observer/observer_side",
-        "textures/blocks/observer/observer_side_lit"
+        "textures/blocks/redstone/observer_side",
+        "textures/blocks/redstone/observer_side_lit"
       ]
     },
     "observer_west": {
       "textures": [
-        "textures/blocks/observer/observer_side",
-        "textures/blocks/observer/observer_side_lit"
+        "textures/blocks/redstone/observer_side",
+        "textures/blocks/redstone/observer_side_lit"
       ]
     },
     "observer_top": {
       "textures": [
-        "textures/blocks/observer/observer_top",
-        "textures/blocks/observer/observer_top_lit"
+        "textures/blocks/redstone/observer_top",
+        "textures/blocks/redstone/observer_top_lit"
       ]
     },
     "observer_bottom": {
       "textures": [
-        "textures/blocks/observer/observer_top",
-        "textures/blocks/observer/observer_top_lit"
+        "textures/blocks/redstone/observer_top",
+        "textures/blocks/redstone/observer_top_lit"
       ]
     },
     // 黏性活塞显示 //
     "piston_top": {
-      "textures": "textures/blocks/piston/piston_inner"
+      "textures": "textures/blocks/redstone/piston_inner"
     },
     "piston_inner_sticky": {
-      "textures": "textures/blocks/piston/piston_inner_sticky"
+      "textures": "textures/blocks/redstone/piston_inner_sticky"
     },
     "piston_top_normal": {
-      "textures": "textures/blocks/piston/piston_top_normal"
+      "textures": "textures/blocks/redstone/piston_top_normal"
     },
     "piston_top_sticky": {
-      "textures": "textures/blocks/piston/piston_top_sticky"
+      "textures": "textures/blocks/redstone/piston_top_sticky"
     },
     "piston_side": {
-      "textures": "textures/blocks/piston/piston_side"
+      "textures": "textures/blocks/redstone/piston_side"
     },
     "piston_side_sticky": {
-      "textures": "textures/blocks/piston/piston_side_sticky"
+      "textures": "textures/blocks/redstone/piston_side_sticky"
     },
     "piston_bottom": {
-      "textures": "textures/blocks/piston/piston_bottom"
+      "textures": "textures/blocks/redstone/piston_bottom"
     },
     "piston_bottom_sticky": {
-      "textures": "textures/blocks/piston/piston_bottom_sticky"
+      "textures": "textures/blocks/redstone/piston_bottom_sticky"
     },
     // 漏斗显示 //
     "hopper_top": {
       "textures": [
-        "textures/blocks/hopper/hopper_top_center",
-        "textures/blocks/hopper/hopper_top",
-        "textures/blocks/hopper/hopper_top_north",
-        "textures/blocks/hopper/hopper_top_south",
-        "textures/blocks/hopper/hopper_top_west",
-        "textures/blocks/hopper/hopper_top_east",
-        "textures/blocks/hopper/hopper_top",
-        "textures/blocks/hopper/hopper_top",
-        "textures/blocks/hopper/hopper_top_center_powered",
-        "textures/blocks/hopper/hopper_top",
-        "textures/blocks/hopper/hopper_top_north_powered",
-        "textures/blocks/hopper/hopper_top_south_powered",
-        "textures/blocks/hopper/hopper_top_west_powered",
-        "textures/blocks/hopper/hopper_top_east_powered",
-        "textures/blocks/hopper/hopper_top",
-        "textures/blocks/hopper/hopper_top"
+        "textures/blocks/redstone/hopper_top_center",
+        "textures/blocks/redstone/hopper_top",
+        "textures/blocks/redstone/hopper_top_north",
+        "textures/blocks/redstone/hopper_top_south",
+        "textures/blocks/redstone/hopper_top_west",
+        "textures/blocks/redstone/hopper_top_east",
+        "textures/blocks/redstone/hopper_top",
+        "textures/blocks/redstone/hopper_top",
+        "textures/blocks/redstone/hopper_top_center_powered",
+        "textures/blocks/redstone/hopper_top",
+        "textures/blocks/redstone/hopper_top_north_powered",
+        "textures/blocks/redstone/hopper_top_south_powered",
+        "textures/blocks/redstone/hopper_top_west_powered",
+        "textures/blocks/redstone/hopper_top_east_powered",
+        "textures/blocks/redstone/hopper_top",
+        "textures/blocks/redstone/hopper_top"
       ]
     },
     "hopper_inside": {
-      "textures": "textures/blocks/hopper/hopper_inside"
+      "textures": "textures/blocks/redstone/hopper_inside"
     },
     "hopper_outside_north": {
       "textures": [
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside_front",
-        "textures/blocks/hopper/hopper_outside_back",
-        "textures/blocks/hopper/hopper_outside_right",
-        "textures/blocks/hopper/hopper_outside_left",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside_center_powered",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside_front_powered",
-        "textures/blocks/hopper/hopper_outside_back_powered",
-        "textures/blocks/hopper/hopper_outside_right_powered",
-        "textures/blocks/hopper/hopper_outside_left_powered"
+        "textures/blocks/redstone/hopper_outside", //有意为之，防止内面有纹理
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside_front",
+        "textures/blocks/redstone/hopper_outside_back",
+        "textures/blocks/redstone/hopper_outside_right",
+        "textures/blocks/redstone/hopper_outside_left",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside_center_powered",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside_front_powered",
+        "textures/blocks/redstone/hopper_outside_back_powered",
+        "textures/blocks/redstone/hopper_outside_right_powered",
+        "textures/blocks/redstone/hopper_outside_left_powered"
       ]
     },
     "hopper_outside_south": {
       "textures": [
-        "textures/blocks/hopper/hopper_outside_center",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside_back",
-        "textures/blocks/hopper/hopper_outside_front",
-        "textures/blocks/hopper/hopper_outside_left",
-        "textures/blocks/hopper/hopper_outside_right",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside_center_powered",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside_back_powered",
-        "textures/blocks/hopper/hopper_outside_front_powered",
-        "textures/blocks/hopper/hopper_outside_left_powered",
-        "textures/blocks/hopper/hopper_outside_right_powered"
+        "textures/blocks/redstone/hopper_outside_center",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside_back",
+        "textures/blocks/redstone/hopper_outside_front",
+        "textures/blocks/redstone/hopper_outside_left",
+        "textures/blocks/redstone/hopper_outside_right",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside_center_powered",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside_back_powered",
+        "textures/blocks/redstone/hopper_outside_front_powered",
+        "textures/blocks/redstone/hopper_outside_left_powered",
+        "textures/blocks/redstone/hopper_outside_right_powered"
       ]
     },
     "hopper_outside_west": {
       "textures": [
-        "textures/blocks/hopper/hopper_outside_center",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside_left",
-        "textures/blocks/hopper/hopper_outside_right",
-        "textures/blocks/hopper/hopper_outside_front",
-        "textures/blocks/hopper/hopper_outside_back",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside_center_powered",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside_left_powered",
-        "textures/blocks/hopper/hopper_outside_right_powered",
-        "textures/blocks/hopper/hopper_outside_front_powered",
-        "textures/blocks/hopper/hopper_outside_back_powered"
+        "textures/blocks/redstone/hopper_outside_center",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside_left",
+        "textures/blocks/redstone/hopper_outside_right",
+        "textures/blocks/redstone/hopper_outside_front",
+        "textures/blocks/redstone/hopper_outside_back",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside_center_powered",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside_left_powered",
+        "textures/blocks/redstone/hopper_outside_right_powered",
+        "textures/blocks/redstone/hopper_outside_front_powered",
+        "textures/blocks/redstone/hopper_outside_back_powered"
       ]
     },
     "hopper_outside_east": {
       "textures": [
-        "textures/blocks/hopper/hopper_outside_center",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside_right",
-        "textures/blocks/hopper/hopper_outside_left",
-        "textures/blocks/hopper/hopper_outside_back",
-        "textures/blocks/hopper/hopper_outside_front",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside_center_powered",
-        "textures/blocks/hopper/hopper_outside",
-        "textures/blocks/hopper/hopper_outside_right_powered",
-        "textures/blocks/hopper/hopper_outside_left_powered",
-        "textures/blocks/hopper/hopper_outside_back_powered",
-        "textures/blocks/hopper/hopper_outside_front_powered"
+        "textures/blocks/redstone/hopper_outside_center",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside_right",
+        "textures/blocks/redstone/hopper_outside_left",
+        "textures/blocks/redstone/hopper_outside_back",
+        "textures/blocks/redstone/hopper_outside_front",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside_center_powered",
+        "textures/blocks/redstone/hopper_outside",
+        "textures/blocks/redstone/hopper_outside_right_powered",
+        "textures/blocks/redstone/hopper_outside_left_powered",
+        "textures/blocks/redstone/hopper_outside_back_powered",
+        "textures/blocks/redstone/hopper_outside_front_powered"
       ]
     },
-    // Crops 作物年龄 //
+    // 海带开花 //
     "kelp_top": {
       "textures": [
         "textures/blocks/kelp_top",
@@ -632,7 +740,6 @@
         "textures/blocks/lightning_rod_powered"
       ]
     },
-    // 方块&物品形式打蜡铜灯/铜锁链/铜栅栏显示 //
     "waxed_copper_bars": {
       "textures": "textures/blocks/copper/waxed_copper_bars"
     },
@@ -644,6 +751,18 @@
     },
     "waxed_oxidized_copper_bars": {
       "textures": "textures/blocks/copper/waxed_oxidized_copper_bars"
+    },
+    "waxed_copper_lantern": {
+      "textures": "textures/blocks/copper/waxed_copper_lantern"
+    },
+    "waxed_exposed_copper_lantern": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_lantern"
+    },
+    "waxed_weathered_copper_lantern": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_lantern"
+    },
+    "waxed_oxidized_copper_lantern": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_lantern"
     },
     "waxed_copper_lantern_carried": {
       "textures": "textures/items/copper/waxed_copper_lantern"
@@ -729,6 +848,18 @@
     },
     "waxed_oxidized_copper_chest_inventory_front": {
       "textures": "textures/blocks/copper/waxed_oxidized_copper_chest_inventory_front"
+    },
+    "waxed_copper_statue": {
+      "textures": "textures/blocks/copper/waxed_copper_statue"
+    },
+    "waxed_exposed_copper_statue": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_statue"
+    },
+    "waxed_weathered_copper_statue": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_statue"
+    },
+    "waxed_oxidized_copper_statue": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_statue"
     },
     // 打蜡铜台阶显示 //
     "waxed_cut_copper_slab_top": {

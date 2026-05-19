@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:light_block_11"
+    },
+    "components": {
+      "minecraft:rarity": "epic"
+    }
+  }
+}

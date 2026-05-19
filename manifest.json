@@ -1,11 +1,11 @@
 {
   "format_version": 2,
   "header": {
+    "name": "护眼大补丸26春季v1",
     "description": "pack.description",
-    "name": "pack.name",
     "uuid": "89c8462c-a8bf-4aac-b2da-d3660d8f6c9b",
     "pack_scope": "any",
-    "version": [ 1, 12, 0 ],
+    "version": [ 26, 1, 0 ],
     "min_engine_version": [ 1, 13, 0 ]
   },
   "modules": [
@@ -13,7 +13,7 @@
       "type": "resources",
       "description": "By @hsds @Jumao",
       "uuid": "94fba14a-ee58-490d-856b-10ca21fcc26f",
-      "version": [ 1, 12, 0 ]
+      "version": [ 26, 1, 0 ]
     }
   ],
   "metadata": {
@@ -35,27 +35,27 @@
   "subpacks": [
     {
       "folder_name": "Borderless_glass",
-      "name": "无缝玻璃模式 [红石功能+无缝玻璃] §6兼容性较好",
+      "name": "无缝玻璃模式 [红石功能+无缝玻璃] §6兼容性较好\n§7 Borderless_glass Mode [Redstone Features + Borderless Glass]",
       "memory_tier": 2
     },
     {
       "folder_name": "Functional",
-      "name": "功能模式 [不含基础方块格子+红石显示+无缝玻璃] §6兼容性好",
+      "name": "功能模式 [不含基础方块格子+红石显示+无缝玻璃] §6兼容性好\n§7 Functional Mode [No Block Outline + Redstone Features]",
       "memory_tier": 2
     },
     {
       "folder_name": "Redstone",
-      "name": "红石模式 [经典功能+显示投掷器发射器朝向+铁砧换行+村民跨级交易] §6兼容性好",
+      "name": "红石模式 [经典功能+显示投掷器朝向+村民跨级交易] §6兼容性较好\n§7 Redstone Mode [Classic + Extra Redstone Features]",
       "memory_tier": 2
     },
     {
       "folder_name": "JavaOriginal",
-      "name": "Java模式 [完全移植@黑山大叔的纹理] §a兼容性极好",
+      "name": "Java模式 [完全移植@黑山大叔的纹理] §a兼容性极好\n§7 Java Mode [Fully Ported Textures from @hsds]",
       "memory_tier": 2
     },
     {
       "folder_name": "Classic",
-      "name": "经典模式 [包含所有基础功能] §6兼容性好",
+      "name": "经典模式 [包含所有基础功能] §6兼容性好\n§7 Classic Mode [Includes All Basic Features]",
       "memory_tier": 8
     }
   ],
