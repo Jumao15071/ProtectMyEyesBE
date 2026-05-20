@@ -25,7 +25,7 @@
     "$spatialPatternsPadding": [ 0, 0 ],
     "modifications": [
       {
-        "control_name": "how_to_play_button",
+        "control_name": "accessibility_button",
         "operation": "insert_after",
         "value": [
           {

@@ -30,7 +30,7 @@
         }
       },*/
       {
-        "spacer_00": {
+        "spacer_0": {
           "type": "panel",
           "size": [ 0, 10 ]
         }
@@ -70,7 +70,7 @@
         }
       },
       {
-        "spacer_0": {
+        "spacer_1": {
           "ignored": "(not $include_world_section)",
           "type": "panel",
           "size": [ 0, 1 ]
@@ -117,7 +117,7 @@
         }
       },
       {
-        "spacer_1": {
+        "spacer_2": {
           "ignored": "(not $include_world_section)",
           "type": "panel",
           "size": [ 0, 1 ]
@@ -158,7 +158,7 @@
         }
       },
       {
-        "spacer_2": {
+        "spacer_3": {
           "ignored": "(not $include_controls_and_settings_sections or not $touch)",
           "type": "panel",
           "size": [ 0, 2 ]
@@ -174,7 +174,7 @@
         }
       },
       {
-        "spacer_3": {
+        "spacer_4": {
           "ignored": "(not $include_controls_and_settings_sections or not $touch)",
           "type": "panel",
           "size": [ 0, 1 ]
@@ -208,7 +208,7 @@
         }
       },
       {
-        "spacer_4": {
+        "spacer_5": {
           "ignored": "(not $include_controls_and_settings_sections or not $touch)",
           "type": "panel",
           "size": [ 0, 2 ]
@@ -224,7 +224,7 @@
         }
       },
       {
-        "spacer_5": {
+        "spacer_6": {
           "ignored": "(not $include_controls_and_settings_sections or not $touch)",
           "type": "panel",
           "size": [ 0, 2 ]
@@ -240,7 +240,7 @@
         }
       },
       {
-        "spacer_6": {
+        "spacer_7": {
           "ignored": "(not $include_controls_and_settings_sections or not $touch)",
           "type": "panel",
           "size": [ 0, 2 ]
@@ -258,7 +258,7 @@
         }
       },
       {
-        "spacer_7": {
+        "spacer_8": {
           "ignored": "(not $include_controls_and_settings_sections or not $touch)",
           "type": "panel",
           "size": [ 0, 2 ]
@@ -280,27 +280,25 @@
         }
       },
       {
-        "spacer_8": {
+        "spacer_9": {
           "type": "panel",
           "size": [ 0, 2 ]
         }
       },
       {
-        "pause_toggle@settings_common.option_toggle": {
-          "$option_label": "options.pauseHint",
-          "$option_binding_name": "#pause_option_toggle",
-          "$toggle_name": "pause_option_toggle",
-          "bindings": [
-            {
-              "binding_name": "#pause_toggle_enabled",
-              "binding_name_override": "#visible"
-            }
-          ]
+        "allow_cheats_toggle@settings_common.option_toggle": {
+          "ignored": "(not $include_world_section)",
+          "$tts_section_header": "createWorldScreen.cheatSettings",
+          "$option_label": "selectWorld.cheats",
+          "$option_binding_name": "#allow_cheats",
+          "$option_enabled_binding_name": "#allow_cheats_enabled",
+          "$toggle_name": "allow_cheats",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "$toggle_binding_condition": "always_when_visible"
         }
       },
       {
-        "spacer_9": {
-          "ignored": "(not $include_world_section)",
+        "spacer_10": {
           "type": "panel",
           "size": [ 0, 2 ]
         }
@@ -318,12 +316,13 @@
         }
       },
       {
-        "spacer_10": {
+        "spacer_11": {
           "ignored": "(not $include_world_section)",
           "type": "panel",
           "size": [ 0, 2 ]
         }
       },
+
       {
         "perfect_weather_toggle@settings_common.option_toggle": {
           "ignored": "(not $include_world_section)",
@@ -337,7 +336,7 @@
         }
       },
       {
-        "spacer_11": {
+        "spacer_12": {
           "ignored": "(not $include_world_section)",
           "type": "panel",
           "size": [ 0, 2 ]
@@ -356,7 +355,27 @@
         }
       },
       {
-        "spacer_12": {
+        "spacer_13": {
+          "ignored": "(not $include_world_section)",
+          "type": "panel",
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "pause_toggle@settings_common.option_toggle": {
+          "$option_label": "options.pauseHint",
+          "$option_binding_name": "#pause_option_toggle",
+          "$toggle_name": "pause_option_toggle",
+          "bindings": [
+            {
+              "binding_name": "#pause_toggle_enabled",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "spacer_14": {
           "type": "panel",
           "size": [ 0, 2 ]
         }
@@ -370,9 +389,9 @@
         }
       },
       {
-        "spacer_13": {
+        "spacer_15": {
           "type": "panel",
-          "size": [ 0, 1 ]
+          "size": [ 0, 2 ]
         }
       },
       {
@@ -417,7 +436,35 @@
         }
       },
       {
-        "spacer_14": {
+        "spacer_16": {
+          "ignored": "(not $pre_release)",
+          "type": "panel",
+          "size": [ 0, 1 ]
+        }
+      },
+      {
+        "ui_profile_dropdown@settings_common.option_dropdown": {
+          "ignored": "(not $include_controls_and_settings_sections)",
+          "$option_label": "options.uiprofile",
+          "$control_name": "dabu_ore_ui_common.toggle_button_stack_panel",
+          "$toggle_button_main_stack": [
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#ui_profile_radio_classic",
+                "$button_text": "options.uiprofile.classic"
+              }
+            },
+            {
+              "@dabu_ore_ui_common.toggle_button": {
+                "$toggle_name": "#ui_profile_radio_pocket",
+                "$button_text": "options.uiprofile.pocket"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "spacer_17": {
           "ignored": "(not $pre_release)",
           "type": "panel",
           "size": [ 0, 2 ]
@@ -453,7 +500,7 @@
         }
       },
       {
-        "spacer_15": {
+        "spacer_18": {
           "ignored": "(not $include_world_section)",
           "type": "panel",
           "size": [ 0, 2 ]
@@ -531,7 +578,7 @@
         }
       },
       {
-        "spacer_16": {
+        "spacer_19": {
           "type": "panel",
           "size": [ 0, 20 ]
         }

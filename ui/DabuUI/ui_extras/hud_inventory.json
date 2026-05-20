@@ -1,0 +1,92 @@
+{
+  "namespace": "hud_inventory",
+
+  "hud_inventory_content": {
+    "type": "stack_panel",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "size": [ 153, 50 ],
+    "$durability_bar_required|default": true,
+    "$stack_count_required|default": true,
+    "controls": [
+      {
+        "hud_inventory_panel": {
+          "type": "panel",
+          "clips_children": true,
+          "controls": [
+            {
+              "inventory_grid": {
+                "type": "grid",
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "collection_name": "hotbar_items",
+                "grid_dimensions": [ 9, 4 ],
+                "offset": [ 0, -18 ], //有意为之
+                "grid_item_template": "hud_inventory.hud_inventory_grid"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "hud_inventory",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "offset": [ -4, 4 ]
+  },
+  "hud_inventory_grid": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ 17, 17 ],
+    "controls": [
+      {
+        "slot_image": {
+          "type": "image",
+          "layer": 1,
+          "texture": "textures/ui/Black",
+          "size": [ "100% - 1px", "100% - 1px" ],
+          "alpha": 0.3
+        }
+      },
+      {
+        "hud_inventory_grid_item": {
+          "type": "panel",
+          "layer": 2,
+          "$durability_bar_required": true,
+          "$item_collection_name": "hotbar_items",
+          "$stack_count_required": true,
+          "controls": [
+            {
+              "item_renderer@common.item_renderer": {
+                "layer": 2,
+                "size": [ 16, 16 ]
+              }
+            },
+            {
+              "durability@common.durability_bar": {
+                "layer": 3
+              }
+            },
+            {
+              "stack_count@common.stack_count_label": {
+                "layer": 4
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "hotbar_items",
+        "binding_type": "collection_details"
+      }
+    ]
+  }
+}

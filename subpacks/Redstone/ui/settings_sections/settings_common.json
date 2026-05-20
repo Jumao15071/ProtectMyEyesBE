@@ -1,6 +1,6 @@
 {
-    "dynamic_dialog_screen": {
-        "$fill_alpha": 0.5
+    "screen_base_fullscreen": {
+        "$dialog_content": "settings_common.dialog_content"
     },
     "settings_content/background": {
         "alpha": 0.01
