@@ -8,7 +8,7 @@
       "depthFunc": "LessEqual",
       "vertexShader": "shaders/selection_box.vertex",
       "vrGeometryShader": "shaders/position.geometry",
-      "fragmentShader": "shaders/selection_box.fragment",
+      "fragmentShader": "shaders/dabu_selection_box.fragment",
       "vertexFields": [
         { "field": "Position" }
       ],

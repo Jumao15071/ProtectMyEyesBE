@@ -395,51 +395,59 @@
         }
       },
       {
-        "vsync_dropdown@settings_common.option_dropdown": {
-          "$option_label": "options.vsync.on",
-          "$control_name": "dabu_ore_ui_common.toggle_button_stack_panel",
-          "bindings": [
+        "vsync_dropdown_container": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "controls": [
             {
-              "binding_type": "view",
-              "source_control_name": "vsync_button_toggle",
-              "source_property_name": "#toggle_state",
-              "target_property_name": "#visible"
-            }
-          ],
-          "$toggle_button_main_stack": [
-            {
-              "vsync_off@dabu_ore_ui_common.toggle_button": {
-                "$toggle_name": "#vsync_off",
-                "$button_text": "options.vsync.off"
+              "vsync_dropdown@settings_common.option_dropdown": {
+                "$option_label": "options.vsync.on",
+                "$control_name": "dabu_ore_ui_common.toggle_button_stack_panel",
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "vsync_button_toggle",
+                    "source_property_name": "#toggle_state",
+                    "target_property_name": "#visible"
+                  }
+                ],
+                "$toggle_button_main_stack": [
+                  {
+                    "vsync_off@dabu_ore_ui_common.toggle_button": {
+                      "$toggle_name": "#vsync_off",
+                      "$button_text": "options.vsync.off"
+                    }
+                  },
+                  {
+                    "vsync_on@dabu_ore_ui_common.toggle_button": {
+                      "$toggle_name": "#vsync_on",
+                      "$button_text": "options.vsync.on"
+                    }
+                  },
+                  {
+                    "vsync_adaptive@dabu_ore_ui_common.toggle_button": {
+                      "$toggle_name": "#vsync_adaptive",
+                      "$button_text": "options.vsync.adaptive"
+                    }
+                  }
+                ]
               }
             },
             {
-              "vsync_on@dabu_ore_ui_common.toggle_button": {
-                "$toggle_name": "#vsync_on",
-                "$button_text": "options.vsync.on"
-              }
-            },
-            {
-              "vsync_adaptive@dabu_ore_ui_common.toggle_button": {
-                "$toggle_name": "#vsync_adaptive",
-                "$button_text": "options.vsync.adaptive"
+              "vsync_text_label": {
+                "type": "label",
+                "color": "$option_description_text_color",
+                "text": "dabu.ui.vsync_option_warning"
               }
             }
           ]
         }
       },
       {
-        "vsync_text_label": {
-          "type": "label",
-          "color": "$option_description_text_color",
-          "text": "dabu.ui.vsync_option_warning"
-        }
-      },
-      {
         "spacer_16": {
           "ignored": "(not $pre_release)",
           "type": "panel",
-          "size": [ 0, 1 ]
+          "size": [ 0, 3 ]
         }
       },
       {

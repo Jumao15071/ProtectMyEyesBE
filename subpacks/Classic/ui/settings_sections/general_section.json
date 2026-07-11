@@ -23,7 +23,8 @@
     ]
   },
   "video_section": {
-    "$spatialPatternsPadding": [ 2, 2 ],
+    "$settings_spatial_pattern_fix_enabled": false,
+    "$spatialPatternsPadding": [ 0, 0 ],
     "modifications": [
       {
         "array_name": "controls",

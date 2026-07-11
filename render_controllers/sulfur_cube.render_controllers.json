@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.sulfur_cube_outer": {
+      "geometry": "query.is_baby ? Geometry.small : Geometry.default",
+      "materials": [ { "*": "Material.outer" } ],
+      "part_visibility": [ { "*": "!query.is_invisible" } ],
+      "textures": [
+        "query.is_baby ? Texture.outer_small : (query.property('minecraft:sulfur_cube_archetype') == 'none' ? Texture.sulfur_cube_none : (query.property('minecraft:sulfur_cube_archetype') == 'bouncy' ? Texture.sulfur_cube_bouncy : (query.property('minecraft:sulfur_cube_archetype') == 'regular' ? Texture.sulfur_cube_regular : (query.property('minecraft:sulfur_cube_archetype') == 'slow_bouncy' ? Texture.sulfur_cube_slow_bouncy : (query.property('minecraft:sulfur_cube_archetype') == 'slow_flat' ? Texture.sulfur_cube_slow_flat : (query.property('minecraft:sulfur_cube_archetype') == 'fast_flat' ? Texture.sulfur_cube_fast_flat : (query.property('minecraft:sulfur_cube_archetype') == 'light' ? Texture.sulfur_cube_light : (query.property('minecraft:sulfur_cube_archetype') == 'fast_sliding' ? Texture.sulfur_cube_fast_sliding : (query.property('minecraft:sulfur_cube_archetype') == 'slow_sliding' ? Texture.sulfur_cube_slow_sliding : (query.property('minecraft:sulfur_cube_archetype') == 'sticky' ? Texture.sulfur_cube_sticky : (query.property('minecraft:sulfur_cube_archetype') == 'high_resistance' ? Texture.sulfur_cube_high_resistance : (query.property('minecraft:sulfur_cube_archetype') == 'explosive' ? Texture.sulfur_cube_explosive : (query.property('minecraft:sulfur_cube_archetype') == 'hot' ? Texture.sulfur_cube_hot : Texture.outer)))))))))))))"
+      ]
+    }
+  }
+}

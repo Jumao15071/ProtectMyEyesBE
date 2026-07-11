@@ -1,5 +1,78 @@
 {
   "format_version": [ 1, 1, 0 ],
+  // 物品形式打蜡铜箱子显示 //
+  "waxed_copper_chest": {
+    "textures": {
+      "up": "waxed_copper_chest_inventory_top",
+      "down": "waxed_copper_chest_inventory_top",
+      "north": "waxed_copper_chest_inventory_side",
+      "south": "waxed_copper_chest_inventory_front",
+      "west": "waxed_copper_chest_inventory_side",
+      "east": "waxed_copper_chest_inventory_side"
+    },
+    "carried_textures": {
+      "up": "waxed_copper_chest_inventory_top",
+      "down": "waxed_copper_chest_inventory_top",
+      "north": "waxed_copper_chest_inventory_side",
+      "south": "waxed_copper_chest_inventory_front",
+      "west": "waxed_copper_chest_inventory_side",
+      "east": "waxed_copper_chest_inventory_side"
+    }
+  },
+  "waxed_exposed_copper_chest": {
+    "textures": {
+      "up": "waxed_exposed_copper_chest_inventory_top",
+      "down": "waxed_exposed_copper_chest_inventory_top",
+      "north": "waxed_exposed_copper_chest_inventory_side",
+      "south": "waxed_exposed_copper_chest_inventory_front",
+      "west": "waxed_exposed_copper_chest_inventory_side",
+      "east": "waxed_exposed_copper_chest_inventory_side"
+    },
+    "carried_textures": {
+      "up": "waxed_exposed_copper_chest_inventory_top",
+      "down": "waxed_exposed_copper_chest_inventory_top",
+      "north": "waxed_exposed_copper_chest_inventory_side",
+      "south": "waxed_exposed_copper_chest_inventory_front",
+      "west": "waxed_exposed_copper_chest_inventory_side",
+      "east": "waxed_exposed_copper_chest_inventory_side"
+    }
+  },
+  "waxed_weathered_copper_chest": {
+    "textures": {
+      "up": "waxed_weathered_copper_chest_inventory_top",
+      "down": "waxed_weathered_copper_chest_inventory_top",
+      "north": "waxed_weathered_copper_chest_inventory_side",
+      "south": "waxed_weathered_copper_chest_inventory_front",
+      "west": "waxed_weathered_copper_chest_inventory_side",
+      "east": "waxed_weathered_copper_chest_inventory_side"
+    },
+    "carried_textures": {
+      "up": "waxed_weathered_copper_chest_inventory_top",
+      "down": "waxed_weathered_copper_chest_inventory_top",
+      "north": "waxed_weathered_copper_chest_inventory_side",
+      "south": "waxed_weathered_copper_chest_inventory_front",
+      "west": "waxed_weathered_copper_chest_inventory_side",
+      "east": "waxed_weathered_copper_chest_inventory_side"
+    }
+  },
+  "waxed_oxidized_copper_chest": {
+    "textures": {
+      "up": "waxed_oxidized_copper_chest_inventory_top",
+      "down": "waxed_oxidized_copper_chest_inventory_top",
+      "north": "waxed_oxidized_copper_chest_inventory_side",
+      "south": "waxed_oxidized_copper_chest_inventory_front",
+      "west": "waxed_oxidized_copper_chest_inventory_side",
+      "east": "waxed_oxidized_copper_chest_inventory_side"
+    },
+    "carried_textures": {
+      "up": "waxed_oxidized_copper_chest_inventory_top",
+      "down": "waxed_oxidized_copper_chest_inventory_top",
+      "north": "waxed_oxidized_copper_chest_inventory_side",
+      "south": "waxed_oxidized_copper_chest_inventory_front",
+      "west": "waxed_oxidized_copper_chest_inventory_side",
+      "east": "waxed_oxidized_copper_chest_inventory_side"
+    }
+  },
   // 铁砧显示 //
   "anvil": {
     "sound": "anvil",
@@ -27,7 +100,6 @@
   },
   // 熔炉显示 //
   "furnace": {
-    "sound": "stone",
     "textures": {
       "down": "furnace_top_off",
       "east": "furnace_side_off",
@@ -38,7 +110,6 @@
     }
   },
   "lit_furnace": {
-    "sound": "stone",
     "textures": {
       "down": "furnace_top_on",
       "east": "furnace_front_on",
@@ -65,8 +136,7 @@
       "west": "sculk_sensor_tendril_active",
       "north": "sculk_sensor_tendril_active",
       "south": "calibrated_sculk_sensor_amethyst"
-    },
-    "sound": "sculk_sensor"
+    }
   },
   // 阳光传感器显示 //
   "daylight_detector": {
@@ -85,30 +155,7 @@
       "up": "daylight_detector_lunar_top"
     }
   },
-  // 拉杆火把显示 //
-  "lever": {
-    "blockshape": "lever",
-    "carried_textures": "lever_carried",
-    "textures": {
-      "down": "lever", //核心
-      "east": "lever_base", //破坏粒子
-      "north": "lever",
-      "south": "lever",
-      "up": "lever",
-      "west": "lever"
-    }
-  },
-  "cobblestone_wall": {
-    "sound": "stone",
-    "textures": {
-      "down": "cobblestone_wall",
-      "east": "cobblestone_wall",
-      "north": "cobblestone_wall",
-      "south": "cobblestone_wall",
-      "up": "lever_base_wall", //控制拉杆显示
-      "west": "cobblestone_wall"
-    }
-  },
+  // 拉杆&火把显示 //
   "redstone_torch": {
     "carried_textures": "redstone_torch_carried",
     "textures": "redstone_torch_on"
@@ -162,35 +209,33 @@
   "obsidian": {
     "ambient_occlusion_exponent": 0.1,
     "isotropic": false,
-    "textures": "obsidian",
-    "sound": "stone"
+    "textures": "obsidian"
   },
   "crying_obsidian": {
     "ambient_occlusion_exponent": 2.0,
     "isotropic": false,
-    "textures": "crying_obsidian",
-    "sound": "stone"
+    "textures": "crying_obsidian"
+  },
+  "netherrack": {
+    "isotropic": false,
+    "textures": "netherrack"
   },
   "diamond_ore": {
     "ambient_occlusion_exponent": 0.1,
-    "sound": "stone",
     "textures": "diamond_ore"
   },
   "deepslate_diamond_ore": {
     "ambient_occlusion_exponent": 0.1,
     "isotropic": false,
-    "sound": "deepslate",
     "textures": "deepslate_diamond_ore"
   },
   "coal_ore": {
     "ambient_occlusion_exponent": 0.1,
-    "sound": "stone",
     "textures": "coal_ore"
   },
   "deepslate_coal_ore": {
     "ambient_occlusion_exponent": 0.1,
     "isotropic": false,
-    "sound": "deepslate",
     "textures": "deepslate_coal_ore"
   },
   // 虫蚀方块 //
@@ -203,76 +248,108 @@
       "up": "infested_deepslate_top",
       "down": "infested_deepslate_top",
       "side": "infested_deepslate"
-    },
-    "sound": "deepslate"
+    }
   },
   "monster_egg": {
-    "textures": "monster_egg",
-    "sound": "stone"
+    "textures": "monster_egg"
   },
   // 压力板显示 //
   "acacia_pressure_plate": {
-    "sound": "wood",
     "textures": "acacia_pressure_plate"
   },
   "bamboo_pressure_plate": {
-    "sound": "bamboo_wood",
     "textures": "bamboo_pressure_plate"
   },
   "birch_pressure_plate": {
-    "sound": "wood",
     "textures": "birch_pressure_plate"
   },
   "cherry_pressure_plate": {
-    "sound": "cherry_wood",
     "textures": "cherry_pressure_plate"
   },
   "crimson_pressure_plate": {
-    "sound": "nether_wood",
     "textures": "crimson_pressure_plate"
   },
   "dark_oak_pressure_plate": {
-    "sound": "wood",
     "textures": "dark_oak_pressure_plate"
   },
   "jungle_pressure_plate": {
-    "sound": "wood",
     "textures": "jungle_pressure_plate"
   },
   "mangrove_pressure_plate": {
-    "sound": "wood",
     "textures": "mangrove_pressure_plate"
   },
   "pale_oak_pressure_plate": {
-    "sound": "wood",
     "textures": "pale_oak_pressure_plate"
   },
+  "poplar_pressure_plate": {
+    "textures": "poplar_pressure_plate"
+  },
   "spruce_pressure_plate": {
-    "sound": "wood",
     "textures": "spruce_pressure_plate"
   },
   "warped_pressure_plate": {
-    "sound": "nether_wood",
     "textures": "warped_pressure_plate"
   },
   "wooden_pressure_plate": {
-    "sound": "wood",
     "textures": "wooden_pressure_plate"
   },
   "stone_pressure_plate": {
-    "sound": "stone",
     "textures": "stone_pressure_plate"
   },
   "polished_blackstone_pressure_plate": {
-    "sound": "stone",
     "textures": "polished_blackstone_pressure_plate"
   },
   "heavy_weighted_pressure_plate": {
     "textures": "heavy_weighted_pressure_plate"
   },
   "light_weighted_pressure_plate": {
-    "sound": "metal",
     "textures": "light_weighted_pressure_plate"
+  },
+  // 按钮显示 //
+  "acacia_button": {
+    "textures": "acacia_button"
+  },
+  "bamboo_button": {
+    "textures": "bamboo_button"
+  },
+  "birch_button": {
+    "textures": "birch_button"
+  },
+  "cherry_button": {
+    "textures": "cherry_button"
+  },
+  "crimson_button": {
+    "textures": "crimson_button"
+  },
+  "dark_oak_button": {
+    "textures": "dark_oak_button"
+  },
+  "jungle_button": {
+    "textures": "jungle_button"
+  },
+  "mangrove_button": {
+    "textures": "mangrove_button"
+  },
+  "pale_oak_button": {
+    "textures": "pale_oak_button"
+  },
+  "poplar_button": {
+    "textures": "poplar_button"
+  },
+  "polished_blackstone_button": {
+    "textures": "polished_blackstone_button"
+  },
+  "spruce_button": {
+    "textures": "spruce_button"
+  },
+  "stone_button": {
+    "textures": "stone_button"
+  },
+  "warped_button": {
+    "textures": "warped_button"
+  },
+  "wooden_button": {
+    "textures": "oak_button"
   },
   // 侦测器显示 //
   "observer": {
@@ -283,8 +360,7 @@
       "south": "observer_south",
       "west": "observer_west",
       "east": "observer_east"
-    },
-    "sound": "metal"
+    }
   },
   // 黏性活塞显示 //
   "sticky_piston": {
@@ -297,8 +373,7 @@
       "up": "piston_top_sticky",
       "down": "piston_bottom_sticky",
       "side": "piston_side_sticky"
-    },
-    "sound": "stone"
+    }
   },
   // 漏斗显示 //
   "hopper": {
@@ -309,229 +384,188 @@
       "south": "hopper_outside_south",
       "west": "hopper_outside_west",
       "east": "hopper_outside_east"
-    },
-    "sound": "metal"
+    }
   },
   // 打蜡铜块 //
   "waxed_copper": {
     "isotropic": false,
     "textures": "waxed_copper_block",
-    "carried_textures": "waxed_copper_block_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_copper_block_carried"
   },
   "waxed_exposed_copper": {
     "isotropic": false,
     "textures": "waxed_exposed_copper",
-    "carried_textures": "waxed_exposed_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_exposed_copper_carried"
   },
   "waxed_weathered_copper": {
     "isotropic": false,
     "textures": "waxed_weathered_copper",
-    "carried_textures": "waxed_weathered_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_weathered_copper_carried"
   },
   "waxed_oxidized_copper": {
     "isotropic": false,
     "textures": "waxed_oxidized_copper",
-    "carried_textures": "waxed_oxidized_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_oxidized_copper_carried"
   },
   "waxed_cut_copper": {
     "isotropic": false,
     "textures": "waxed_cut_copper",
-    "carried_textures": "waxed_cut_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_cut_copper_carried"
   },
   "waxed_exposed_cut_copper": {
     "isotropic": false,
     "textures": "waxed_exposed_cut_copper",
-    "carried_textures": "waxed_exposed_cut_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_exposed_cut_copper_carried"
   },
   "waxed_weathered_cut_copper": {
     "isotropic": false,
     "textures": "waxed_weathered_cut_copper",
-    "carried_textures": "waxed_weathered_cut_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_weathered_cut_copper_carried"
   },
   "waxed_oxidized_cut_copper": {
     "isotropic": false,
     "textures": "waxed_oxidized_cut_copper",
-    "carried_textures": "waxed_oxidized_cut_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_oxidized_cut_copper_carried"
   },
   "waxed_cut_copper_stairs": {
     "isotropic": false,
     "textures": "waxed_cut_copper",
-    "carried_textures": "waxed_cut_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_cut_copper_carried"
   },
   "waxed_exposed_cut_copper_stairs": {
     "isotropic": false,
     "textures": "waxed_exposed_cut_copper",
-    "carried_textures": "waxed_exposed_cut_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_exposed_cut_copper_carried"
   },
   "waxed_weathered_cut_copper_stairs": {
     "isotropic": false,
     "textures": "waxed_weathered_cut_copper",
-    "carried_textures": "waxed_weathered_cut_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_weathered_cut_copper_carried"
   },
   "waxed_oxidized_cut_copper_stairs": {
     "isotropic": false,
     "textures": "waxed_oxidized_cut_copper",
-    "carried_textures": "waxed_oxidized_cut_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_oxidized_cut_copper_carried"
   },
   "waxed_chiseled_copper": {
     "textures": "waxed_chiseled_copper",
-    "carried_textures": "waxed_chiseled_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_chiseled_copper_carried"
   },
   "waxed_exposed_chiseled_copper": {
     "textures": "waxed_exposed_chiseled_copper",
-    "carried_textures": "waxed_exposed_chiseled_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_exposed_chiseled_copper_carried"
   },
   "waxed_oxidized_chiseled_copper": {
     "textures": "waxed_oxidized_chiseled_copper",
-    "carried_textures": "waxed_oxidized_chiseled_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_oxidized_chiseled_copper_carried"
   },
   "waxed_weathered_chiseled_copper": {
     "textures": "waxed_weathered_chiseled_copper",
-    "carried_textures": "waxed_weathered_chiseled_copper_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_weathered_chiseled_copper_carried"
   },
   "waxed_copper_grate": {
     "textures": "waxed_copper_grate",
-    "carried_textures": "waxed_copper_grate_carried",
-    "sound": "copper_grate"
+    "carried_textures": "waxed_copper_grate_carried"
   },
   "waxed_exposed_copper_grate": {
     "textures": "waxed_exposed_copper_grate",
-    "carried_textures": "waxed_exposed_copper_grate_carried",
-    "sound": "copper_grate"
+    "carried_textures": "waxed_exposed_copper_grate_carried"
   },
   "waxed_weathered_copper_grate": {
     "textures": "waxed_weathered_copper_grate",
-    "carried_textures": "waxed_weathered_copper_grate_carried",
-    "sound": "copper_grate"
+    "carried_textures": "waxed_weathered_copper_grate_carried"
   },
   "waxed_oxidized_copper_grate": {
     "textures": "waxed_oxidized_copper_grate",
-    "carried_textures": "waxed_oxidized_copper_grate_carried",
-    "sound": "copper_grate"
+    "carried_textures": "waxed_oxidized_copper_grate_carried"
   },
   "waxed_copper_bulb": {
     "isotropic": false,
     "textures": "waxed_copper_bulb",
-    "carried_textures": "waxed_copper_bulb_carried",
-    "sound": "copper_bulb"
+    "carried_textures": "waxed_copper_bulb_carried"
   },
   "waxed_exposed_copper_bulb": {
     "isotropic": false,
     "textures": "waxed_exposed_copper_bulb",
-    "carried_textures": "waxed_exposed_copper_bulb_carried",
-    "sound": "copper_bulb"
+    "carried_textures": "waxed_exposed_copper_bulb_carried"
   },
   "waxed_weathered_copper_bulb": {
     "isotropic": false,
     "textures": "waxed_weathered_copper_bulb",
-    "carried_textures": "waxed_weathered_copper_bulb_carried",
-    "sound": "copper_bulb"
+    "carried_textures": "waxed_weathered_copper_bulb_carried"
   },
   "waxed_oxidized_copper_bulb": {
     "isotropic": false,
     "textures": "waxed_oxidized_copper_bulb",
-    "carried_textures": "waxed_oxidized_copper_bulb_carried",
-    "sound": "copper_bulb"
+    "carried_textures": "waxed_oxidized_copper_bulb_carried"
   },
   "waxed_copper_door": {
     "textures": {
       "up": "waxed_copper_door_bottom",
       "down": "waxed_copper_door_bottom",
       "side": "waxed_copper_door_top"
-    },
-    "sound": "copper"
+    }
   },
   "waxed_exposed_copper_door": {
     "textures": {
       "up": "waxed_exposed_copper_door_bottom",
       "down": "waxed_exposed_copper_door_bottom",
       "side": "waxed_exposed_copper_door_top"
-    },
-    "sound": "copper"
+    }
   },
   "waxed_weathered_copper_door": {
     "textures": {
       "up": "waxed_weathered_copper_door_bottom",
       "down": "waxed_weathered_copper_door_bottom",
       "side": "waxed_weathered_copper_door_top"
-    },
-    "sound": "copper"
+    }
   },
   "waxed_oxidized_copper_door": {
     "textures": {
       "up": "waxed_oxidized_copper_door_bottom",
       "down": "waxed_oxidized_copper_door_bottom",
       "side": "waxed_oxidized_copper_door_top"
-    },
-    "sound": "copper"
+    }
   },
   "waxed_copper_trapdoor": {
-    "textures": "waxed_copper_trapdoor",
-    "sound": "copper"
+    "textures": "waxed_copper_trapdoor"
   },
   "waxed_exposed_copper_trapdoor": {
-    "textures": "waxed_exposed_copper_trapdoor",
-    "sound": "copper"
+    "textures": "waxed_exposed_copper_trapdoor"
   },
   "waxed_weathered_copper_trapdoor": {
-    "textures": "waxed_weathered_copper_trapdoor",
-    "sound": "copper"
+    "textures": "waxed_weathered_copper_trapdoor"
   },
   "waxed_oxidized_copper_trapdoor": {
-    "textures": "waxed_oxidized_copper_trapdoor",
-    "sound": "copper"
+    "textures": "waxed_oxidized_copper_trapdoor"
   },
   "waxed_lightning_rod": {
-    "textures": "waxed_lightning_rod",
-    "sound": "copper"
+    "textures": "waxed_lightning_rod"
   },
   "waxed_exposed_lightning_rod": {
-    "textures": "waxed_exposed_lightning_rod",
-    "sound": "copper"
+    "textures": "waxed_exposed_lightning_rod"
   },
   "waxed_weathered_lightning_rod": {
-    "textures": "waxed_weathered_lightning_rod",
-    "sound": "copper"
+    "textures": "waxed_weathered_lightning_rod"
   },
   "waxed_oxidized_lightning_rod": {
-    "textures": "waxed_oxidized_lightning_rod",
-    "sound": "copper"
+    "textures": "waxed_oxidized_lightning_rod"
   },
   "waxed_copper_lantern": {
     "textures": "waxed_copper_lantern",
-    "carried_textures": "waxed_copper_lantern_carried",
-    "sound": "lantern"
+    "carried_textures": "waxed_copper_lantern_carried"
   },
   "waxed_exposed_copper_lantern": {
     "textures": "waxed_exposed_copper_lantern",
-    "carried_textures": "waxed_exposed_copper_lantern_carried",
-    "sound": "lantern"
+    "carried_textures": "waxed_exposed_copper_lantern_carried"
   },
   "waxed_weathered_copper_lantern": {
     "textures": "waxed_weathered_copper_lantern",
-    "carried_textures": "waxed_weathered_copper_lantern_carried",
-    "sound": "lantern"
+    "carried_textures": "waxed_weathered_copper_lantern_carried"
   },
   "waxed_oxidized_copper_lantern": {
     "textures": "waxed_oxidized_copper_lantern",
-    "carried_textures": "waxed_oxidized_copper_lantern_carried",
-    "sound": "lantern"
+    "carried_textures": "waxed_oxidized_copper_lantern_carried"
   },
   "waxed_copper_chain": {
     "textures": {
@@ -539,8 +573,7 @@
       "down": "waxed_copper_chain1",
       "side": "copper_chain2"
     },
-    "carried_textures": "waxed_copper_chain_carried",
-    "sound": "chain"
+    "carried_textures": "waxed_copper_chain_carried"
   },
   "waxed_exposed_copper_chain": {
     "textures": {
@@ -548,8 +581,7 @@
       "down": "waxed_exposed_copper_chain1",
       "side": "exposed_copper_chain2"
     },
-    "carried_textures": "waxed_exposed_copper_chain_carried",
-    "sound": "chain"
+    "carried_textures": "waxed_exposed_copper_chain_carried"
   },
   "waxed_weathered_copper_chain": {
     "textures": {
@@ -557,8 +589,7 @@
       "down": "waxed_weathered_copper_chain1",
       "side": "weathered_copper_chain2"
     },
-    "carried_textures": "waxed_weathered_copper_chain_carried",
-    "sound": "chain"
+    "carried_textures": "waxed_weathered_copper_chain_carried"
   },
   "waxed_oxidized_copper_chain": {
     "textures": {
@@ -566,131 +597,44 @@
       "down": "waxed_oxidized_copper_chain1",
       "side": "oxidized_copper_chain2"
     },
-    "carried_textures": "waxed_oxidized_copper_chain_carried",
-    "sound": "chain"
+    "carried_textures": "waxed_oxidized_copper_chain_carried"
   },
   "waxed_copper_bars": {
     "textures": "waxed_copper_bars",
-    "carried_textures": "waxed_copper_bars_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_copper_bars_carried"
   },
   "waxed_exposed_copper_bars": {
     "textures": "waxed_exposed_copper_bars",
-    "carried_textures": "waxed_exposed_copper_bars_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_exposed_copper_bars_carried"
   },
   "waxed_weathered_copper_bars": {
     "textures": "waxed_weathered_copper_bars",
-    "carried_textures": "waxed_weathered_copper_bars_carried",
-    "sound": "copper"
+    "carried_textures": "waxed_weathered_copper_bars_carried"
   },
   "waxed_oxidized_copper_bars": {
     "textures": "waxed_oxidized_copper_bars",
-    "carried_textures": "waxed_oxidized_copper_bars_carried",
-    "sound": "copper"
-  },
-  // 物品形式打蜡铜箱子显示 //
-  "waxed_copper_chest": {
-    "textures": {
-      "up": "waxed_copper_chest_inventory_top",
-      "down": "waxed_copper_chest_inventory_top",
-      "north": "waxed_copper_chest_inventory_side",
-      "south": "waxed_copper_chest_inventory_front",
-      "west": "waxed_copper_chest_inventory_side",
-      "east": "waxed_copper_chest_inventory_side"
-    },
-    "carried_textures": {
-      "up": "waxed_copper_chest_inventory_top",
-      "down": "waxed_copper_chest_inventory_top",
-      "north": "waxed_copper_chest_inventory_side",
-      "south": "waxed_copper_chest_inventory_front",
-      "west": "waxed_copper_chest_inventory_side",
-      "east": "waxed_copper_chest_inventory_side"
-    },
-    "sound": "copper_chest"
-  },
-  "waxed_exposed_copper_chest": {
-    "textures": {
-      "up": "waxed_exposed_copper_chest_inventory_top",
-      "down": "waxed_exposed_copper_chest_inventory_top",
-      "north": "waxed_exposed_copper_chest_inventory_side",
-      "south": "waxed_exposed_copper_chest_inventory_front",
-      "west": "waxed_exposed_copper_chest_inventory_side",
-      "east": "waxed_exposed_copper_chest_inventory_side"
-    },
-    "carried_textures": {
-      "up": "waxed_exposed_copper_chest_inventory_top",
-      "down": "waxed_exposed_copper_chest_inventory_top",
-      "north": "waxed_exposed_copper_chest_inventory_side",
-      "south": "waxed_exposed_copper_chest_inventory_front",
-      "west": "waxed_exposed_copper_chest_inventory_side",
-      "east": "waxed_exposed_copper_chest_inventory_side"
-    },
-    "sound": "copper_chest"
-  },
-  "waxed_weathered_copper_chest": {
-    "textures": {
-      "up": "waxed_weathered_copper_chest_inventory_top",
-      "down": "waxed_weathered_copper_chest_inventory_top",
-      "north": "waxed_weathered_copper_chest_inventory_side",
-      "south": "waxed_weathered_copper_chest_inventory_front",
-      "west": "waxed_weathered_copper_chest_inventory_side",
-      "east": "waxed_weathered_copper_chest_inventory_side"
-    },
-    "carried_textures": {
-      "up": "waxed_weathered_copper_chest_inventory_top",
-      "down": "waxed_weathered_copper_chest_inventory_top",
-      "north": "waxed_weathered_copper_chest_inventory_side",
-      "south": "waxed_weathered_copper_chest_inventory_front",
-      "west": "waxed_weathered_copper_chest_inventory_side",
-      "east": "waxed_weathered_copper_chest_inventory_side"
-    },
-    "sound": "copper_chest_weathered"
-  },
-  "waxed_oxidized_copper_chest": {
-    "textures": {
-      "up": "waxed_oxidized_copper_chest_inventory_top",
-      "down": "waxed_oxidized_copper_chest_inventory_top",
-      "north": "waxed_oxidized_copper_chest_inventory_side",
-      "south": "waxed_oxidized_copper_chest_inventory_front",
-      "west": "waxed_oxidized_copper_chest_inventory_side",
-      "east": "waxed_oxidized_copper_chest_inventory_side"
-    },
-    "carried_textures": {
-      "up": "waxed_oxidized_copper_chest_inventory_top",
-      "down": "waxed_oxidized_copper_chest_inventory_top",
-      "north": "waxed_oxidized_copper_chest_inventory_side",
-      "south": "waxed_oxidized_copper_chest_inventory_front",
-      "west": "waxed_oxidized_copper_chest_inventory_side",
-      "east": "waxed_oxidized_copper_chest_inventory_side"
-    },
-    "sound": "copper_chest_oxidized"
+    "carried_textures": "waxed_oxidized_copper_bars_carried"
   },
   // 铜傀儡实体只能通过行为包显示打蜡，此处为破坏粒子显示 //
   "waxed_copper_golem_statue": {
     "blockshape": "chain", //打蜡显示
-    "textures": "waxed_copper_statue",
-    "sound": "copper_golem_statue"
+    "textures": "waxed_copper_statue"
   },
   "waxed_exposed_copper_golem_statue": {
     "blockshape": "chain",
-    "textures": "waxed_exposed_copper_statue",
-    "sound": "copper_golem_statue"
+    "textures": "waxed_exposed_copper_statue"
   },
   "waxed_weathered_copper_golem_statue": {
     "blockshape": "chain",
-    "textures": "waxed_weathered_copper_statue",
-    "sound": "copper_golem_statue"
+    "textures": "waxed_weathered_copper_statue"
   },
   "waxed_oxidized_copper_golem_statue": {
     "blockshape": "chain",
-    "textures": "waxed_oxidized_copper_statue",
-    "sound": "copper_golem_statue"
+    "textures": "waxed_oxidized_copper_statue"
   },
   // 打蜡铜台阶显示 //
   "waxed_double_cut_copper_slab": {
     "isotropic": false,
-    "sound": "copper",
     "textures": {
       "down": "waxed_cut_copper_slab_top",
       "side": "waxed_cut_copper_slab_side",
@@ -699,7 +643,6 @@
   },
   "waxed_cut_copper_slab": {
     "isotropic": false,
-    "sound": "copper",
     "carried_textures": "waxed_cut_copper_carried",
     "textures": {
       "down": "waxed_cut_copper_slab_top",
@@ -709,7 +652,6 @@
   },
   "waxed_exposed_double_cut_copper_slab": {
     "isotropic": false,
-    "sound": "copper",
     "textures": {
       "down": "waxed_exposed_cut_copper_slab_top",
       "side": "waxed_exposed_cut_copper_slab_side",
@@ -718,7 +660,6 @@
   },
   "waxed_exposed_cut_copper_slab": {
     "isotropic": false,
-    "sound": "copper",
     "carried_textures": "waxed_exposed_cut_copper_carried",
     "textures": {
       "down": "waxed_exposed_cut_copper_slab_top",
@@ -728,7 +669,6 @@
   },
   "waxed_weathered_double_cut_copper_slab": {
     "isotropic": false,
-    "sound": "copper",
     "textures": {
       "down": "waxed_weathered_cut_copper_slab_top",
       "side": "waxed_weathered_cut_copper_slab_side",
@@ -737,7 +677,6 @@
   },
   "waxed_weathered_cut_copper_slab": {
     "isotropic": false,
-    "sound": "copper",
     "carried_textures": "waxed_weathered_cut_copper_carried",
     "textures": {
       "down": "waxed_weathered_cut_copper_slab_top",
@@ -747,7 +686,6 @@
   },
   "waxed_oxidized_double_cut_copper_slab": {
     "isotropic": false,
-    "sound": "copper",
     "textures": {
       "down": "waxed_oxidized_cut_copper_slab_top",
       "side": "waxed_oxidized_cut_copper_slab_side",
@@ -756,7 +694,6 @@
   },
   "waxed_oxidized_cut_copper_slab": {
     "isotropic": false,
-    "sound": "copper",
     "carried_textures": "waxed_oxidized_cut_copper_carried",
     "textures": {
       "down": "waxed_oxidized_cut_copper_slab_top",
@@ -766,7 +703,6 @@
   },
   // 台阶显示 //
   "petrified_oak_double_slab": {
-    "sound": "stone",
     "textures": {
       "down": "petrified_oak_planks_slab_top",
       "side": "petrified_oak_planks_slab_side",
@@ -774,7 +710,6 @@
     }
   },
   "petrified_oak_slab": {
-    "sound": "stone",
     "textures": {
       "down": "petrified_oak_planks_slab_top",
       "side": "petrified_oak_planks_slab_side",
@@ -782,7 +717,6 @@
     }
   },
   "polished_andesite_double_slab": {
-    "sound": "stone",
     "textures": {
       "down": "polished_andesite_slab_top",
       "side": "polished_andesite_slab_side",
@@ -790,7 +724,6 @@
     }
   },
   "polished_andesite_slab": {
-    "sound": "stone",
     "textures": {
       "down": "polished_andesite_slab_top",
       "side": "polished_andesite_slab_side",
@@ -798,7 +731,6 @@
     }
   },
   "polished_blackstone_double_slab": {
-    "sound": "stone",
     "textures": {
       "down": "polished_blackstone_slab_top",
       "side": "polished_blackstone_slab_side",
@@ -806,7 +738,6 @@
     }
   },
   "polished_blackstone_slab": {
-    "sound": "stone",
     "textures": {
       "down": "polished_blackstone_slab_top",
       "side": "polished_blackstone_slab_side",
@@ -815,7 +746,6 @@
   },
   "polished_deepslate_double_slab": {
     "isotropic": false,
-    "sound": "deepslate",
     "textures": {
       "down": "polished_deepslate_slab_top",
       "side": "polished_deepslate_slab_side",
@@ -824,7 +754,6 @@
   },
   "polished_deepslate_slab": {
     "isotropic": false,
-    "sound": "deepslate",
     "textures": {
       "down": "polished_deepslate_slab_top",
       "side": "polished_deepslate_slab_side",
@@ -832,7 +761,6 @@
     }
   },
   "polished_diorite_double_slab": {
-    "sound": "stone",
     "textures": {
       "down": "polished_diorite_slab_top",
       "side": "polished_diorite_slab_side",
@@ -840,7 +768,6 @@
     }
   },
   "polished_diorite_slab": {
-    "sound": "stone",
     "textures": {
       "down": "polished_diorite_slab_top",
       "side": "polished_diorite_slab_side",
@@ -848,7 +775,6 @@
     }
   },
   "polished_granite_double_slab": {
-    "sound": "stone",
     "textures": {
       "down": "polished_granite_slab_top",
       "side": "polished_granite_slab_side",
@@ -856,7 +782,6 @@
     }
   },
   "polished_granite_slab": {
-    "sound": "stone",
     "textures": {
       "down": "polished_granite_slab_top",
       "side": "polished_granite_slab_side",
@@ -864,7 +789,6 @@
     }
   },
   "polished_tuff_double_slab": {
-    "sound": "polished_tuff",
     "textures": {
       "down": "polished_tuff_slab_top",
       "side": "polished_tuff_slab_side",
@@ -872,15 +796,41 @@
     }
   },
   "polished_tuff_slab": {
-    "sound": "polished_tuff",
     "textures": {
       "down": "polished_tuff_slab_top",
       "side": "polished_tuff_slab_side",
       "up": "polished_tuff_slab_top"
     }
   },
+  "polished_cinnabar_double_slab": {
+    "textures": {
+      "down": "polished_cinnabar_slab_top",
+      "side": "polished_cinnabar_slab_side",
+      "up": "polished_cinnabar_slab_top"
+    }
+  },
+  "polished_cinnabar_slab": {
+    "textures": {
+      "down": "polished_cinnabar_slab_top",
+      "side": "polished_cinnabar_slab_side",
+      "up": "polished_cinnabar_slab_top"
+    }
+  },
+  "polished_sulfur_double_slab": {
+    "textures": {
+      "down": "polished_sulfur_slab_top",
+      "side": "polished_sulfur_slab_side",
+      "up": "polished_sulfur_slab_top"
+    }
+  },
+  "polished_sulfur_slab": {
+    "textures": {
+      "down": "polished_sulfur_slab_top",
+      "side": "polished_sulfur_slab_side",
+      "up": "polished_sulfur_slab_top"
+    }
+  },
   "quartz_double_slab": {
-    "sound": "stone",
     "textures": {
       "down": "quartz_slab_top",
       "side": "quartz_slab_side",
@@ -888,7 +838,6 @@
     }
   },
   "quartz_slab": {
-    "sound": "stone",
     "textures": {
       "down": "quartz_slab_top",
       "side": "quartz_slab_side",
@@ -896,7 +845,6 @@
     }
   },
   "cut_red_sandstone_double_slab": {
-    "sound": "stone",
     "textures": {
       "down": "cut_red_sandstone_slab_top",
       "side": "cut_red_sandstone_slab_side",
@@ -904,7 +852,6 @@
     }
   },
   "cut_red_sandstone_slab": {
-    "sound": "stone",
     "textures": {
       "down": "cut_red_sandstone_slab_top",
       "side": "cut_red_sandstone_slab_side",
@@ -912,7 +859,6 @@
     }
   },
   "cut_sandstone_double_slab": {
-    "sound": "stone",
     "textures": {
       "down": "cut_sandstone_slab_top",
       "side": "cut_sandstone_slab_side",
@@ -920,7 +866,6 @@
     }
   },
   "cut_sandstone_slab": {
-    "sound": "stone",
     "textures": {
       "down": "cut_sandstone_slab_top",
       "side": "cut_sandstone_slab_side",
@@ -930,17 +875,14 @@
   "smooth_red_sandstone": {
     "ambient_occlusion_exponent": 1.0,
     "isotropic": false,
-    "sound": "stone",
     "textures": "smooth_red_sandstone_top"
   },
   "smooth_sandstone": {
     "ambient_occlusion_exponent": 1.0,
     "isotropic": false,
-    "sound": "stone",
     "textures": "smooth_sandstone_top"
   },
   "smooth_red_sandstone_double_slab": {
-    "sound": "stone",
     "textures": {
       "down": "smooth_red_sandstone_slab_top",
       "side": "smooth_red_sandstone_slab_side",
@@ -948,7 +890,6 @@
     }
   },
   "smooth_red_sandstone_slab": {
-    "sound": "stone",
     "textures": {
       "down": "smooth_red_sandstone_slab_top",
       "side": "smooth_red_sandstone_slab_side",
@@ -956,7 +897,6 @@
     }
   },
   "smooth_sandstone_double_slab": {
-    "sound": "stone",
     "textures": {
       "down": "smooth_sandstone_slab_top",
       "side": "smooth_sandstone_slab_side",
@@ -964,7 +904,6 @@
     }
   },
   "smooth_sandstone_slab": {
-    "sound": "stone",
     "textures": {
       "down": "smooth_sandstone_slab_top",
       "side": "smooth_sandstone_slab_side",
@@ -972,7 +911,6 @@
     }
   },
   "smooth_stone_double_slab": {
-    "sound": "stone",
     "textures": {
       "down": "smooth_stone_slab_top",
       "side": "smooth_stone_slab_side",
@@ -980,7 +918,6 @@
     }
   },
   "smooth_stone_slab": {
-    "sound": "stone",
     "textures": {
       "down": "smooth_stone_slab_top",
       "side": "smooth_stone_slab_side",

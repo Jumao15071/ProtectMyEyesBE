@@ -22,33 +22,9 @@
       }
     ]
   },
-  "video_section_ore_ui": {
-    "type": "stack_panel",
-    "size": [ "100%", "100%c" ],
-    "anchor_from": "top_left",
-    "anchor_to": "top_left",
-    "bindings": [
-      {
-        "binding_type": "view",
-        "source_control_name": "video_button_toggle",
-        "source_property_name": "(#toggle_state and $use_ore_ui_settings_video)",
-        "target_property_name": "#visible"
-      }
-    ],
-    "controls": [
-      {
-        "spacer_0": {
-          "type": "panel",
-          "size": [ 0, 10 ]
-        }
-      },
-      {
-        "dabu_vsync_option@general_section.dabu_vsync_option": { }
-      }
-    ]
-  },
   "video_section": {
-    "$spatialPatternsPadding": [ 2, 2 ],
+    "$settings_spatial_pattern_fix_enabled": false,
+    "$spatialPatternsPadding": [ 0, 0 ],
     "modifications": [
       {
         "array_name": "controls",

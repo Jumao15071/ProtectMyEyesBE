@@ -77,7 +77,30 @@
         "textures/blocks/redstone2/dropper_top"
       ]
     },
-    // Show vault 宝库 //
+    // 堆肥桶显示 //
+    "composter_top": {
+      "textures": [
+        "textures/blocks/redstone/composter_top",
+        "textures/blocks/redstone/compost",
+        "textures/blocks/redstone/compost_ready"
+      ]
+    },
+    "composter_side_north": {
+      "textures": "textures/blocks/redstone/composter_inner"
+    },
+    "composter_side_south": {
+      "textures": "textures/blocks/redstone/composter_side"
+    },
+    "composter_side_west": {
+      "textures": "textures/blocks/redstone/composter_side"
+    },
+    "composter_side_east": {
+      "textures": "textures/blocks/redstone/composter_side"
+    },
+    "composter_bottom": {
+      "textures": "textures/blocks/redstone/composter_bottom"
+    },
+    // 宝库显示 //
     "vault_top": {
       "textures": [
         "textures/blocks/redstone/vault_top",
@@ -139,50 +162,56 @@
     // 树苗显示 //
     "cherry_sapling": {
       "textures": [
-        "textures/blocks/cherry_sapling_0",
-        "textures/blocks/cherry_sapling_1"
+        "textures/blocks/redstone/sapling_cherry_0",
+        "textures/blocks/redstone/sapling_cherry_1"
       ]
     },
     "oak_sapling": {
       "textures": [
-        "textures/blocks/sapling_oak_0",
-        "textures/blocks/sapling_oak_1"
+        "textures/blocks/redstone/sapling_oak_0",
+        "textures/blocks/redstone/sapling_oak_1"
       ]
     },
     "spruce_sapling": {
       "textures": [
-        "textures/blocks/sapling_spruce_0",
-        "textures/blocks/sapling_spruce_1"
+        "textures/blocks/redstone/sapling_spruce_0",
+        "textures/blocks/redstone/sapling_spruce_1"
       ]
     },
     "birch_sapling": {
       "textures": [
-        "textures/blocks/sapling_birch_0",
-        "textures/blocks/sapling_birch_1"
+        "textures/blocks/redstone/sapling_birch_0",
+        "textures/blocks/redstone/sapling_birch_1"
       ]
     },
     "jungle_sapling": {
       "textures": [
-        "textures/blocks/sapling_jungle_0",
-        "textures/blocks/sapling_jungle_1"
+        "textures/blocks/redstone/sapling_jungle_0",
+        "textures/blocks/redstone/sapling_jungle_1"
       ]
     },
     "acacia_sapling": {
       "textures": [
-        "textures/blocks/sapling_acacia_0",
-        "textures/blocks/sapling_acacia_1"
+        "textures/blocks/redstone/sapling_acacia_0",
+        "textures/blocks/redstone/sapling_acacia_1"
       ]
     },
     "dark_oak_sapling": {
       "textures": [
-        "textures/blocks/sapling_roofed_oak_0",
-        "textures/blocks/sapling_roofed_oak_1"
+        "textures/blocks/redstone/sapling_dark_oak_0",
+        "textures/blocks/redstone/sapling_dark_oak_1"
       ]
     },
     "pale_oak_sapling": {
       "textures": [
-        "textures/blocks/pale_oak_sapling_0",
-        "textures/blocks/pale_oak_sapling_1"
+        "textures/blocks/redstone/sapling_pale_oak_0",
+        "textures/blocks/redstone/sapling_pale_oak_1"
+      ]
+    },
+    "poplar_sapling": {
+      "textures": [
+        "textures/blocks/redstone/sapling_poplar_0",
+        "textures/blocks/redstone/sapling_poplar_1"
       ]
     },
     // 铁砧显示 //
@@ -359,40 +388,43 @@
     },
     // 压力板显示 //
     "acacia_pressure_plate": {
-      "textures": "textures/blocks/redstone/acacia_planks_plate"
+      "textures": "textures/blocks/redstone/acacia_plate"
     },
     "bamboo_pressure_plate": {
-      "textures": "textures/blocks/redstone/bamboo_planks_plate"
+      "textures": "textures/blocks/redstone/bamboo_plate"
     },
     "birch_pressure_plate": {
-      "textures": "textures/blocks/redstone/birch_planks_plate"
+      "textures": "textures/blocks/redstone/birch_plate"
     },
     "cherry_pressure_plate": {
-      "textures": "textures/blocks/redstone/cherry_planks_plate"
+      "textures": "textures/blocks/redstone/cherry_plate"
     },
     "crimson_pressure_plate": {
-      "textures": "textures/blocks/redstone/crimson_planks_plate"
+      "textures": "textures/blocks/redstone/crimson_plate"
     },
     "dark_oak_pressure_plate": {
-      "textures": "textures/blocks/redstone/dark_oak_planks_plate"
+      "textures": "textures/blocks/redstone/dark_oak_plate"
     },
     "jungle_pressure_plate": {
-      "textures": "textures/blocks/redstone/jungle_planks_plate"
+      "textures": "textures/blocks/redstone/jungle_plate"
     },
     "mangrove_pressure_plate": {
-      "textures": "textures/blocks/redstone/mangrove_planks_plate"
+      "textures": "textures/blocks/redstone/mangrove_plate"
     },
     "pale_oak_pressure_plate": {
-      "textures": "textures/blocks/redstone/pale_oak_planks_plate"
+      "textures": "textures/blocks/redstone/pale_oak_plate"
+    },
+    "poplar_pressure_plate": {
+      "textures": "textures/blocks/redstone/poplar_plate"
     },
     "spruce_pressure_plate": {
-      "textures": "textures/blocks/redstone/spruce_planks_plate"
+      "textures": "textures/blocks/redstone/spruce_plate"
     },
     "warped_pressure_plate": {
-      "textures": "textures/blocks/redstone/warped_planks_plate"
+      "textures": "textures/blocks/redstone/warped_plate"
     },
     "wooden_pressure_plate": {
-      "textures": "textures/blocks/redstone/oak_planks_plate"
+      "textures": "textures/blocks/redstone/oak_plate"
     },
     "stone_pressure_plate": {
       "textures": "textures/blocks/redstone/stone_plate"
@@ -401,10 +433,56 @@
       "textures": "textures/blocks/redstone/polished_blackstone_plate"
     },
     "heavy_weighted_pressure_plate": {
-      "textures": "textures/blocks/redstone/iron_block_plate"
+      "textures": "textures/blocks/redstone/iron_plate"
     },
     "light_weighted_pressure_plate": {
-      "textures": "textures/blocks/redstone/gold_block_plate"
+      "textures": "textures/blocks/redstone/gold_plate"
+    },
+    // 按钮显示 //
+    "acacia_button": {
+      "textures": "textures/blocks/redstone/acacia_button"
+    },
+    "bamboo_button": {
+      "textures": "textures/blocks/redstone/bamboo_button"
+    },
+    "birch_button": {
+      "textures": "textures/blocks/redstone/birch_button"
+    },
+    "cherry_button": {
+      "textures": "textures/blocks/redstone/cherry_button"
+    },
+    "crimson_button": {
+      "textures": "textures/blocks/redstone/crimson_button"
+    },
+    "dark_oak_button": {
+      "textures": "textures/blocks/redstone/dark_oak_button"
+    },
+    "jungle_button": {
+      "textures": "textures/blocks/redstone/jungle_button"
+    },
+    "mangrove_button": {
+      "textures": "textures/blocks/redstone/mangrove_button"
+    },
+    "pale_oak_button": {
+      "textures": "textures/blocks/redstone/pale_oak_button"
+    },
+    "poplar_button": {
+      "textures": "textures/blocks/redstone/poplar_button"
+    },
+    "polished_blackstone_button": {
+      "textures": "textures/blocks/redstone/polished_blackstone_button"
+    },
+    "spruce_button": {
+      "textures": "textures/blocks/redstone/spruce_button"
+    },
+    "stone_button": {
+      "textures": "textures/blocks/redstone/stone_button"
+    },
+    "warped_button": {
+      "textures": "textures/blocks/redstone/warped_button"
+    },
+    "oak_button": {
+      "textures": "textures/blocks/redstone/oak_button"
     },
     // 侦测器显示 //
     "observer_north": {
@@ -805,25 +883,25 @@
     "waxed_lightning_rod": {
       "textures": [
         "textures/blocks/copper/waxed_lightning_rod",
-        "textures/blocks/lightning_rod_powered"
+        "textures/blocks/copper/lightning_rod_powered"
       ]
     },
     "waxed_exposed_lightning_rod": {
       "textures": [
         "textures/blocks/copper/waxed_exposed_lightning_rod",
-        "textures/blocks/lightning_rod_powered"
+        "textures/blocks/copper/lightning_rod_powered"
       ]
     },
     "waxed_weathered_lightning_rod": {
       "textures": [
         "textures/blocks/copper/waxed_weathered_lightning_rod",
-        "textures/blocks/lightning_rod_powered"
+        "textures/blocks/copper/lightning_rod_powered"
       ]
     },
     "waxed_oxidized_lightning_rod": {
       "textures": [
         "textures/blocks/copper/waxed_oxidized_lightning_rod",
-        "textures/blocks/lightning_rod_powered"
+        "textures/blocks/copper/lightning_rod_powered"
       ]
     },
     "waxed_copper_bars": {
@@ -899,6 +977,18 @@
       "textures": "textures/items/copper/waxed_oxidized_copper_bars"
     },
     // 物品形式打蜡铜箱子显示 //
+    "waxed_copper_chest_carried": {
+      "textures": "textures/blocks/copper/waxed_copper_chest_carried"
+    },
+    "waxed_exposed_copper_chest_carried": {
+      "textures": "textures/blocks/copper/waxed_exposed_copper_chest_carried"
+    },
+    "waxed_weathered_copper_chest_carried": {
+      "textures": "textures/blocks/copper/waxed_weathered_copper_chest_carried"
+    },
+    "waxed_oxidized_copper_chest_carried": {
+      "textures": "textures/blocks/copper/waxed_oxidized_copper_chest_carried"
+    },
     "waxed_copper_chest_inventory_top": {
       "textures": "textures/blocks/copper/waxed_copper_chest_inventory_top"
     },
@@ -1014,6 +1104,18 @@
     },
     "polished_tuff_slab_side": {
       "textures": "textures/blocks/slabs/polished_tuff_slab_side"
+    },
+    "polished_cinnabar_slab_top": {
+      "textures": "textures/blocks/slabs/polished_cinnabar_slab_top"
+    },
+    "polished_cinnabar_slab_side": {
+      "textures": "textures/blocks/slabs/polished_cinnabar_slab_side"
+    },
+    "polished_sulfur_slab_top": {
+      "textures": "textures/blocks/slabs/polished_sulfur_slab_top"
+    },
+    "polished_sulfur_slab_side": {
+      "textures": "textures/blocks/slabs/polished_sulfur_slab_side"
     },
     "quartz_slab_top": {
       "textures": "textures/blocks/slabs/quartz_slab_top"

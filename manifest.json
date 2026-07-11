@@ -1,11 +1,11 @@
 {
   "format_version": 2,
   "header": {
-    "name": "护眼大补丸26春季v1",
+    "name": "护眼大补丸26夏季v3H1",
     "description": "pack.description",
     "uuid": "89c8462c-a8bf-4aac-b2da-d3660d8f6c9b",
     "pack_scope": "any",
-    "version": [ 26, 1, 0 ],
+    "version": [ 26, 3, 1 ],
     "min_engine_version": [ 1, 13, 0 ]
   },
   "modules": [
@@ -13,7 +13,7 @@
       "type": "resources",
       "description": "By @hsds @Jumao",
       "uuid": "94fba14a-ee58-490d-856b-10ca21fcc26f",
-      "version": [ 26, 1, 0 ]
+      "version": [ 26, 3, 1 ]
     }
   ],
   "metadata": {
@@ -27,7 +27,8 @@
       "@小羊lonel", //音符盒音高显示
       "@Mintraspberry Cool", //资源包banner图
       "@孤独的作者Yuanbao", //铁砧换行功能
-      "@云飞羊Rainvay" //刷子红石信号显示和振动信号显示
+      "@云飞羊Rainvay", //刷子红石信号显示和振动信号显示
+      "@币币爱慕C" //可爱的硫方怪
     ],
     "license": "Attribution-NonCommercial-ShareAlike 4.0 International",
     "url": "https://space.bilibili.com/37691488"
@@ -35,7 +36,12 @@
   "subpacks": [
     {
       "folder_name": "Borderless_glass",
-      "name": "无缝玻璃模式 [红石功能+无缝玻璃] §6兼容性较好\n§7 Borderless_glass Mode [Redstone Features + Borderless Glass]",
+      "name": "无缝玻璃模式 [红石功能+无缝玻璃] §6兼容性较好\n§7 Borderless Glass Mode [Redstone Features + Borderless Glass]",
+      "memory_tier": 2
+    },
+    {
+      "folder_name": "Traditional",
+      "name": "旧版纹理模式 [程序员艺术纹理] §a兼容性极好\n§7 Traditional Texture Mode [Programmer Art]",
       "memory_tier": 2
     },
     {
